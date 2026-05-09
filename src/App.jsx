@@ -16,7 +16,7 @@ function App() {
      <BrowserRouter>
       <div className="absolute w-[100%] top-[0%] left-[0%] 2x:w-[100%] 2xl:bg-[#4A3458]  border-box">
         < div style={{ background: "linear-gradient(135deg, #1A0B2E 0%, #2A1245 50%, #3B1D5C 100%)"}}
-         className="relative overflow-x-hidden   mx-auto w-[100%] h-auto sm:w-[100%] sm:h-auto md:w-[100%] md:h-[100%] lg:w-[100%] lg:h-auto xl:w-[100%] xl:h-auto 2xl:w-[1366px] 2xl:h-auto  ">
+         className="relative    mx-auto w-[100%] h-auto sm:w-[100%] sm:h-auto md:w-[100%] md:h-[100%] lg:w-[100%] lg:h-auto xl:w-[100%] xl:h-auto 2xl:w-[1366px] 2xl:h-auto  ">
           <Navbar />
           <Routes>
                <Route path="/" element={<h1 className="text-white">صحفه اصلی</h1>} />
