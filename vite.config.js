@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/Astronomy/', 
   build: {
-    outDir: 'dist' 
+    outDir: 'docs' 
   }
 })
