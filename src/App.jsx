@@ -7,10 +7,7 @@ export default function App() {
   return (
     <main className="min-h-screen overflow-hidden  text-white" dir="rtl">
       <Hero />
-      <Vision />
      
-      <Gallery />
-      <Features />
       
      
     </main>

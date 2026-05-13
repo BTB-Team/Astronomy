@@ -1,4 +1,4 @@
-import heroVideo from '../../assets/videos/hero-video.mp4';
+import heroVideo from '../../assets/videos/vedio.mp4';
 
 export default function Hero() {
   return (
