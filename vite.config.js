@@ -1,11 +1,16 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react' // اصلاح شد
 
-// vite.dev
 export default defineConfig({
-  plugins: [react()],
-  base: '/Astronomy/', 
-  build: {
-    outDir: 'docs' 
-  }
+  plugins: [
+    tailwindcss(),
+    react(),
+  ],
+  resolve: {
+    alias: {
+      // این خط باعث می‌شود تمام ایمپورت‌های react-native به نسخه وب تبدیل شوند
+      'react-native': 'react-native-web',
+    },
+  },
 })
