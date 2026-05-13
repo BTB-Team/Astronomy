@@ -1,25 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import Hero from './component/home/Hero'
-// import About from './component/home/About'
-// import Vistion from './component/home/Vision'
-//  import Callery from './component/home/Callery'
-//  import Features from './component/home/Feature'
+import Hero from './components/home/Hero';
+import Gallery from './components/home/Gallery';
+import Features from './components/home/Features';
+import Vision from './components/home/Vision';
 
-
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    // <Hero />
-    <>
-     <Hero />
-      </>   
-  )
+    <main className="min-h-screen overflow-hidden  text-white" dir="rtl">
+      <Hero />
+      <Vision />
+     
+      <Gallery />
+      <Features />
+      
+     
+    </main>
+  );
 }
-
-export default App
