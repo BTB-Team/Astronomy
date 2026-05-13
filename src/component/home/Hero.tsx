@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -24,7 +25,7 @@ export default function Hero() {
           <span className="text-white ">انجمن سناره شناسی افغانستان  </span>
         </h1>
      
-       <input type="text" placeholder="search" className="bg-white text-black items-center border border-black/30 rounded-xl  w-[15%] h-[5%]"></input>
+       <input type="text" placeholder="search" className="bg-white text-black border border-black/30 w-[250px] h-[50px] px-4 ml-auto block"></input>
      
       </div>
     </section>
