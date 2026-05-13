@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-slate-950">
       <video
-        className="absolute inset-0 h-full w-full object-cover opacity-60"
+        className="absolute inset-0 h-full w-full object-cover"
         autoPlay
         loop
         muted
