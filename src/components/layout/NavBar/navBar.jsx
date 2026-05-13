@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className="flex items-center  justify-between px-4  lg:px-10 py-4 bg-[#2C1747] text-white">
                 {/* LOGO */}
                 <div className="flex gap-4 items-center">
-                    <img src="/assets/logo.webp" className="w-10  " />
+                    <img src="/Astronomy/assets/logo.webp" className="w-10  " />
                     <div className="hidden md:flex">    <SocialLinks /></div>
                 </div>
                 {/* DESKTOP RIGHT */}
