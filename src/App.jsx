@@ -3,7 +3,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/NavBar/navBar";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Hero from "./components/home/Hero"
+import Home from "./components/home/Home";
 function App() {
      const { i18n } = useTranslation();
      useEffect(() => {
@@ -21,7 +21,7 @@ function App() {
           <Navbar />
           <div > 
           <Routes>
-               <Route path="/" element={<Hero />} />
+               <Route path="/" element={<Home />} />
                <Route path="/about" element={<h1 className="text-white">درباره ما</h1>} />
                <Route path="/classes" element={<h1 className="text-white">کلاس‌ها</h1>} />
                <Route path="/blog" element={<h1 className="text-white">بلاگ</h1>} />
