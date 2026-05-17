@@ -3,11 +3,9 @@ import image3 from "../../assets/images/img3.webp";
 import image4 from "../../assets/images/img4.webp";
 import image5 from "../../assets/images/img5.webp";
 
-
 export default function Features() {
   const { t } = useTranslation();
   const items = [
-   
     {
       title:t("features.items.0.title"),
       description: t("features.items.0.description"),
@@ -41,13 +39,11 @@ export default function Features() {
               alt={item.title}
               className="h-48 w-full object-cover"
             />
-
             {/* Content */}
             <div className="p-4">
               <h3 className="text-xl font-semibold">
                 {item.title}
               </h3>
-
               <p className="text-gray-400 text-sm mt-2">
                 {item.description}
               </p>
