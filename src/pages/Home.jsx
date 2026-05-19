@@ -1,5 +1,5 @@
-import Hero from "./Hero";
-import AstronomyAboutSection from "./AstronomyAbout";
+import Hero from "../components/home/Hero";
+import AstronomyAboutSection from "../components/home/AstronomyAbout";
 
 const Home = () => {
     return ( 

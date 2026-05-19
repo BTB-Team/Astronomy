@@ -3,7 +3,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/NavBar/navBar";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Home from "./components/home/Home";
+import Home from "./pages/Home";
 function App() {
      const { i18n } = useTranslation();
      useEffect(() => {
