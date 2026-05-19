@@ -4,6 +4,7 @@ import Navbar from "./components/layout/NavBar/navBar";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Home from "./pages/Home";
+import ContactUs from "./pages/Contact";
 function App() {
      const { i18n } = useTranslation();
      useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
                <Route path="/about" element={<h1 className="text-white">درباره ما</h1>} />
                <Route path="/classes" element={<h1 className="text-white">کلاس‌ها</h1>} />
                <Route path="/blog" element={<h1 className="text-white">بلاگ</h1>} />
-               <Route path="/contact" element={<h1 className="text-white">تماس</h1>} />
+               <Route path="/contact" element={<ContactUs/>} />
           </Routes>
           </div>
           </div>

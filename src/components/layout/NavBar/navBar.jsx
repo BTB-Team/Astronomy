@@ -72,7 +72,7 @@ export default function Navbar() {
                 </ul>
                 <button style={{ background: "linear-gradient(90deg, #D66BFF 0%, #B85CFF 50%, #8B5CF6 100%)",}}
                     className="hidden md:inline transition-all duration-300 hover:bg-[#2C1747]   hover:shadow-lg  text-white px-5 py-2  md:text-[15px] lg:text-base rounded-lg  border-2 border-white hover:border-white "> 
-                    {t("navBar.contact1")}
+                    <Link to="/contact">   {t("navBar.contact1")}</Link>
                 </button>
             </div>
         </div>

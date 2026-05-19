@@ -25,7 +25,17 @@ const resources = {
             description: "جایی برای آموزش نجوم، رصد آسمان، پژوهش‌های علمی و رشد علاقه‌مندان جوان به علوم فضایی.",
             searchPlaceholder: "جستجو در برنامه‌ها، مقاله‌ها و رویدادها...",
             searchBtn: "جستجو"
-      }
+        },
+        contact: {
+            title: "تماس با ما",
+            fullName: "نام شما",
+            email: "ایمیل",
+            message: "پیام",
+            submit: "ارسال",
+            nameError: "نام ضروری است",
+            emailError: "ایمیل ضروری است",
+            messageError: "پیام ضروری است",
+        },
     },
    },
   en: {
@@ -49,7 +59,17 @@ const resources = {
             description: "A place for astronomy education, sky observation, scientific research, and the growth of young space science enthusiasts.",
             searchPlaceholder: "Search programs, articles, events...",
             searchBtn: "Search"
-      }
+        },
+        contact: {
+            title: "Contact Us",
+            fullName: "Full Name",
+            email: "E-mail",
+            message: "Message",
+            submit: "Submit",
+            nameError: "Name is required",
+            emailError: "Email is required",
+            messageError: "Message is required",
+        },
 
     },
   },
