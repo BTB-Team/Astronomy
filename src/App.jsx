@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import Home from "./pages/Home";
 import ContactUs from "./pages/Contact";
 import GalaxyBackground from "./components/GalaxyBackground";
-
+import AuthLogin from "./pages/Login";
 function App() {
      const { i18n } = useTranslation();
      useEffect(() => {
@@ -29,6 +29,7 @@ function App() {
                <Route path="/classes" element={<h1 className="text-white">کلاس‌ها</h1>} />
                <Route path="/blog" element={<h1 className="text-white">بلاگ</h1>} />
                <Route path="/contact" element={<ContactUs/>} />
+               <Route path="/login" element={<AuthLogin/>} />
           </Routes>
           </div>
           </div>

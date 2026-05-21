@@ -6,7 +6,7 @@ import LanguageDropdown from "./languageDropdown";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SocialLinks from "./SocialLink";
-
+import UserMenu from "./UserMenu";
 export default function Navbar() {
     const { t ,  i18n } = useTranslation();
     const isRTL = i18n.language === "fa"
@@ -39,7 +39,7 @@ export default function Navbar() {
                             9+
                         </span>
                     </span>
-                    <div className="w-8 h-8 border hidden border-white transition-all duration-300 hover:bg-black/25 md:flex items-center justify-center rounded-full"><CiUser size={23} /></div>
+                    <span className="hidden md:flex"><UserMenu/></span>
                     <button className={`md:hidden z-50 ${openMenu ?"fixed left-5 top-5" : "relative "}`} 
                     onClick={() => setOpenMenu(prev => !prev)}>
                         {openMenu ? (
@@ -56,9 +56,7 @@ export default function Navbar() {
                 <div className="flex gap-5">
                     <div className={`flex items-center text-center  gap-3 w-full absolute bottom-8 md:relative md:bottom-0 ${ isRTL ? "right-[30%]" : "left-[30%]"}`}>
                         <div className="md:hidden"><SocialLinks /></div>
-                        <div className="w-8 h-8 border hover:bg-black/25 transition-all duration-300 md:hidden   border-white flex items-center justify-center rounded-full">
-                            <CiUser size={23} />
-                        </div>
+                        <span className="md:hidden"><UserMenu /></span>
                     </div>
                 </div>
                 <ul className="flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-11   ">
