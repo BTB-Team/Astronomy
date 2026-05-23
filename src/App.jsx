@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import ContactUs from "./pages/Contact";
 import GalaxyBackground from "./components/GalaxyBackground";
 import AuthLogin from "./pages/Login";
+import Footer from "./components/Footer";
 function App() {
      const { i18n } = useTranslation();
      useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
                <Route path="/contact" element={<ContactUs/>} />
                <Route path="/login" element={<AuthLogin/>} />
           </Routes>
+          <Footer />
           </div>
           </div>
      </div>

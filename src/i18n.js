@@ -128,6 +128,28 @@ const resources = {
             password: "رمز عبور باید حداقل ۶ حرف باشد", 
             confirm: "تکرار رمز عبور درست نیست", 
         },
+         footer: {
+            legal: "قوانین",
+            terms: "شرایط استفاده",
+            privacy: "حریم خصوصی",
+            cookies: "کوکی‌ها",
+
+            information: "اطلاعات",
+            faq: "سوالات متداول",
+            blog:"وبلاگ",
+            support: "پشتیبانی",
+
+            company: "شرکت",
+            aboutUs: "درباره ما",
+            careers: "فرصت‌های شغلی",
+            contactUs: "تماس با ما",
+
+            subscribe: "اشتراک",
+            emailPlaceholder: "ایمیل خود را وارد کنید",
+
+            bottomTerms: "قوانین",
+            bottomCookies: "کوکی‌ها"
+        },
     },
    },
   en: {
@@ -251,6 +273,28 @@ const resources = {
             email: "Please enter a valid email", 
             password: "Password must be at least 6 characters",
             confirm: "Confirm password does not match", 
+        },
+         footer: {
+            legal: "Legal",
+            terms: "Terms of Service",
+            privacy: "Privacy Policy",
+            cookies: "Cookies",
+
+            information: "Information",
+            faq: "FAQ",
+            blog: "Blog",
+            support: "Support",
+
+            company: "Company",
+            aboutUs: "About Us",
+            careers: "Careers",
+            contactUs: "Contact Us",
+
+            subscribe: "Subscribe",
+            emailPlaceholder: "Email address",
+
+            bottomTerms: "Terms",
+            bottomCookies: "Cookies"
         },
     }
   },
