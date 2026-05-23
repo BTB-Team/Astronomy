@@ -31,9 +31,9 @@ export default function Vision() {
           h-[45px]
           max-w-[400px]
           mx-auto
-          min-h-[320px]
-          p-6
-          text-white/70
+          min-h-[350px]
+          p-6 bt-[2px]
+          text-white-70
           rounded-2xl
           border border-white/10
           backdrop-blur-md
@@ -60,7 +60,7 @@ export default function Vision() {
           h-[40px]
           max-w-[400px]
           mx-auto
-          min-h-[320px]
+           min-h-[350px]
           p-6
           text-white-70
           rounded-2xl
@@ -88,7 +88,7 @@ export default function Vision() {
           h-[40px]
           max-w-[400px]
           mx-auto
-          min-h-[320px]
+         min-h-[350px]
           p-6
          text-white-70
           rounded-2xl

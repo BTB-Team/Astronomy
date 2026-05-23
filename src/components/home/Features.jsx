@@ -31,7 +31,7 @@ export default function Features() {
         {items.map((item, i) => (
           <div
             key={i}
-            className="bg-white/5 rounded-xl overflow-hidden shadow-lg"
+            className="bg-white/5 backdrop-blur-md rounded-xl overflow-hidden shadow-lg"
           >
             {/* Image */}
             <img
