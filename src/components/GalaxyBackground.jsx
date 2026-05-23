@@ -145,9 +145,11 @@ const  GalaxyBackground = () => {
     };
 
     const resize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      init();
+        const parent = canvas.parentElement;
+        canvas.width = parent.offsetWidth;
+        canvas.height = parent.offsetHeight;
+
+        init();
     };
 
     const animate = () => {
@@ -159,7 +161,6 @@ const  GalaxyBackground = () => {
 
     window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('resize', resize);
-    
     resize();
     animate();
 
@@ -171,14 +172,14 @@ const  GalaxyBackground = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 overflow-hidden bg-[#010008] bg-gradient-to-b from-[#010008] via-[#070013] to-[#130026]">
+    <div className="absolute inset-0 overflow-hidden w-full max-w-[1366px] mx-auto bg-[#010008] bg-gradient-to-b from-[#010008] via-[#070013] to-[#130026]">
       {/* Glow Effects using Tailwind (Substitutes for radial-gradients) */}
       <div className="absolute top-[20%] left-[15%] w-[60%] h-[60%] rounded-full bg-purple-600/10 blur-[120px] pointer-events-none" />
       <div className="absolute top-[60%] left-[80%] w-[50%] h-[50%] rounded-full bg-blue-500/10 blur-[100px] pointer-events-none" />
       
       <canvas 
         ref={canvasRef} 
-        className="fixed inset-0 w-full h-full"
+        className="absolute inset-0 w-full h-full"
       />
     </div>
   );
