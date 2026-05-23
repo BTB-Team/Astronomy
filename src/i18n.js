@@ -2,8 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-const resources = {
-     
+const resources = {  
   fa: {
     translation: {
         navBar: {
@@ -25,52 +24,111 @@ const resources = {
             description: "جایی برای آموزش نجوم، رصد آسمان، پژوهش‌های علمی و رشد علاقه‌مندان جوان به علوم فضایی.",
             searchPlaceholder: "جستجو در برنامه‌ها، مقاله‌ها و رویدادها...",
             searchBtn: "جستجو"
+      },
+        vision: {
+        title: "چشم‌انداز، مأموریت و ارزش‌های ما",
+        visionTitle: "چشم‌انداز",
+        visionDesc: 'الهام‌بخشی و توانمندسازی نسل بعدی ستاره‌شناسان افغان، با پرورش یک جامعه پویا از علاقه‌مندان به علوم فضایی از طریق برنامه‌های آموزشی، پژوهشی و ترویجی که کنجکاوی، همکاری و برتری علمی را ترویج می‌کند.', 
+        missionTitle: "ماموریت",
+        missionDesc: "ارائه آموزش نجوم در دسترس، ترویج پژوهش‌های علمی و ایجاد فرصت‌هایی برای جوانان افغان جهت مشارکت در علوم فضایی از طریق کارگاه‌ها، رویدادهای رصدی و پروژه‌های مشترک.",
+        valuesTitle: "ارزش‌ها",
+        valuesDesc: "شمولیت، کنجکاوی، همکاری، برتری و صداقت ارزش‌های اصلی هستند که راهنمای کار ما در پرورش یک جامعه نجومی پویا در افغانستان هستند."
+      },
+        Gallery: {
+        mainTitle: "چرا ما را انتخاب کنید؟",
+          button: "بیشتر بدانید",
+        items: [
+        {
+          title: "اکتشاف کهکشان‌ها",
+          desc: "کهکشان‌های دوردست، رازهای کیهانی و کشفیات شگفت‌انگیز میان‌ستاره‌ای را فراتر از تصور انسان کشف کنید."
         },
-        contact: {
-            title: "تماس با ما",
-            fullName: "نام شما",
-            email: "ایمیل",
+
+        {
+          title: "سفر در فضا",
+          desc: "سفرهای فضایی آینده‌نگرانه را با فناوری پیشرفته سفینه‌ها و ماجراجویی‌های هیجان‌انگیز کیهانی تجربه کنید."
+        },
+
+        {
+          title: "هوش مصنوعی در فضا",
+          desc: "کشف کنید چگونه سیستم‌های هوش مصنوعی مأموریت‌های فضایی، ربات‌های اکتشافی و ناوبری هوشمند را متحول می‌کنند."
+        },
+
+        {
+          title: "ایستگاه‌های فضایی نسل آینده",
+          desc: "ایستگاه‌های مدرن مداری برای تحقیقات اعماق فضا، بقای انسان و محیط‌های زندگی آینده طراحی شده‌اند."
+        }
+
+    ]
+  },
+     features:{
+      mainTitle: "آخرین کشفیات",  
+      items: [
+        
+        {
+          title: "سیارات فراخورشیدی",
+          description: "اکتشاف سیارات خارج از منظومه شمسی."
+        },
+        {
+          title: "تلسکوپ‌های فضایی",
+          description: "تلسکوپ‌های مدرن به دانشمندان کمک می‌کنند تا فضا را مطالعه کنند."
+        },
+
+        {
+          title: "علم کیهانی",
+          description: "درک علمی پشت جهان را درک کنید."
+        }
+      ]
+  }  ,
+       contact: {
+             title: "تماس با ما",
+             fullName: "نام شما",
+             email: "ایمیل",
             message: "پیام",
-            submit: "ارسال",
-            nameError: "نام ضروری است",
-            emailError: "ایمیل ضروری است",
-            messageError: "پیام ضروری است",
+             submit: "ارسال",
+             nameError: "نام ضروری است",
+             emailError: "ایمیل ضروری است",
+             messageError: "پیام ضروری است",
         },
         auth: { 
             loginTitle: "ورود به حساب", 
-            signupTitle: "ثبت نام",
-            emailPlaceholder: "ایمیل",
+            signupTitle: "ثبت نام", 
+            emailPlaceholder: "ایمیل", 
             password: "رمز عبور",  
-            login: "ورود", signup: "ثبت نام", 
+            login: "ورود", 
+            signup: "ثبت نام",
             welcome: "خوش آمدید!", 
             noAccount: "اگر هنوز در سایت ثبت‌نام نکرده‌اید، همین حالا حساب کاربری خود را بسازید.", 
             create: "ثبت نام", 
-            haveAccount: "حساب دارید؟",
-            haveAccountText: "اگر قبلاً حساب ساخته‌اید، از این بخش وارد حساب کاربری خود شوید.",
+            haveAccount: "حساب دارید؟", 
+            haveAccountText: "اگر قبلاً حساب ساخته‌اید، از این بخش وارد حساب کاربری خود شوید.", 
             firstName: "نام شما", 
             lastName: "نام خانواده گی ",  
             phoneNumber: "شماره تماس", 
-            confirmPassword: "تکرار رمز عبور", 
-            googleLogin: "ورود با گوگل",
+            confirmPassword: "تکرار رمز عبور",
+             googleLogin: "ورود با گوگل",
             googleLoginSuccess: "ورود با گوگل موفق بود",
             googleLoginFailed: "ورود با گوگل ناموفق بود",
+
             loginSuccess: "ورود موفق بود",
             loginFailed: "ایمیل یا رمز عبور اشتباه است",
+
             registerSuccess: "ثبت‌نام موفق بود",
             registerFailed: "ثبت‌نام ناموفق بود",
+
             networkLoginError: "اتصال به سرور برقرار نشد",
             networkRegisterError: "ثبت‌نام انجام نشد",
+
             orLoginWith: "همچنین می‌توانید با این روش وارد شوید",
-            logout: "خروج",
+            logout: "خروج", 
         },
         validation: { 
             name: "نام  باید حداقل ۳ حرف باشد", 
             lastName: "نام خانواده گی باید حداقل ۳ حرف باشد", 
             email: "ایمیل درست وارد کنید", 
             password: "رمز عبور باید حداقل ۶ حرف باشد", 
-            confirm: "تکرار رمز عبور درست نیست", },
+            confirm: "تکرار رمز عبور درست نیست", 
         },
-    
+    },
    },
   en: {
     translation: {
@@ -93,56 +151,109 @@ const resources = {
             description: "A place for astronomy education, sky observation, scientific research, and the growth of young space science enthusiasts.",
             searchPlaceholder: "Search programs, articles, events...",
             searchBtn: "Search"
+      },
+        vision: {
+            title: "Our Vision, Mission, and Values",
+            visionTitle: "Vision",
+            visionDesc: 'To inspire and empower the next generation of Afghan astronomers, fostering a vibrant community of space science enthusiasts through education, research, and outreach programs that promote curiosity, collaboration, and scientific excellence.',
+            missionTitle: "Mission",
+            missionDesc: "To provide accessible astronomy education, promote scientific research, and create opportunities for young Afghans to engage with space sciences through workshops, observation events, and collaborative projects.",
+            valuesTitle: "Values",
+            valuesDesc: "Inclusivity, Curiosity, Collaboration, Excellence, and Integrity are the core values that guide our work in fostering a vibrant astronomy community in Afghanistan."
         },
-        contact: {
-            title: "Contact Us",
-            fullName: "Full Name",
-            email: "E-mail",
-            message: "Message",
-            submit: "Submit",
-            nameError: "Name is required",
-            emailError: "Email is required",
-            messageError: "Message is required",
-        },
-        auth: { 
-            loginTitle: "Login to Account", 
-            signupTitle: "Sign Up", 
-            emailPlaceholder: "Email Address", 
-            password: "Password", 
-            forgot: "Forgot your password?", 
-            login: "Login", signup: "Sign Up", 
-            welcome: "Welcome!", 
-            noAccount: "If you do not have an account yet, create your account now.", 
-            create: "Sign Up", 
-            haveAccount: "Already have an account?", 
-            haveAccountText: "If you already created an account, login from this section.", 
-            firstName: "First Name", 
-            lastName: "Last Name", 
-            emailAddress: "Email Address", 
-            phoneNumber: "Phone Number", 
-            confirmPassword: "Confirm Password", 
-            googleLogin: "Login with Google",
-            googleLoginSuccess: "Google login successful",
-            googleLoginFailed: "Google login failed",
-            loginSuccess: "Login successful",
-            loginFailed: "Invalid email or password",
-            registerSuccess: "Registration successful",
-            registerFailed: "Registration failed",
-            networkLoginError: "Failed to connect to server",
-            networkRegisterError: "Failed to register",
-            orLoginWith: "Also you are able to login with",
-            logout: "Logout"
-        },
+    Gallery: {
+    mainTitle: "Why Choose Us?",
+    button: "Learn More",
+    items: [
+      {
+        title: "Exploring Galaxies",
+        desc: "Discover distant galaxies, cosmic mysteries, and mind-blowing interstellar discoveries beyond human imagination."
+      },
+
+      {
+        title: "Space Travel",
+        desc: "Experience futuristic space travel with advanced spacecraft technology and thrilling cosmic adventures."
+      },
+
+      {
+        title: "Artificial Intelligence in Space",
+        desc: "Discover how AI systems are revolutionizing space missions, exploratory robots, and intelligent navigation."
+      },
+
+      {
+        title: "Next-Generation Space Stations",
+        desc: "Modern orbital stations designed for deep space research, human survival, and future living environments."
+      }
+    ]
+    },
+    features:{
+    mainTitle: "Latest Discoveries",
+    items: [
+      {
+        title: "Exoplanets",
+        description: "Explore planets outside our solar system."
+      },
+      {
+        title: "Space Telescopes",
+        description: "Modern telescopes help scientists study space."
+      },
+      {
+        title: "Cosmic Science",
+        description: "Understand the science behind the universe."
+      }
+    ]
+    }, 
+    contact: {
+        title: "Contact Us",
+        fullName: "Full Name",
+        email: "E-mail",
+         message: "Message",
+        submit: "Submit",
+        nameError: "Name is required",
+        emailError: "Email is required",
+        messageError: "Message is required",
+    },
+    auth: { 
+        loginTitle: "Login to Account", 
+        signupTitle: "Sign Up", 
+        emailPlaceholder: "Email Address",
+        password: "Password", forgot: "Forgot your password?", 
+        login: "Login", 
+        signup: "Sign Up",
+        welcome: "Welcome!", 
+        noAccount: "If you do not have an account yet, create your account now.", 
+        create: "Sign Up", 
+        haveAccount: "Already have an account?", 
+        haveAccountText: "If you already created an account, login from this section.", 
+        firstName: "First Name", 
+        lastName: "Last Name", 
+        emailAddress: "Email Address", 
+        phoneNumber: "Phone Number", 
+        confirmPassword: "Confirm Password", 
+        googleLogin: "Login with Google",
+        googleLoginSuccess: "Google login successful",
+        googleLoginFailed: "Google login failed",
+
+        loginSuccess: "Login successful",
+        loginFailed: "Invalid email or password",
+
+        registerSuccess: "Registration successful",
+        registerFailed: "Registration failed",
+
+        networkLoginError: "Failed to connect to server",
+        networkRegisterError: "Failed to register",
+
+        orLoginWith: "Also you are able to login with",
+        logout: "Logout" },
         validation: { 
             name: "Name must be at least 3 characters",  
             lastName: "Lastname must be at least 3 characters", 
-            email: "Please enter a valid email",  
+            email: "Please enter a valid email", 
             password: "Password must be at least 6 characters",
             confirm: "Confirm password does not match", 
-       },
-    },
+        },
+    }
   },
- 
 };
 
 i18n
@@ -156,5 +267,4 @@ i18n
       escapeValue: false,
     },
   });
-
 export default i18n;
