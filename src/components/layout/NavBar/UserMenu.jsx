@@ -41,8 +41,8 @@ export default function UserMenu() {
             {/* DROPDOWN (NOT LOGGED IN)*/}
             {open && !isLoggedIn && (
                 <div className="absolute  top-10 bg-[#2C1747] border border-white text-white rounded-md w-32 z-50">
-                    <Link to="/login"  onClick={() => setOpen(false)} className="px-3 py-2 block hover:bg-black/25"> Login </Link>
-                 
+                    <Link to="/login"  onClick={() => setOpen(false)} className="px-3 py-2 block hover:bg-black/25"> {t("auth.login")}</Link>
+                    <Link to="/signup" onClick={() => setOpen(false)} className="px-3 py-2 block hover:bg-black/25" >  {t("auth.signup")}</Link>
                 </div>
             )}
             {/* DROPDOWN (LOGGED IN) */}

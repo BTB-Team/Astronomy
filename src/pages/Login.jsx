@@ -3,10 +3,10 @@ import AuthSidePanel from "../components/Auth/AuthSidePanel";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import GoogleLoginButton from "../components/Auth/GoogleLoginButton";
-export default function AuthLogin() {
+export default function AuthLogin({ defaultMode = "login" }) {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "fa";
-    const [mode, setMode] = useState("login");
+    const [mode, setMode] = useState(defaultMode);
 
     const [form, setForm] = useState({   firstName: "",  lastName: "", email: "", password: "", confirmPassword: "",});
 
