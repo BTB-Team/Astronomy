@@ -150,6 +150,114 @@ const resources = {
             bottomTerms: "قوانین",
             bottomCookies: "کوکی‌ها"
         },
+         aboutHero: {
+          orgName: "انجمن ستاره شناسی افغانستان",
+          heroTitle: "کاوش کیهان از افغانستان",
+          heroDescription: "ترویج علم نجوم و علوم فضایی در افغانستان از طریق آموزش، پژوهش، برنامه‌های رصدی و الهام‌بخشی به نسل آینده.",
+          exploremorebtn: "کاوش بیشتر",
+          joinCommbtn : "پیوستن به کمیونیتی"
+        },
+        aboutStory:{
+          title: "از رویا ها تا ستارگان",
+          discription1: "انجمن نجوم افغانستان یکی از نخستین حرکت‌های علمی مستقل در افغانستان در حوزه نجوم و علوم فضایی بود.",
+          discription2 : " هدف اصلی این انجمن ترویج علم، مبارزه با خرافات و ایجاد امید برای نسل جوان افغانستان بود.",
+          discription3 : " امروز این انجمن با مدیریت جدید در تلاش است تا دوباره علم نجوم  را در افغانستان زنده کند."
+        },
+
+        AboutMission: {
+          misionTitle: "ماموریت ما",
+          misiondisc: "ترویج علم نجوم و علوم فضایی در افغانستان از طریق آموزش، برنامه‌های رصدی، فعالیت‌های علمی و پرورش نسل نو پژوهشگران و ستاره‌شناسان جوان.",
+          Education: "تعلیم و تربیه",
+          edudisc: "ترویج آموزش نجوم در مکاتب، دانشگاه‌ها و جوامع",
+          observation: "رصد",
+          obsdisc: "تشویق رصدهای عملی و عکاسی نجومی در سراسر کشور",
+          commuity: "انجمن",
+          commdisc: "ساختن جامعه‌ای قوی از علاقه‌مندان نجوم و ستاره‌شناسان جوان",
+          research: "تحقیق",
+          researchdisc: "حمایت از پژوهش‌های فضایی و همکاری‌های علمی در سطح بین‌المللی",
+          events: "رویداد ها",
+          members: "اعضا",
+          province: "ولایات",
+          researchProject: "پروژه های تحقیقی"
+        },
+
+        AboutValues:{
+          value: "ارزش ها",
+          valuedisc: "ما فعالیت‌های مختلفی در زمینهٔ نجوم و علوم فضایی برگزار می‌کنیم و در آن‌ها شرکت می‌کنیم",
+         value1: "آموزش و آگاهی علمی",
+         value2: "نوآوری و آینده‌نگری",
+         value3: "حمایت از استعدادهای جوان",
+         value4: "همکاری و کار تیمی",
+         value5: "توسعه پایدار علمی",
+         value6: "ایجاد امید و انگیزه برای نسل آینده"
+        },
+
+        AboutVisions: {
+          vision: "چشم انداز",
+          visionDisc:"تبدیل افغانستان به یکی از مراکز فعال علمی و فضایی منطقه ",
+          vision1: "ایجاد آزمایشگاه‌های پیشرفته",
+          vision2: "توسعه فناوری فضایی",
+          vision3: "همکاری‌های بین‌المللی ",
+          vision4: " ساخت و پرتاب ماهواره‌های داخلی"
+        },
+        teamCard: [
+        
+        {
+           id: 1,
+          name:"فیروز دانش",
+          role: "مدیر انجمن",
+          quote : "گاهی به آسمان نگاه می‌کنم و یادم می‌آید انسان فقط برای زندگی کردن به این جهان نیامده است؛ ما آمده‌ایم تا بفهمیم، کشف کنیم و معنای هستی را لمس کنیم. برای من، ستاره‌ها فقط نقطه‌های نورانی نیستند؛ هر کدام پرسشی‌اند درباره جهان، زمان و جایگاه انسان در این کیهان بی‌پایان. من باور دارم بزرگ‌ترین زیبایی انسان، توانایی او در اندیشیدن و فهمیدن ناشناخته‌هاست.",
+        },
+        {
+           id: 2,
+          name: " صالحه نبی زاده",
+          role: " پژوهشگر",
+          quote: "علاقه‌منی من به علم نجوم، انگیزه‌ای شد تا شناخت عمیق‌تری از کیهان و شگفتی‌های بی‌پایان آن به‌دست آورم و دریابم که جهان پیرامون ما تا چه اندازه گسترده و الهام‌بخش است.هدف من این است که این زیبایی‌ها و دانسته‌ها را با دیگران نیز به اشتراک بگذارم و الهام‌بخش افرادی باشم که همچون من، شیفته کشف ناشناخته‌ها و اسرار جهان هستند.بیایید با هم سفری به دنیای ستارگان و کهکشان‌ها آغاز کنیم و تجربه‌هایی فراموش‌نشدنی از عظمت کیهان رقم بزنیم."
+        },
+        {
+           id: 3,
+          name: " سهیلا محمدی",
+          role: " مربی آموزش",
+          quote:"اگر بخواهم صادقانه بگویم، نجوم برای من فقط یک علاقه ساده نیست؛ بیشتر شبیه یک نیاز فکری است. وقتی شب‌ها به آسمان نگاه می‌کنم، ذهنم آرام نمی‌گیرد تا برای این همه سکوت و این همه نظم یک معنی پیدا کند. ستاره‌ها برایم مثل سوال‌هایی‌اند که هیچ وقت تمام نمی‌شوند؛ هر جواب، خودش چند سوال تازه می‌سازد. شاید به همین خاطر است که از نجوم فاصله نمی‌گیرم، چون هر بار که برمی‌گردم به آسمان، احساس می‌کنم هنوز چیزهای زیادی هست که باید بفهمم، و هنوز راه زیادی مانده تا آدم واقعاً بتواند این جهان را درک کند."
+        },
+        {  
+           id: 4,
+          name: " شکیب سروری",
+          role: " نویسنده مقاله های نجومی",
+          quote: "سمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
+        },
+         {  
+           id: 5,
+          name: "  سید حسین حسینی",
+          role: " عضو",
+          quote: "ما فرزندان ستاره‌ها هستیم؛ اتم‌های بدن ما روزی در قلب ستارگان متولد شده‌اند. وقتی انسان به آسمان نگاه می‌کند، در حقیقت به گذشته‌ی خودش خیره شده است؛ به جایی که نور، زمان و هستی برای نخستین‌بار داستان وجود ما را نوشتند."
+        },
+         {  
+           id: 6,
+          name: "  علی فرزاد",
+          role: " عضو انجمن   ",
+          quote: "نجوم فقط مطالعه‌ی ستاره‌ها نیست؛ سفری‌ست برای فهمیدن جایگاه انسان در این جهان بی‌انتها. هر نوری که از اعماق کیهان به چشمان ما می‌رسد، یادآوری می‌کند که حتی در تاریک‌ترین شب‌ها نیز، جهان هنوز در حال سخن گفتن با ماست"
+        },
+         {  
+           id: 7,
+          name: "  شبنم هاشمی",
+          role: " مقاله نویس",
+          quote: "ما فرزندان ستاره‌ها هستیم؛ اتم‌های بدن ما روزی در قلب ستارگان متولد شده‌اند. وقتی انسان به آسمان نگاه می‌کند، در حقیقت به گذشته‌ی خودش خیره شده است؛ به جایی که نور، زمان و هستی برای نخستین‌بار داستان وجود ما را نوشتند"
+        },
+          {  
+           id: 8,
+          name: " نجمین افق",
+          role: " مربی آموزش",
+          quote: "سمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
+        },
+          {  
+           id: 9,
+          name: " تقی رایا",
+          role: "  همکار",
+          quote: "سمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
+        }
+
+      ]
     },
    },
   en: {
@@ -296,6 +404,126 @@ const resources = {
             bottomTerms: "Terms",
             bottomCookies: "Cookies"
         },
+         aboutHero: {
+          orgName: " Afghanistan Astronomy Society  ",
+          heroTitle: "Exploring Universe from Afghanistan",
+          heroDescription: "Promoting astronomy and space science in Afghanistan through education, research,observational programs, and inspiring future generation.",
+          exploremorebtn: "Explore More",
+          joinCommbtn : " Join Community"
+        },
+         aboutStory:{
+          title: "From Dream To The Stars",
+          discription1: "The Afghanistan Astronomy Association was one of the first independent scientific movements in Afghanistan in the field of astronomy and space sciences",
+          discription2 : " The main goal of this association was to promote science, fight superstition, and create hope for the young generation of Afghanistan",
+          discription3 : " Today, under new leadership, the association is striving to revive astronomy in Afghanistan once again."
+        },
+          AboutMission: {
+          misionTitle: "Our Mission",
+          misiondisc: "We aim to inspire the next generation by making astronomy accessible to everyone through education, observation, research, and collaboration.",
+          Education: " Education ",
+          edudisc: "Promoting astronomy education in schools, universities and communities.",
+          observation: "observation",
+          obsdisc: "Encouraging practical observations and astrophotography across the country.",
+          commuity: "Community",
+          commdisc: "Building a strong community of astronomy enthusiasts and young astronomers.",
+          research: "Research",
+          researchdisc: "Supporting space research and scientific collaboration internationally.",
+          events: " Events",
+          members: "Members",
+          province: "Provinces",
+          researchProject: " Research Projects "
+        },
+
+        AboutValues:{
+          value: " Values",
+          valuedisc: "We organize and participate in various astronomy and space scienceactivities.",
+         value1: "Scientific Education and Awareness",
+         value2: "Innovation and Future Vision",
+         value3: "Support for Young Talents",
+         value4: "Collaboration and Teamwork",
+         value5: "Sustainable Scientific Development",
+         value6: "Creating Hope and Motivation for Future Generations"
+        },
+
+        AboutVisions: {
+          vision: " Vision",
+          visionDisc:"Transforming Afghanistan into one of the region’s active scientific and space centers through:",
+          vision1: "Establishment Of Advanced Laboratories",
+          vision2: "Development Of Space Technology",
+          vision3: " International Collaborations ",
+          vision4: " Voving Toward The Construction And Launch Of Domestic Satellites "
+        },
+        teamCard: [
+  {
+    id: 1,
+    name: "Firooz Danesh",
+    role: "Association Director",
+    quote:
+      "Sometimes I look at the sky and remember that humanity was not brought into this world merely to live; we are here to understand, to discover, and to touch the meaning of existence. To me, the stars are not just bright points of light; each one is a question about the universe, time, and the place of humanity in this endless cosmos. I believe the greatest beauty of human beings lies in their ability to think and to understand the unknown."
+  },
+  {
+    id: 2,
+    name: "Saleha Nabi Zada",
+    role: "Researcher",
+    quote:
+      "My interest in astronomy became a motivation for me to gain a deeper understanding of the universe and its endless wonders, and to realize how vast and inspiring the world around us truly is. My goal is to share these beauties and discoveries with others and inspire people who, like me, are passionate about uncovering the mysteries and secrets of the cosmos. Let us begin a journey together into the world of stars and galaxies and create unforgettable experiences of the greatness of the universe."
+  },
+  {
+    id: 3,
+    name: "Sohaila Mohammadi",
+    role: "Education Instructor",
+    quote:
+      "If I want to be honest, astronomy is not just a simple interest for me; it feels more like an intellectual need. When I look at the night sky, my mind cannot rest until it finds meaning in all this silence and order. The stars are like endless questions to me; every answer creates several new questions. Perhaps that is why I never distance myself from astronomy, because every time I return to the sky, I feel there is still so much left to understand, and a long way to go before humanity can truly comprehend this universe."
+  },
+  {
+    id: 4,
+    name: "Shakib Sarwari",
+    role: "Astronomy Article Writer",
+    quote:
+      "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
+  },
+  {
+    id: 5,
+    name: "Sayed Hussain Hussaini",
+    role: "Member",
+    quote:
+      "We are the children of the stars; the atoms within our bodies were once born in the hearts of stars. When humans look at the sky, they are in fact staring into their own past — to the place where light, time, and existence first wrote the story of our being."
+  },
+  {
+    id: 6,
+    name: "Ali Farzad",
+    role: "Association Member",
+    quote:
+      "Astronomy is not merely the study of stars; it is a journey to understand humanity’s place in this infinite universe. Every light that reaches our eyes from the depths of the cosmos reminds us that even in the darkest nights, the universe is still speaking to us."
+  },
+  {
+    id: 7,
+    name: "Shabnam Hashimi",
+    role: "Article Writer",
+    quote:
+      "We are the children of the stars; the atoms within our bodies were once born in the hearts of stars. When humans look at the sky, they are in fact staring into their own past — to the place where light, time, and existence first wrote the story of our being."
+  },
+  {
+    id: 8,
+    name: "Najmin Ofoq",
+    role: "Education Instructor",
+    quote:
+      "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
+  },
+  {
+    id: 9,
+    name: "Taqi Raya",
+    role: "Collaborator",
+    quote:
+      "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
+  }
+]
+        
+        
+      
+    
+ 
+
     }
   },
 };
