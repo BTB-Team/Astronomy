@@ -32,7 +32,8 @@ function App() {
                <Route path="/classes" element={<h1 className="text-white">کلاس‌ها</h1>} />
                <Route path="/blog" element={<h1 className="text-white">بلاگ</h1>} />
                <Route path="/contact" element={<ContactUs/>} />
-               <Route path="/login" element={<AuthLogin/>} />
+               <Route path="/login" element={<AuthLogin defaultMode="login"/>} />
+               <Route path="/signup" element={<AuthLogin defaultMode="signup"/>} />
           </Routes>
           <Footer />
           </div>
