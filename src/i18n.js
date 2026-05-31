@@ -257,7 +257,33 @@ const resources = {
           quote: "سمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
         }
 
-      ]
+        ],
+        blog: {
+            featuredPost: "پست ویژه",
+            readArticle: "مطالعه مقاله",
+            searchPlaceholder: "جستجو در شگفتی‌های فضا...",
+            categories: "دسته‌بندی‌ها",
+            featuredPosts: "پست‌های ویژه",
+            showAll: "مشاهده همه ←",
+            close: "بستن ←",
+            allPosts: "همه پست‌ها",
+            noPosts: "هیچ پستی در این دسته‌بندی پیدا نشد.",
+            solarSystem: "منظومه شمسی",
+            stars: "ستاره‌گان",
+            galaxies: "کهکشان‌ها",
+            spaceEvents: "رویدادهای فضایی",
+            all: "همه",
+            minutesRead: "دقیقه مطالعه",
+            writeComment: "نظر خود را بنویسید...",
+            noComments: "هنوز نظری ثبت نشده است."
+
+        },
+        postDetails: {
+            back: "برگشت",
+            category: "دسته‌بندی",
+            views: "تعداد بازدید",
+            notFound: "پست پیدا نشد"
+        }
     },
    },
   en: {
@@ -517,7 +543,34 @@ const resources = {
     quote:
       "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
   }
-]
+],
+    blog: {
+        featuredPost: "Featured Post",
+        readArticle: "Read Article",
+        searchPlaceholder: "Search the wonders of space...",
+        categories: "Categories",
+        featuredPosts: "Featured Posts",
+        showAll: "View All →",
+        close: "Close ←",
+        allPosts: "All Posts",
+        noPosts: "No posts found in this category.",
+        solarSystem: "Solar System",
+        stars: "Stars",
+        galaxies: "Galaxies",
+        spaceEvents: "Space Events",
+        all: "All",
+        minutesRead: "min read",
+        writeComment: "نظر خود را بنویسید...",
+        noComments: "هنوز نظری ثبت نشده است."
+
+
+    },
+    postDetails: {
+        back: "Back",
+        category: "Category",
+        views: "Views",
+        notFound: "Post not found"
+    }
         
         
       

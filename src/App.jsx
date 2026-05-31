@@ -8,7 +8,7 @@ import ContactUs from "./pages/Contact";
 import GalaxyBackground from "./components/GalaxyBackground";
 import AuthLogin from "./pages/Login";
 import Footer from "./components/Footer";
-
+import AstronomyBlog from "./pages/Blog/AstronomyBlog";
 import About from "./Pages/About";
 function App() {
      const { i18n } = useTranslation();
@@ -30,7 +30,7 @@ function App() {
                <Route path="/" element={<Home />} />
                <Route path="/about" element={<About/>} />
                <Route path="/classes" element={<h1 className="text-white">کلاس‌ها</h1>} />
-               <Route path="/blog" element={<h1 className="text-white">بلاگ</h1>} />
+               <Route path="/blog" element={<AstronomyBlog/>} />
                <Route path="/contact" element={<ContactUs/>} />
                <Route path="/login" element={<AuthLogin defaultMode="login"/>} />
                <Route path="/signup" element={<AuthLogin defaultMode="signup"/>} />
