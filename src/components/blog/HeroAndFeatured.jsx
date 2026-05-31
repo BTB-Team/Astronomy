@@ -100,7 +100,7 @@ const HeroAndFeatured = ({
             {/* Section Top*/}
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
                 {/* SideBar*/}
-                <aside className="lg:col-span-1 space-y-8 md:mt-4">
+                <aside className="lg:col-span-1 space-y-12 md:mt-14">
                     {/* search*/}
                     <input
                         value={searchTerm}
@@ -146,13 +146,13 @@ const HeroAndFeatured = ({
                             <div
                                 to={`/blog/${post.id}`}
                                 key={post.id}
-                                className="group overflow-hidden rounded-2xl pb-3 px-3 border border-white/10 bg-white/5 backdrop-blur-md hover:-translate-y-1 transition"
+                                className="group overflow-hidden rounded-2xl pb-3  border border-white/10 bg-white/5 backdrop-blur-md hover:-translate-y-1 transition"
                             >
                                 <div className="overflow-hidden">
                                     <img
                                         src={post.image}
                                         alt={post.title}
-                                        className="w-full h-50 object-cover group-hover:scale-105 transition duration-500"
+                                        className="w-full h-48 object-cover group-hover:scale-105 transition duration-500"
                                     />
                                 </div>
                                 <div className="p-5 space-y-3">
@@ -167,7 +167,9 @@ const HeroAndFeatured = ({
                                         </span>
                                     </div>
                                 </div>
-                                <PostActions     postId={post.id} initialLikes={post.likes || 0} initialComments={post.comments || []} />
+                                <div className="px-3">
+                                    <PostActions     postId={post.id} initialLikes={post.likes || 0} initialComments={post.comments || []} />
+                                </div>
                             </div>
                         ))}
                     </div>
