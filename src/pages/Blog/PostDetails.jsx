@@ -33,7 +33,7 @@ const PostDetails = () => {
                 {/* Content */}
                 <div className="space-y-6">
                     {/* Title */}
-                    <h1 className="text-3xl lg:text-4xl font-bold leading-snug"> {post.title} </h1>
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-snug">  {t(`blog.posts.${post.title}`)}</h1>
                     {/* Category + Date */}
                     <div className="flex flex-col gap-3">
                         <p className="px-4 py-1  w-full flex justify-between">
@@ -45,7 +45,7 @@ const PostDetails = () => {
                 </div>
                 {/* Description */}
                 <p className="text-gray-200 text-base leading-8 whitespace-pre-line">
-                    {post.desc}
+                    {t(`blog.posts.${post.desc}`)}
                 </p>
             </div>
         </div>

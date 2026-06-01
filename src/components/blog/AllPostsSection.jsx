@@ -17,17 +17,19 @@ const AllPostsSection = ({ t, filteredPosts }) => {
                             className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md hover:-translate-y-1 transition duration-300"
                         >
                             <img src={post.image} alt={post.title} className="w-full h-60 object-cover" />
-                            <div className="p-5 space-y-3">
-                                <h3 className="text-2xl font-bold leading-relaxed">{post.title}</h3>
+                            <div className="p-4 space-y-3">
+                                <h3 className="text-md font-bold leading-relaxed h-18"> {t(`blog.posts.${post.title}`)}</h3>
+                                <div className="h-24">
                                 <Link to={`/blog/${post.id}`} className="text-sm text-gray-400 leading-relaxed">
-                                    {post.desc.slice(0, 120)}...
+                                      {t(`blog.posts.${post.desc}`).slice(0, 120)}...
                                 </Link>
+                                </div>
                                 <div className="text-xs text-gray-500 pt-2 flex justify-between items-center gap-2">
                                     <span className="flex items-center">
-                                        <CiCalendar size={15} /> {post.date}
+                                        <CiCalendar size={15} />   {t(`blog.posts.${post.date}`)}
                                     </span>
                                     <span className="flex items-center gap-2">
-                                        <CiStopwatch size={15} /> {post.readTime} {t("blog.minutesRead")}
+                                        <CiStopwatch size={15} />  {t(`blog.posts.${post.readTime}`)} {t("blog.minutesRead")}
                                     </span>
                                 </div>
                                 <div>

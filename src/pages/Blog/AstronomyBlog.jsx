@@ -24,9 +24,19 @@ const AstronomyBlog = () => {
     const filteredPosts = productPost.filter((post) => {
         const matchCategory =
         selectedCategory === "all" || post.category === selectedCategory;
+        // search on raw data (keys) 
+        // const matchSearch =
+        // post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        // post.category.toLowerCase().includes(searchTerm.toLowerCase());
+
+        // search on translated text (recommended for i18n)
         const matchSearch =
-        post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        post.category.toLowerCase().includes(searchTerm.toLowerCase());
+        t(`blog.posts.${post.title}`)
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase()) ||
+        t(`blog.${post.category}`)
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
         return matchCategory && matchSearch;
     });
 

@@ -66,7 +66,7 @@ const PostActions = ({ postId, initialLikes = 0, initialComments = [] }) => {
     };
 
   return (
-    <div className="mt-4 pt-3 border-t border-white/10" onClick={(e) => e.stopPropagation()}>
+    <div className="absoulte bottom-0 mt-4 pt-3 border-t border-white/10" onClick={(e) => e.stopPropagation()}>
       <div className="flex items-center justify-between gap-6 text-sm text-gray-300">
             <button onClick={handleLike} className="flex items-center bg-purple-600/20 py-1 px-3 rounded-full gap-3 cursor-pointer" >
                 <SlLike size={18} className={`${isLiked ? "text-blue-500 font-bold" : ""}`} />
