@@ -129,26 +129,21 @@ const resources = {
             confirm: "تکرار رمز عبور درست نیست", 
         },
          footer: {
-            legal: "قوانین",
-            terms: "شرایط استفاده",
-            privacy: "حریم خصوصی",
-            cookies: "کوکی‌ها",
-
-            information: "اطلاعات",
-            faq: "سوالات متداول",
-            blog:"وبلاگ",
-            support: "پشتیبانی",
+            explore: "دسترسی سریع",
+            home: "صفحه اصلی", 
+            class: "کلاس‌های ما",
+            media: "رسانه",
 
             company: "شرکت",
+            blog:"وبلاگ",
             aboutUs: "درباره ما",
-            careers: "فرصت‌های شغلی",
             contactUs: "تماس با ما",
 
             subscribe: "اشتراک",
             emailPlaceholder: "ایمیل خود را وارد کنید",
-
-            bottomTerms: "قوانین",
-            bottomCookies: "کوکی‌ها"
+            button: "ارسال",
+            emailRequired: "ایمیل الزامی است",
+            emailInvalid: "ایمیل معتبر وارد کنید",
         },
     },
    },
@@ -275,26 +270,21 @@ const resources = {
             confirm: "Confirm password does not match", 
         },
          footer: {
-            legal: "Legal",
-            terms: "Terms of Service",
-            privacy: "Privacy Policy",
-            cookies: "Cookies",
-
-            information: "Information",
-            faq: "FAQ",
-            blog: "Blog",
-            support: "Support",
-
+             explore: "Explore",
+            home: "Home",  
+            media: "Media",
+            class:"Our Class",
+            
             company: "Company",
             aboutUs: "About Us",
-            careers: "Careers",
+            blog: "Blog",
             contactUs: "Contact Us",
 
             subscribe: "Subscribe",
             emailPlaceholder: "Email address",
-
-            bottomTerms: "Terms",
-            bottomCookies: "Cookies"
+            button: "Submit",
+            emailRequired: "Email is required",
+            emailInvalid: "Please enter a valid email",
         },
     }
   },
