@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SocialLinks from "./SocialLink";
 import UserMenu from "./UserMenu";
+import { NavLink } from "react-router-dom";
+
 export default function Navbar() {
     const { t ,  i18n } = useTranslation();
     const isRTL = i18n.language === "fa"
@@ -61,10 +63,17 @@ export default function Navbar() {
                 </div>
                 <ul className="flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-11   ">
                     {navLinks.map((link, index) => (
-                        <li key={index} className=" text-xl md:text-base text-white md:text-gray-500 font-normal transition-all duration-300 ease-out hover:text-black  hover:scale-110 hover:[text-shadow:0_2px_6px_rgba(0,0,0,0.4)]">
-                            <Link to={link.path}>
-                                {t(link.key)}
-                            </Link>
+                        <li key={index} className=" text-xl md:text-base text-white md:text-gray-500 font-normal transition-all duration-300 ease-out hover:text-black  hover:[text-shadow:0_2px_6px_rgba(0,0,0,0.4)]">
+                            <NavLink to={link.path} onClick={() => setOpenMenu(false)}   className={({ isActive }) =>`relative pb-2 ${ isActive  ? "text-white md:text-gray-500  "   : "text-white md:text-gray-500"    }`  }>
+                                   {({ isActive }) => (
+                                   <>
+                                        {t(link.key)}
+                                        {isActive && (
+                                            <span className="absolute left-0 -bottom-3 w-full bg-gradient-to-r from-[#D66BFF] via-[#B85CFF] to-[#8B5CF6] h-1"/>
+                                       )}
+                                    </>
+                                    )}
+                            </NavLink>
                         </li>
                     ))}
                 </ul>
