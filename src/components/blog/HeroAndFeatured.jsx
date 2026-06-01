@@ -37,9 +37,9 @@ const HeroAndFeatured = ({
                             {t("blog.featuredPost")}
                         </span>
                         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-                            {featuredPosts[currentSlide]?.title}
+                            {t(`blog.posts.${featuredPosts[currentSlide]?.title}`)}
                         </h1>
-                        <p className="text-gray-300 leading-relaxed text-lg">
+                        {/* <p className="text-gray-300 leading-relaxed text-lg">
                             {featuredPosts[currentSlide]?.desc?.slice(0, 150)}...
                         </p>
                         <div className="flex items-center gap-4 text-sm text-white">
@@ -49,7 +49,7 @@ const HeroAndFeatured = ({
                             <span className="flex items-center gap-2">
                                 <CiStopwatch size={15} /> {featuredPosts[currentSlide]?.readTime} {t("blog.minutesRead")}
                             </span>
-                        </div>
+                        </div> */}
                         <Link
                             to={`/blog/${featuredPosts[currentSlide]?.id}`}
                             className="mt-3 px-7 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 transition shadow-lg shadow-purple-700/20 inline-block"
@@ -111,7 +111,7 @@ const HeroAndFeatured = ({
                     />
                     {/* Category*/}
                     <div className="bg-white/5 border border-white/10 backdrop-blur-md p-5 rounded-2xl">
-                        <h3 className="text-lg font-bold mb-4">{t("blog.categories")}</h3>
+                        <h3 className="text-lg font-bold mb-4 ">{t("blog.categories")}</h3>
                         <ul className="space-y-2">
                             {categories.map((category) => (
                                 <li
@@ -133,7 +133,7 @@ const HeroAndFeatured = ({
                 {/* Featured post*/}
                 <section className="lg:col-span-3">
                     <div className="flex items-center justify-between mb-5">
-                        <h2 className="text-2xl font-bold">{t("blog.featuredPosts")}</h2>
+                        <h2 className="text-2xl font-bold ">{t("blog.featuredPosts")}</h2>
                         <button
                             onClick={() => setShowAllFeatured((prev) => !prev)}
                             className="text-sm text-purple-400 hover:text-purple-300"
@@ -144,7 +144,6 @@ const HeroAndFeatured = ({
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 ">
                         {visibleFeaturedPosts.map((post) => (
                             <div
-                                to={`/blog/${post.id}`}
                                 key={post.id}
                                 className="group overflow-hidden rounded-2xl pb-3  border border-white/10 bg-white/5 backdrop-blur-md hover:-translate-y-1 transition"
                             >
@@ -154,20 +153,23 @@ const HeroAndFeatured = ({
                                         alt={post.title}
                                         className="w-full h-48 object-cover group-hover:scale-105 transition duration-500"
                                     />
-                                </div>
+                                </div>  
                                 <div className="p-5 space-y-3">
-                                    <h3 className="text-md font-bold">{post.title}</h3>
-                                    <p className="text-sm text-gray-400">{post.desc.slice(0, 100)}...</p>
-                                    <div className="flex items-center justify-between text-xs text-gray-500 pt-2">
+                                    <h3 className="text-md font-bold  h-18">{t(`blog.posts.${post.title}`)}</h3>
+                                   <div className=" h-26">
+                                      <Link    to={`/blog/${post.id}`} className="text-sm text-gray-400  ">
+                                      {t(`blog.posts.${post.desc}`).slice(0, 120)}...</Link>
+                                   </div>
+                                    <div className="flex items-center justify-between text-xs text-gray-500 pt-1">
                                         <span className="flex items-center gap-2">
-                                            <CiCalendar size={15} /> {post.date}
+                                            <CiCalendar size={15} /> {t(`blog.posts.${post.date}`)}
                                         </span>
                                         <span className="flex items-center gap-2">
-                                            <CiStopwatch size={15} /> {post.readTime} {t("blog.minutesRead")}
+                                            <CiStopwatch size={15} /> {t(`blog.posts.${post.readTime}`)} {t("blog.minutesRead")}
                                         </span>
                                     </div>
                                 </div>
-                                <div className="px-3">
+                                <div className="px-3 mt-auto relative">
                                     <PostActions     postId={post.id} initialLikes={post.likes || 0} initialComments={post.comments || []} />
                                 </div>
                             </div>

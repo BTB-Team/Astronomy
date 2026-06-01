@@ -275,9 +275,150 @@ const resources = {
             all: "همه",
             minutesRead: "دقیقه مطالعه",
             writeComment: "نظر خود را بنویسید...",
-            noComments: "هنوز نظری ثبت نشده است."
+            noComments: "هنوز نظری ثبت نشده است.",
+            posts: {
+               title1: "آیا ماه هم زلزله دارد؟ (Moonquakes)",
+               description1: `همه‌ٔ ما میدانیم که گاهی روی سیاره زمین لرزه رخ میدهد. ولی آیا سیارات یا قمر های دیگر هم چنین چیزی را تجربه می‌کنند؟ جواب این سوال بله است. مثلا وقتی شب های طولانی و سرد ماه تمام می‌شوند و خورشید دوباره سطح سردش را گرم میکند، انبساط ناگهانی باعث ایجاد لرزش‌ هایی به نام Moonquakes میشود. حتی بعضی از این لرزش ها می‌توانند  تا نیم ساعت طول بکشند!
+               ماه‌ لرزه‌ ها چهار نوع اند:
+               ✧ عمیق: منظم و مرتبط با کشش ماه
+               ✧ کم‌ عمق: قوی‌ ترین نوع و می‌توانند تا نیم ساعت طول بکشند
+               ✧ حرارتی: وقتی سطح سرد ماه ناگهان گرم می‌شود
+               ✧ برخوردی: به دلیل اصابت شهاب‌ سنگ ها`,
+               readTime1: "۳",
+               date1: "۲۰۲۶",
 
-        },
+               title2: "تلسکوپ فضایی نانسی گریس رومن؛ نسل بعدی نقشه‌برداری کیهان",
+               description2: `ناسا در حال تکمیل تلسکوپ نسل بعدی تلسکوپ فضایی نانسی گریس رومن که کار روی آن هنوز جریان دارد طبق برنامه‌ریزی‌های انجام‌شده در سال ۲۰۲۷ میلادی به فضا پرتاب خواهد شد. این پروژه که پیش‌تر با عنوان (WFIRST) شناخته می‌شد، به پاسداشت خدمات ارزنده دکتر نانسی گریس رومن، نخستین مدیر ارشد اخترشناسی ناسا و ملقب به «مادر هابل»، تغییر نام یافت. این تلسکوپ پیشرفته با استقرار در مدار نقطه لاگرانژی ۲ (L2) در فاصله ۱.۵ میلیون کیلومتری زمین، مأموریت اصلی خود را بر شناخت ساختارهای بزرگ‌مقیاس کیهانی، کشف ماهیت انرژی تاریک و ماده تاریک، و همچنین شناسایی سیاره‌های فراخورشیدی متمرکز خواهد کرد. از منظر قابلیت‌های فنی، تلسکوپ رومن مجهز به یک آینه اصلی به قطر ۲.۴ متر است که از نظر اندازه با تلسکوپ فضایی هابل برابری می‌کند؛ با این حال ، این تلسکوپ با مجهز بودن به ابزار فروسرخ میدان وسیع (WFI)،  به تلسکوپ اجازه می‌دهد تا میدانی از آسمان را با وسعت ۱۰۰ برابر بیشتر از میدان دید هابل و با همان کیفیت و وضوح تصویربرداری کند. این ویژگی منحصربه‌فرد، سرعت نقشه‌برداری کهکشان‌ها را به طرز چشمگیری افزایش می‌دهد، به طوری که مأموریت‌های نقشه‌برداری چندساله هابل، توسط تلسکوپ رومن تنها ظرف چند روز با موفقیت به سرانجام می‌رسد.`,
+               readTime2: "۶",
+               date2: "۲۰۲۷",
+
+               title3: "هم‌نشینی ماه، مشتری و زهره در آسمان شب",
+               description3: `امشب پایینتر از ماه به سمت مغرب گفت دو نقطه بسیار روشن می بینید که یکی روشن‌ترین مشتری و پایینتر ازو زهره قراره داره و یک ستاره روشن هم کنار ماه قرار داره که بنام قلب شیر یاد میشه. `,
+               readTime3: "۲",
+               date3: "۲۴ می ۲۰۲۶",
+
+               title4: "تصویری جدید از سیاه‌چاله مرکزی کهکشان راه شیری",
+               description4: `در قلب کهکشان راه شیری ما، سیاه‌چاله‌ای کلان‌جرم به نام Sagittarius A* قرار دارد که توسط گردابی چرخان از گاز و غبار احاطه شده است. مشاهدات جدید نشان می‌دهد که میدان‌های مغناطیسی این سیاه‌چاله، برخلاف تصور قبلی، آشفته نیستند بلکه به‌صورت منظم و هماهنگ سازمان یافته‌اند و ساختاری مارپیچی را شکل می‌دهند که به تنظیم جریان ماده در اطراف سیاه‌چاله کمک می‌کند.
+               این میدان‌های مغناطیسی قوی و منظم نقش بسیار مهمی در شکل‌دهی محیط نزدیک به افق رویداد دارند و بر چگونگی شتاب گرفتن، داغ شدن، و تابش ماده تأثیر می‌گذارند. با نقشه‌برداری از این میدان‌ها، دانشمندان به درک بی‌سابقه‌ای از پویایی سیاه‌چاله‌ها، رفتار پلاسمای بسیار داغ، و فرایندهای بنیادی حاکم بر کهکشان‌ها دست پیدا می‌کنند.
+               در این دستاورد چشمگیر، ستاره‌شناسان موفق شده‌اند تصویر جدید و خیره‌کننده‌ای از این سیاه‌چالهٔ فوق‌سنگین در قلب کهکشان راه شیری، ثبت کنند. این نمای شگفت‌انگیز که میدان‌های مغناطیسی قوی و بسیار منظم که به‌صورت مارپیچی از لبهٔ سیاه‌چاله بیرون می‌آیند را نشان می‌دهد، برای نخستین‌بار در نور قطبیده مشاهده شده است. این کشف دریچه‌ای است به درون سازوکارهای عمیق ساختار فضا-زمان در اطراف این سامانه‌های با گرانش بسیار قوی و چرخش بالا که در حال به چالش کشیدن بسیاری از تصورات قبلی ما دربارهٔ سیاه‌چاله‌ها و حتی خودِ بافت فضا-زمان است.`,
+                readTime4: "۷",
+                date4: "۲۰۲۶",
+
+                title5:"چرا ستاره‌ها چشمک می‌زنند؟",
+                description5:`وقتی به آسمان شب نگاه می‌کنیم، ستاره‌ها انگار چشمک می‌زنند؛ اما در حقیقت خود ستاره‌ها چشمک نمی‌زنند.
+                نور ستاره‌ها هنگام رسیدن به زمین از لایه‌های مختلف جو عبور می‌کند. چون هوای زمین همیشه در حال حرکت است، مسیر               نور کمی تغییر می‌کند و ستاره گاهی پرنور و گاهی کم‌نور دیده می‌شود.
+                به همین دلیل ما تصور می‌کنیم ستاره‌ها چشمک می‌زنند.
+                نکته:
+                سیاره‌ها معمولاً چشمک نمی‌زنند، زیرا به زمین نزدیک‌ترند و نورشان پایدارتر دیده می‌شود ` ,
+                readTime5: "۲",
+                date5: "۲۰۲۶",
+
+                title6:  "اسرار کهکشان چرخ گاری (Cartwheel Galaxy)",
+                description6:  `کهکشان چرخ کارت یکی از عجیب ترین و دیدنی ترین کهکشان هایی است که تاکنون کشف شده است.
+                واقع در حدود ۵۰۰ میلیون سال نوری در صورت فلکی مجسمه ساز، این ساختار عظیم کیهانی شبیه یک چرخ درخشان است که در اعماق فضا شناور است - اما شکل غیرمعمول آن در اثر برخورد خشونت آمیز کهکشانی ایجاد شده است.
+                . این برخورد امواج شوک عظیمی را که در فضا موج می زنند به بیرون موج می زنند، گاز و گرد و غبار را فشرده و امواج قدرتمند تشکیل ستاره ها را به راه می اندازد.
+                نتیجه آن ساختار نفس گیر حلقه ای بود که امروز می بینیم
+                حلقه بیرونی روشن کهکشان چرخ کارت پر از ستاره های آبی جوان و نواحی شدید ستاره ساز است، در حالی که مناطق داخلی شامل ستاره های قدیمی تر و بقایایای منحرف شده بازوهای مارپیچی اصلی کهکشان هستند.
+                دانشمندان کهکشان هایی مانند چرخ کارت را مطالعه می کنند تا بهتر بفهمند که چگونه برخوردهای عظیم کهکشانی ها را تغییر شکل می دهند، تولد ستاره های جدید را تحریک می کنند و بر تکامل بلند مدت خود جهان تأثیر می گذارند.
+                مشاهدات اخیر تلسکوپ فضایی جیمز وب ناسا ابرهای غبار پنهان، ساختارهای پیچیده و فعالیت پرانرژی درون کهکشان را نشان داد که قبلاً در نور معمولی نامرئی بودند و به ستاره شناسان یکی از جزئیات ترین دیدگاه هایی که تاکنون از این برخورد خارق العاده کیهانی ثبت شده اند، داده است.`,
+                readTime6: "۶",
+                date6: "۲۰۲۶",
+
+                title7: "لایه‌های جو زمین و نقش آن در حفاظت از زندگی",
+                description7:  `جوّ زمین لایه‌ای از گازهاست که دور زمین را گرفته و از زندگی محافظت می‌کند.
+                 این جو چند لایه دارد:
+                 • تروپوسفر: محل آب‌وهوا و زندگی انسان
+                 • استراتوسفر: دارای لایه اوزون
+                 • مزوسفر: جایی که شهاب‌ها می‌سوزند
+                 • خط کارمان: مرز تقریبی آغاز فضا در ۱۰۰ کیلومتری زمین
+                 بدون جوّ زمین، زندگی ممکن نبود`,
+                readTime7: "۲",
+                date7: "۲۰۲۶",
+
+               title8: "ابط‌الجوزا؛ ستاره‌ای در آستانه انفجار کیهانی",
+               description8:  `
+                ستارهٔ ابط‌الجوزا (Betelgeuse) یکی از مشهورترین و بزرگ‌ترین ستاره‌های آسمان شب است که در صورت فلکی جبار (Orion) قرار                 دارد.
+                این ستاره یک ابرغول سرخ است؛ یعنی در مرحلهٔ پایانی زندگی خود قرار دارد.
+                 اگر ابط‌الجوزا به جای خورشید قرار می‌گرفت، اندازهٔ آن تا مدار سیارهٔ مشتری می‌رسید!
+                 فاصلهٔ آن از زمین حدود ۶۴۰ سال نوری است.
+                 دانشمندان باور دارند که این ستاره در آیندهٔ نجومی (شاید هزاران یا حتی صدها هزار سال دیگر) به شکل یک ابرنواختر منفجر                 خواهد شد.
+                 تصویری که می‌بینید، یکی از واضح‌ترین تصاویر ثبت‌شده از سطح یک ستاره خارج از منظومهٔ شمسی است؛ جایی که حتی تغییرات سطحی                 و خروج گازهای داغ نیز دیده می‌شود
+                `,
+                readTime8: "۴",
+                date8: "۲۰۲۶",
+
+                title9: "باران در سیارات منظومه شمسی چگونه است؟",
+                description9: `باران در سراسر منظومه شمسی کاملاً متفاوت به نظر می رسد - همه چیز به حال و هوای هر جهان بستگی دارد.
+                روی زمین، آب مایع است. روی زهره ابرها از اسید سولفوریک ساخته شده اند و باران اسیدی ایجاد می کنند که قبل از لمس سطح آن تبخیر می شود. در مریخ، جو نازک برف تولید می کند که از دی اکسید کربن یخ زده ساخته شده است.
+                در غول های گازی مانند مشتری و زحل، فشار شدید حتی ممکن است باران الماس در اعماق اتمسفر آنها ایجاد کند. همچنین اعتقاد بر این است که شرایط مشابهی در اورانوس و نپتون وجود داشته باشد. در پلوتو، متان می تواند در برف یخ بزند، در حالی که عطارد به دلیل کمبود جو باران ندارد.
+                همان ایده - بارندگی. دنیاهای کاملا متفاوت `,
+                readTime9: "۳",
+                date9: "۲۰۲۶",
+
+               title10: "فاصله سیارات از زمین چقدر است؟",
+               description10:`فاصله سیارات از زمین واقعیتی که ذهنت را شگفت‌ زده میکند ! تا حالا فکر کردی فاصله ما با سیارات چقدر است ؟ این تصویر نشان میدهد که فاصله‌ ها در منظومه شمسی ثابت نیستند بلکه دائماً تغییر میکنند .
+                از نزدیک‌ ترین تا دور ترین :
+                (ماه) حدود ۳۶۳ تا ۴۰۶ هزار کیلومتر
+                (عطارد) ۷۷ تا ۲۱۶ میلیون کیلومتر
+                (زهره) ۳۸ تا ۲۶۱ میلیون کیلومتر
+                (مریخ) ۵۵ تا ۴۰۰ میلیون کیلومتر
+                (مشتری) ۵۸۸ تا ۹۶۸ میلیون کیلومتر
+                (زحل) ۱.۲ تا ۱.۶۵ میلیارد کیلومتر
+                (اورانوس) ۲.۶ تا ۳.۱۵ میلیارد کیلومتر
+                (نپتون) ۴.۳ تا ۴.۷ میلیارد کیلومتر
+                نکته مهم :
+                دلیل این تغییر فاصله‌ ها چیست ؟
+                چون سیارات در مدار های بیضی به دور خورشید میچرخند گاهی به زمین نزدیک‌ تر و گاهی دورتر میشوند .
+                پیام :
+                این فاصله‌ ها نشان میدهد که جهان بسیار بزرگتر از چیزی است که تصور میکنیم ، وقتی به آسمان نگاه میکنی یادت باشد هر نقطه نوری دنیایی با فاصله‌ ای باور نکردنی است`,
+                readTime10: "۵",
+                date10: "۲۰۲۶",
+
+                title11: "چند سیاره در کیهان وجود دارد؟",
+                description11:  `تا اوایل دهه‌ی ۱۹۹۰ سیارات شناخته شده توسط انسان فقط محدود به منظومۀ شمسی بود؛ اما اخترشناسان توانستند تا سال 2018 بیشتر از 4500 سیارۀ فراخورشیدی را در کهکشان راه شیری مشاهده و تایید کنند. اما میدانیم که تعداد سیارات در کیهان و سایر کهکشان ها بسیار بسیار بیشتر از این تعداد است. در جهان قابل مشاهده بیش از دو تریلیون کهکشان وجود دارد، در هر کهکشان حدود ۴۰۰ میلیارد ستاره وجود دارد، چند برابر این تعداد هم سیاره و قمر وجود دارد که حداقل تعدادی از آنها می توانند از حیات پشتیبانی کنند، به نظر می رسد تنهایی ما در کیهان امری بعید است`,
+                readTime11: "۳",
+                date11: "۲۰۲۶",
+                title12: "تصویر تاریخی Earthset از پشت ماه توسط آرتمیس ۲",
+                description12: `تصویری شگفت انگیز و تاریخی از سمت پشت ماه (به زمین) و سیاره زمین در پس زمینه که توسط فضانوردان آرتمیس ۲ ثبت شده.
+                در پدیده‌ی Earthset، زمین به نظر می‌رسد که در پشت افق ماه فرو می‌رود. در این صحنه، یک زمین هلالی که بخشی از آن روشن است، از دید خدمه‌ی فضاپیمای Orion پشت ماه ناپدید می‌شود.
+                بخش روشن زمین، ابرهای سفید و آب‌های آبی منطقه‌ی اقیانوسیه را نشان می‌دهد، در حالی که قسمت‌های تاریک در شب فرو رفته‌اند.
+                این تصویر همچنین جزئیات فوق‌العاده‌ای از سطح ماه، شامل دهانه‌ها و حوضه‌های هم‌پوشان آن، را به نمایش می‌گذارد.
+                این عکس در ساعت ۶:۴۱ عصر به وقت شرق آمریکا در تاریخ ۶ آوریل ۲۰۲۶ ثبت شده، زمانی که فضانوردان Artemis II از پشت سمت پنهان ماه عبور می‌کردند`,        
+                readTime12: "۴",
+                date12: "۲۰۲۶",
+
+                title13: "ماده تاریک؛ راز نامرئی کیهان",
+                description13:`بیش از ۸۰٪ مادهٔ جهان ما مادهٔ تاریک است، ماده‌ای که نور نمی‌دهد و نمی‌توان مستقیم دیدش، اما وجودش را می‌توان از تأثیر گرانشی روی کهکشان‌ها تشخیص داد.
+                ماده تاریک باعث می‌شود که ستاره‌ها در کهکشان‌ها با سرعتی حرکت کنند که با جرم قابل مشاهدهٔ آن‌ها قابل توضیح نیست.
+                بدون ماده تاریک، کهکشان‌ها از هم پراکنده می‌شدند و شکل پایدارشان حفظ نمی‌شد .
+                هنوز ماهیت ماده تاریک ناشناخته است، اما کشف آن می‌تواند راز شکل‌گیری و تکامل کیهان را فاش کند.
+                نکته جالب: ما ماده تاریک را نمی‌بینیم، اما می‌توانیم ردپایش را دنبال کنیم و از طریق حرکت ستاره‌ها و خمیدگی نور، یک نقشهٔ نامرئی از جهان بسازیم`,          
+                readTime13: "۴",
+                date13: "۲۰۲۶",
+
+                title14: "کمربند جبار؛ سه ستاره درخشان آسمان زمستان",
+                description14: `سه ستاره که شب های زمستان در آسمان شب کنار هم می بینید مربوط به کمربند صورت فلکی شکارچی (جبار) است؛ سه ستاره درخشان که در یک خط قرار دارند و به نام‌های النطاق، النیلم و مینتاکا شناخته می‌شوند. در نزدیکی این ناحیه، سحابی معروف شکارچی قرار دارد که یکی از فعال‌ترین زایشگاه‌های ستاره‌ ای در کهکشان ماست و در آن ستاره‌های تازه در حال شکل‌ گیری‌ هستند. اطراف این کمربند نیز ستاره‌های بسیار درخشانی مانند رجل‌الجبار و بتلجیوس دیده می‌شوند که هر کدام چندین برابر بزرگ‌تر و پرنورتر از خورشید هستند. این بخش از آسمان یکی از زیباترین و پویاترین نواحی قابل مشاهده با چشم غیرمسلح و تلسکوپ به شمار می‌رود.`,
+                readTime14: "۴",
+                date14: "۲۰۲۶",
+
+                title15: "بازمانده ابرنواختر ذات‌الکرسی A (Cassiopeia A)",
+                description15:  `تصویر روز ناسا
+                عنوان: بازمانده ابرنواختر ذات‌الکرسی A
+                ستاره‌های بزرگ در کهکشان راه شیری ما زندگی شگفت‌انگیزی دارند. آن‌ها از ابرهای عظیم کیهانی شکل می‌گیرند، هسته‌شان روشن می‌شود و عناصر سنگین را در دل خود می‌سازند. بعد از فقط چند میلیون سال، مواد غنی شده‌شان را با یک انفجار بزرگ به فضا پرتاب می‌کنند و این مواد می‌تواند دوباره شروعی برای شکل‌گیری ستاره‌های جدید باشد. ابر باقی‌مانده‌ای که به ذات‌الکرسی A معروف است، نمونه‌ای از این مرحله پایانی زندگی یک ستاره است. نوری که از انفجار ابرنواختری این بازمانده به وجود آمد، حدود ۳۵۰ سال پیش برای اولین بار در آسمان زمین دیده شد، هرچند رسیدن این نور به ما ۱۱ هزار سال طول کشید. این تصویر واضح که با دوربین NIRCam تلسکوپ فضایی جیمز وب گرفته شده، رشته‌ها و گره‌های داغ باقی‌مانده از این انفجار را نشان می‌دهد. پوسته بیرونی و سفیدرنگی که شبیه دود است و موج انفجار را نشان می‌دهد، حدود ۲۰ سال نوری پهنا دارد `,
+                readTime15: "۵",
+                date15: "۲۰۲۶",
+
+                title16: "دهانه‌های مسیه روی سطح ماه",
+                description16: `بسیاری از سحابی‌ها و خوشه‌های ستاره‌ای در آسمان زمین با نام Charles Messier، ستاره‌شناس مشهور قرن هجدهم، شناخته می‌شوند. نام او همچنین روی این دو دهانه بزرگ و چشمگیر ماه نیز گذاشته شده است.
+                دهانه‌های «مسیه» (سمت چپ) و «مسیه A» که در دریای تاریک و صاف باروری ماه یا Mare Fecunditatis قرار دارند، به‌ترتیب ابعادی برابر با ۱۵ در ۸ و ۱۶ در ۱۱ کیلومتر دارند.
+                شکل کشیده این دهانه‌ها به‌دلیل برخورد جرمی(کتله‌ای) است که با زاویه‌ای بسیار کم و در مسیری از چپ به راست به سطح ماه برخورد کرده و این حفره‌ها را ایجاد کرده است. این برخورد کم‌زاویه همچنین باعث به‌وجود آمدن دو رگه روشن از مواد پرتاب‌شده شده که در امتداد سطح ماه به سمت راست تصویر ادامه یافته‌اند.
+                این تصویر چشمگیر که برای مشاهده با عینک‌های سرخ/آبی طراحی شده است (لنز سرخ برای چشم چپ)، اخیراً از اسکن‌های با وضوح بالای دو عکس (AS11-42-6304 و AS11-42-6305) ساخته شده که طی مأموریت Apollo 11 Moon Landing به ماه ثبت شده بودند.`,
+                readTime16: "۵",
+                date16: "۹ می ۲۰۲۶",
+            },
+            
+
+         },
         postDetails: {
             back: "برگشت",
             category: "دسته‌بندی",
@@ -561,8 +702,173 @@ const resources = {
         all: "All",
         minutesRead: "min read",
         writeComment: "نظر خود را بنویسید...",
-        noComments: "هنوز نظری ثبت نشده است."
+        noComments: "هنوز نظری ثبت نشده است.",
+        posts: {
+            title1: "Do Moonquakes Exist?",
+            description1: `We all know that earthquakes sometimes occur on Earth. But do other planets or moons experience similar events? The answer is yes. For example, when the Moon's long and cold nights come to an end and sunlight begins warming its frozen surface again, the sudden expansion of the lunar crust can create vibrations known as moonquakes. Some of these tremors can even last for up to thirty minutes!
 
+            There are four types of moonquakes:
+            ✧ Deep Moonquakes: Regular and linked to the Moon's tidal interactions.
+            ✧ Shallow Moonquakes: The strongest type, capable of lasting up to thirty minutes.
+            ✧ Thermal Moonquakes: Caused when the Moon's cold surface is suddenly heated by sunlight.
+            ✧ Impact Moonquakes: Triggered by meteorite impacts on the lunar surface.`,
+            readTime1: "3",
+            date1: "2026",
+
+            title2: "Nancy Grace Roman Space Telescope; The Next Generation of Cosmic Surveying",
+            description2: `NASA is currently completing its next-generation space observatory, the Nancy Grace Roman Space Telescope, which is scheduled to launch in 2027. Previously known as WFIRST, the mission was renamed in honor of Dr. Nancy Grace Roman, NASA's first Chief of Astronomy and often referred to as the “Mother of Hubble.”
+
+            The Roman Space Telescope will operate from the Sun–Earth Lagrange Point 2 (L2), approximately 1.5 million kilometers from Earth. Its primary mission is to investigate the large-scale structure of the universe, explore the nature of dark energy and dark matter, and discover and study exoplanets.
+
+            From a technical perspective, Roman is equipped with a 2.4-meter primary mirror, matching the size of the Hubble Space Telescope's mirror. However, its Wide Field Instrument (WFI) allows it to capture an area of the sky nearly 100 times larger than Hubble while maintaining comparable image quality and resolution.
+
+            This unique capability will dramatically accelerate galaxy surveys, enabling observations that would take Hubble years to complete to be accomplished by Roman in just a few days.`,
+            readTime2: "6",
+            date2: "2027",
+
+            title3: "A Conjunction of the Moon, Jupiter, and Venus in the Night Sky",
+            description3: `Tonight, if you look toward the western horizon below the Moon, you will notice two exceptionally bright objects. The brighter one is Jupiter, while Venus appears slightly lower in the sky. A bright star can also be seen near the Moon, known as Regulus, often referred to as the “Heart of the Lion.”`,
+            readTime3: "2",
+            date3: "May 24, 2026",
+
+            title4: "A New Image of the Supermassive Black Hole at the Center of the Milky Way",
+            description4: `At the heart of our Milky Way Galaxy lies a supermassive black hole known as Sagittarius A*, surrounded by a swirling disk of gas and dust. New observations reveal that the magnetic fields around this black hole are not chaotic as previously thought, but instead are highly organized and structured, forming spiral patterns that help regulate the flow of matter around it.
+
+            These powerful and well-ordered magnetic fields play a crucial role in shaping the environment near the event horizon, influencing how matter accelerates, heats up, and emits radiation. By mapping these magnetic fields, scientists are gaining unprecedented insights into black hole dynamics, the behavior of extremely hot plasma, and the fundamental processes that govern galaxies.
+
+            In this remarkable achievement, astronomers have captured a stunning new image of the supermassive black hole at the center of the Milky Way. For the first time, the image reveals strong and highly organized magnetic fields emerging in spiral structures from the edge of the black hole, observed through polarized light.
+
+            This discovery opens a new window into the deep mechanisms of spacetime around systems with extremely strong gravity and rapid rotation, challenging many of our previous assumptions about black holes and even the very fabric of spacetime itself.`,
+            readTime4: "7",
+            date4: "2026",
+
+            title5: "Why Do Stars Twinkle?",
+            description5: `When we look at the night sky, stars appear to twinkle; however, stars themselves do not actually flicker. 
+
+            Starlight passes through different layers of Earth's atmosphere before reaching us. Since the air is constantly moving, it bends the light slightly, making the star appear sometimes brighter and sometimes dimmer.
+
+            Because of this effect, we perceive stars as twinkling.
+
+            Note:
+            Planets usually do not twinkle as much as stars because they are closer to Earth and their light appears more stable.`,
+            readTime5: "2",
+            date5: "2026",
+
+            title6: "The Secrets of the Cartwheel Galaxy",
+            description6: `The Cartwheel Galaxy is one of the most unusual and fascinating galaxies ever discovered.
+
+            Located about 500 million light-years away in the Sculptor constellation, this enormous cosmic structure resembles a glowing wheel drifting through deep space — but its unusual shape was formed by a violent galactic collision.
+
+            Astronomers believe that around 200 million years ago, a smaller galaxy passed directly through the center of a larger spiral galaxy. This collision created massive shockwaves that rippled outward through space, compressing gas and dust and triggering powerful waves of star formation.
+
+            The result is the breathtaking ring-like structure we see today.
+
+            The bright outer ring of the Cartwheel Galaxy is filled with young blue stars and intense star-forming regions, while the inner regions contain older stars and disrupted remnants of the original spiral arms.
+
+            Scientists study galaxies like the Cartwheel to better understand how massive collisions reshape galaxies, trigger new star birth, and influence the long-term evolution of the universe.
+
+            Recent observations from NASA's James Webb Space Telescope revealed hidden dust clouds, complex structures, and energetic activity inside the galaxy that were previously invisible in normal light, giving astronomers one of the most detailed views ever captured of this extraordinary cosmic collision.`,
+            readTime6: "6",
+            date6: "2026",
+
+            title7: "Earth’s Atmospheric Layers and Their Role in Protecting Life",
+            description7: `Earth’s atmosphere is a layer of gases surrounding our planet that protects life.
+
+            It has several layers:
+            • Troposphere: where weather occurs and humans live  
+            • Stratosphere: contains the ozone layer  
+            • Mesosphere: where meteors burn up  
+            • Kármán line: the approximate boundary of space at 100 km above Earth  
+
+            Without Earth's atmosphere, life would not be possible.`,
+            readTime7: "2",
+            date7: "2026",
+
+            title8: "Betelgeuse; A Star on the Edge of a Cosmic Explosion",
+            description8: `Betelgeuse is one of the most famous and largest stars in the night sky, located in the Orion constellation.
+
+            It is a red supergiant, meaning it is in the final stage of its life.
+
+            If Betelgeuse replaced the Sun, its size would extend beyond the orbit of Jupiter!
+
+            It is located about 640 light-years from Earth.
+
+            Scientists believe that in the astronomical future (possibly thousands or even hundreds of thousands of years), it will explode as a supernova.
+
+            The image shows one of the clearest views ever captured of the surface of a star outside our solar system, where surface changes and hot gas emissions can be observed.`,
+            readTime8: "4",
+           date8: "2026",
+
+            title9: "What Is Rain Like on the Planets of the Solar System?",
+            description9: `Rain looks completely different across the Solar System - everything depends on the atmosphere of each world.
+            On Earth, water is liquid. On Venus, the clouds are made of sulfuric acid, creating acid rain that evaporates before reaching the surface. On Mars, the thin atmosphere produces snowfall made of frozen carbon dioxide.
+            On gas giants like Jupiter and Saturn, extreme pressure may even create diamond rain deep within their atmospheres. Similar conditions are also believed to exist on Uranus and Neptune. On Pluto, methane can freeze into snow, while Mercury has no rain due to the lack of an atmosphere.
+            The same idea - precipitation. Completely different worlds`,
+            readTime9: "3",
+            date9: "2026",
+
+            title10: "How Far Are the Planets from Earth?",
+            description10: `A reality that will amaze your mind! Have you ever thought about how far we are from the planets? This image shows that distances in the Solar System are not constant but are constantly changing.
+            From closest to farthest:
+            (Moon) about 363,000 to 406,000 kilometers
+            (Mercury) 77 to 216 million kilometers
+            (Venus) 38 to 261 million kilometers
+            (Mars) 55 to 400 million kilometers
+            (Jupiter) 588 to 968 million kilometers
+            (Saturn) 1.2 to 1.65 billion kilometers
+            (Uranus) 2.6 to 3.15 billion kilometers
+            (Neptune) 4.3 to 4.7 billion kilometers
+            Important note:
+            Why do these distances change?
+            Because planets move in elliptical orbits around the Sun, sometimes they are closer to Earth and sometimes farther away.
+            Message:
+            These distances show that the universe is much larger than we imagine. When you look at the sky, remember that each point of light is a world at an unimaginable distance`,
+            readTime10: "5",
+            date10: "2026",
+
+            title11: "How Many Planets Exist in the Universe?",
+            description11: `Until the early 1990s, known planets were limited only to our Solar System; but astronomers were able to observe and confirm more than 4,500 exoplanets in the Milky Way galaxy by 2018. However, we know that the number of planets in the universe and other galaxies is far, far greater than this number. In the observable universe there are more than two trillion galaxies, and in each galaxy there are about 400 billion stars. There are even more planets and moons than this, and at least some of them may be able to support life. It seems that our loneliness in the universe is unlikely`,
+            readTime11: "3",
+            date11: "2026",
+
+            title12: "Historic Earthset Image from Behind the Moon by Artemis 2",
+            description12: `A stunning and historic image of the far side of the Moon (facing Earth) with planet Earth in the background, captured by the Artemis 2 astronauts.
+            In the Earthset phenomenon, Earth appears to sink behind the lunar horizon. In this scene, a crescent Earth with part of it illuminated disappears from view of the Orion spacecraft crew behind the Moon.
+            The bright part of Earth shows white clouds and the blue waters of the Oceania region, while the dark parts are in night.
+            This image also reveals extraordinary details of the Moon’s surface, including craters and overlapping basins.
+            This photo was taken at 6:41 PM Eastern Time on April 6, 2026, as the Artemis II crew passed behind the far side of the Moon`,
+            readTime12: "4",
+            date12: "2026",
+
+            title13: "Dark Matter; The Invisible Mystery of the Universe",
+            description13: `More than 80% of the matter in our universe is dark matter, a substance that does not emit light and cannot be seen directly, but its existence can be detected through its gravitational effects on galaxies.
+            Dark matter causes stars in galaxies to move at speeds that cannot be explained by the visible mass alone.
+            Without dark matter, galaxies would fall apart and would not remain stable in their structure.
+            The nature of dark matter is still unknown, but discovering it could reveal the secrets of the formation and evolution of the universe.
+            Interesting note: We cannot see dark matter, but we can trace its effects and, through the motion of stars and the bending of light, create an invisible map of the universe`,
+            readTime13: "4",
+            date13: "2026",
+
+            title14: "Orion’s Belt; Three Bright Stars of the Winter Sky",
+            description14: `The three stars you see close together in the winter night sky belong to the constellation Orion’s Belt; three bright stars that lie in a straight line and are known as Alnitak, Alnilam, and Mintaka. Near this region lies the famous Orion Nebula, one of the most active star-forming regions in our galaxy where new stars are being born. Around this belt, very bright stars such as Rigel and Betelgeuse can also be seen, each many times larger and brighter than the Sun. This part of the sky is one of the most beautiful and dynamic regions visible to the naked eye and through telescopes.`,
+            readTime14: "4",
+            date14: "2026",
+
+            title15: "Cassiopeia A Supernova Remnant",
+            description15: `NASA’s Picture of the Day
+            Title: Cassiopeia A Supernova Remnant
+            Massive stars in our Milky Way live remarkable lives. They form from vast cosmic clouds, ignite their cores, and produce heavy elements. After only a few million years, they eject their enriched material into space through a massive explosion, and this material can become the starting point for new stars. The remnant known as Cassiopeia A is an example of this final stage of a star’s life. The light from this supernova explosion was first seen from Earth about 350 years ago, although it took 11,000 years for the light to reach us. This clear image, taken by the NIRCam instrument of the James Webb Space Telescope, shows the hot filaments and knots left behind by the explosion. The outer white shell, which looks like smoke and represents the shock wave, is about 20 light-years across`,
+            readTime15: "5",
+            date15: "2026",
+
+            title16: "Messier Craters on the Surface of the Moon",
+            description16: `Many nebulae and star clusters in the sky are named after Charles Messier, the famous 18th-century astronomer. His name has also been given to these two large and striking craters on the Moon.
+            The craters “Messier” (left) and “Messier A,” located in the dark and smooth Mare Fecunditatis, measure 15 by 8 kilometers and 16 by 11 kilometers respectively.
+            The elongated shape of these craters is due to an object striking the lunar surface at a very low angle from left to right, creating these formations. This low-angle impact also produced two bright streaks of ejected material extending across the lunar surface to the right side of the image.
+            This remarkable image, designed for viewing with red/blue glasses (red lens for the left eye), was created from high-resolution scans of two photos (AS11-42-6304 and AS11-42-6305) taken during the Apollo 11 Moon Landing mission`,
+            readTime16: "5",
+            date16: "May 9, 2026",
+        }
 
     },
     postDetails: {
