@@ -1,19 +1,34 @@
-import React, { useState } from "react";
+import React, { useState,useEffect , useRef } from "react";
 import { FaRegBell } from "react-icons/fa";
 import { CiUser, CiMenuBurger } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import LanguageDropdown from "./languageDropdown";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import SocialLinks from "./SocialLink";
 import UserMenu from "./UserMenu";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import NProgress from "nprogress"; 
+import "nprogress/nprogress.css"; 
+
+NProgress.configure({ 
+    showSpinner: false, 
+    speed: 1000,        
+    trickleSpeed: 300  
+});
 
 export default function Navbar() {
     const { t ,  i18n } = useTranslation();
     const isRTL = i18n.language === "fa"
     const [openMenu, setOpenMenu] = useState(false);
+    const location = useLocation(); 
 
+    const handleNavigation = () => {
+        NProgress.start();
+        const timer = setTimeout(() => {
+        NProgress.done();
+        }, 1500);
+    };
+  
     const navLinks = [
         { key: "navBar.home", path: "/" },
         { key: "navBar.ourClass", path: "/classes" },
@@ -25,6 +40,20 @@ export default function Navbar() {
 
     return (
         <div className="w-full h-auto   sticky top-0 left-0 z-50">
+     
+       <style>{`
+            #nprogress .bar {
+                background: linear-gradient(to right, #531785, #7c3aed) !important;
+                height: 4px !important;
+                position: fixed !important;
+                top: 70px !important;         
+                z-index: 99999 !important;    
+            }
+            #nprogress .peg {
+                display: none !important;
+            }
+        `}</style>
+
             {/* 🔹 NAVBAR MAIN */}
             <div className="flex items-center  justify-between px-4  lg:px-10 py-4 bg-[#2C1747] text-white">
                 {/* LOGO */}
@@ -64,7 +93,7 @@ export default function Navbar() {
                 <ul className="flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-11   ">
                     {navLinks.map((link, index) => (
                         <li key={index} className=" text-xl md:text-base text-white md:text-gray-500 font-normal transition-all duration-300 ease-out hover:text-black  hover:[text-shadow:0_2px_6px_rgba(0,0,0,0.4)]">
-                            <NavLink to={link.path} onClick={() => setOpenMenu(false)}   className={({ isActive }) =>`relative pb-2 ${ isActive  ? "text-white md:text-gray-500  "   : "text-white md:text-gray-500"    }`  }>
+                            <NavLink to={link.path} onClick={() =>{ handleNavigation(); setOpenMenu(false)}}   className={({ isActive }) =>`relative pb-2 ${ isActive  ? "text-white md:text-gray-500  "   : "text-white md:text-gray-500"    }`  }>
                                    {({ isActive }) => (
                                    <>
                                         {t(link.key)}
