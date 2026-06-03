@@ -24,7 +24,7 @@ function App() {
      <HashRouter>
       <div className="relative  w-[100%] top-[0%] left-[0%] 2x:w-[100%] 2xl:bg-[#4A3458]  border-box">
         <GalaxyBackground />
-        < div  className="relative  h-auto sm:w-[100%] sm:h-auto md:w-[100%] md:h-[100%] lg:w-[100%] lg:h-auto xl:w-[100%] xl:h-auto w-full max-w-[1366px] mx-auto 2xl:h-auto  ">
+        < div  className="relative  h-auto sm:w-[100%] sm:h-auto md:w-[100%] md:h-[100%] lg:w-[100%] lg:h-auto xl:w-[100%] xl:h-auto w-screen max-w-[1366px] mx-auto 2xl:h-auto  ">
           <Navbar />
           <div > 
           <Routes>
