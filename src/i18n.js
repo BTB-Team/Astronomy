@@ -6,7 +6,7 @@ const resources = {
   fa: {
     translation: {
         navBar: {
-            home: "صفحه اصلی",
+            home: "خانه",
             about: "درباره ما",
             ourClass: "کلاس‌های ما",
             blog: "وبلاگ",
@@ -130,7 +130,7 @@ const resources = {
         },
          footer: {
             explore: "دسترسی سریع",
-            home: "صفحه اصلی", 
+            home: "خانه", 
             class: "کلاس‌های ما",
             media: "رسانه",
 
