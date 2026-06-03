@@ -419,7 +419,8 @@ const resources = {
             category: "دسته‌بندی",
             views: "تعداد بازدید",
             notFound: "پست پیدا نشد"
-        }
+        },
+       
     },
    },
   en: {
