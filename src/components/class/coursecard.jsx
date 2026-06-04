@@ -41,7 +41,7 @@ export default function CourseCard({ course }) {
               font-semibold
               shadow-2xl
              justify-right">
-          course details
+          جزییات کورس
          
           </button>
         </Link>

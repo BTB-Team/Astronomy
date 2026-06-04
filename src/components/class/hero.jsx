@@ -32,7 +32,7 @@ export default function ClassesHero() {
               shadow-2xl
              justify-right"
             >
-              Join Our Classes
+              به صنوف ما بپیوندید
             </button>
           </div>
         </div>

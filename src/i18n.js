@@ -442,8 +442,7 @@ const resources = {
             badge: "Afghanistan Astronomy Association",
             title: "A Journey to the World of Stars, Science, and the Future of Space in Afghanistan",
             description: "A place for astronomy education, sky observation, scientific research, and the growth of young space science enthusiasts.",
-            searchPlaceholder: "Search programs, articles, events...",
-            searchBtn: "Search"
+         
       },
         vision: {
             title: "Our Vision, Mission, and Values",

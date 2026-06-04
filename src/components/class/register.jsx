@@ -130,7 +130,7 @@ const Register = () => {
         <div className="pt-2">
           <button type="submit" 
             className="w-full py-3.5 rounded-full bg-[linear-gradient(90deg,#D66BFF_0%,#B85CFF_50%,#8B5CF6_100%)] transition-all duration-300 text-white font-semibold shadow-xl hover:opacity-90 active:scale-95 cursor-pointer">
-            Register & Go to Classes
+            راجستر$ورودبه صنف
           </button>
         </div>
       </form>
