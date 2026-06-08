@@ -2,13 +2,13 @@
 
 
 
-import img1 from "../../public/assets/images/ferooz danish.webp"
-import img2 from "../../public/assets/images/saliha nabizada.webp"
-import img3 from "../../public/assets/images/suhaila mohammadi.webp"
-import img4 from "../../public/assets/images/shekib.webp";
-import img5 from "../../public/assets/images/sayed hussain.webp"
-import img6 from "../../public/assets/images/ali farzad.webp"
-import img7 from "../../public/assets/images/undifined.png"
+import img1 from "/assets/images/ferooz danish.webp"
+import img2 from "/assets/images/saliha nabizada.webp"
+import img3 from "/assets/images/suhaila mohammadi.webp"
+import img4 from "/assets/images/shekib1.jpg";
+import img5 from "/assets/images/sayed hussain.webp"
+import img6 from "/assets/images/ali farzad.webp"
+import img7 from "/assets/images/undifined.png"
 
 
 export const teamImages = [

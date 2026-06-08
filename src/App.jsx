@@ -19,8 +19,13 @@ import PostDetails from "./pages/Blog/PostDetails";
 
 import Dashboard from "./pages/Dashbord/dasbord";
 
-// فقط اگر فایل وجود دارد
 import Gouls from "./components/class/gouls";
+
+import BookDetails from "./Pages/Media/BookDetails";
+import ReaderPage from "./Pages/Media/ReaderPage";
+import Gallery from "./Pages/Media/Gallery";
+import Media from "./pages/Media/Media";
+import BooksPage from "./Pages/Media/Books";
 
 function App() {
   const { i18n } = useTranslation();
@@ -41,6 +46,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/classes" element={<ClassesPage />} />
+           <Route path="/media" element={<Media/>} />
+          <Route path="/books" element={<BooksPage/>} />
+          <Route path="/books/:id" element={<BookDetails/>} />
+          <Route path="/read/:id" element={<ReaderPage/>} />
+          <Route path="/gallery/" element={<Gallery/>} />
           <Route path="/classes/:slug" element={<CourseDetails />} />
           <Route path="/blog" element={<AstronomyBlog />} />
           <Route path="/blog/:id" element={<PostDetails />} />

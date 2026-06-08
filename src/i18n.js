@@ -420,9 +420,149 @@ const resources = {
             views: "تعداد بازدید",
             notFound: "پست پیدا نشد"
         },
-       
-    },
+               mediahero:{
+          title: "مرکز رسانه یی",
+          desc1: " گالری های نجومی,ویدهوهای آموزشی و ",
+          desc2: "کتاب های دیجیتالی ویژه را مشاهده کنید ",
+          desc3: "و آگاهی تان را در مورد نجوم,فضا و کهکشان ها افزایش دهید"
+        },
+        gallerySection:{
+          title: "گالری",
+          desc: "لحظات زیبای نجوم از انجمن نجوم افغانستان",
+          gbtn: "رفتن به گالری"
+        },
+        videoSection:{
+          title: "ویدیو ها",
+          desc: "ویدیو ها از چینل یوتیوب نجوم ما",
+          vbtn:" مشاهده کانال"
+        },
+        "videos": {
+      "video1": {
+          "title": "رصد ماه با تلسکوپ",
+         },
+          "video2": {
+      "title": "  کهکشان راه شیری",
+         },
+       "video3": {
+        "title": "انجمن نجوم افغانستان",
+        }
    },
+     librarySection:{
+    title: "کتابخانه",
+    desc: "کتاب هایی از نجوم و علوم فضایی",
+    lbtn: "رفتن به کتابخانه",
+    vbtn: "نمایش جزییات"
+  },
+   "books": {
+    "book1": {
+      "title": "رصد ماه با تلسکوپ",
+      "author" : "ستیفن هاوکینگ",
+      "Language": "انگلیسی",
+      "category": "کیهان شناسی",
+      "description": "این کتاب راهنمایی کاربردی برای علاقه‌مندان به رصد ماه و آسمان شب است. خوانندگان با روش‌های مشاهده سطح ماه، شناسایی دهانه‌ها و استفاده صحیح از تلسکوپ آشنا می‌شوند ."
+    },
+    "book2": {
+      "title": "  راهنما ابتدایی نجوم  ",
+      "author" : "میکایل سامر ",
+      "Language": "انگلیسی",
+      "category": " ستاره شناسی",
+      "description": "این کتاب مقدمه‌ای جامع برای ورود به دنیای شگفت‌انگیز نجوم است. خوانندگان با مفاهیم پایه، روش‌های رصد آسمان و استفاده از تلسکوپ آشنا می‌شوند و می‌توانند نخستین گام‌های خود را در مطالعه اجرام آسمانی بردارند."
+    },
+    "book3": {
+       "title": "    (ویرایش دوم)نجوم  ",
+      "author" : "اندریو فرانکوی ",
+      "Language": "انگلیسی",
+      "category": " ستاره شناسی",
+      "description": " کتاب Astronomy 2e با بیانی روشن و قابل‌فهم برای عموم نگاشته شده و در کنار بهره‌گیری گهگاه از طنز، مجموعه متنوعی از تصاویر و شکل‌های آموزشی را برای روشن‌تر ساختن مفاهیم ارائه می‌دهد."
+    },
+    
+  "book4": {
+    "title": "کیهان",
+    "author": "کارل ساگان",
+    "Language": "انگلیسی",
+    "category": "نجوم و کیهان‌شناسی",
+    "description": "این کتاب سفری جذاب به تاریخ علم، ساختار جهان و جایگاه انسان در کیهان است. نویسنده با زبانی ساده و الهام‌بخش مفاهیم پیچیده نجوم و کیهان‌شناسی را برای عموم خوانندگان توضیح می‌دهد."
+  },
+
+  "book5": {
+    "title": "تاریخچه زمان",
+    "author": "استیون هاوکینگ",
+    "Language": "انگلیسی",
+    "category": "کیهان‌شناسی",
+    "description": "این کتاب به بررسی منشأ جهان، سیاه‌چاله‌ها، فضا و زمان می‌پردازد. خوانندگان با مهم‌ترین نظریه‌های علمی درباره ساختار و تکامل جهان آشنا می‌شوند."
+  },
+
+  "book6": {
+    "title": "راهنمای آسمان شب",
+    "author": "یان ریدپث",
+    "Language": "انگلیسی",
+    "category": "رصد و ستاره‌شناسی",
+    "description": "این کتاب راهنمایی عملی برای شناسایی صورت‌های فلکی، سیارات و اجرام آسمانی است. علاقه‌مندان می‌توانند با استفاده از آن مهارت‌های رصد آسمان شب را تقویت کنند."
+  },
+
+  "book7": {
+    "title": "جهان پنهان",
+    "author": "لیزا رندال",
+    "Language": "انگلیسی",
+    "category": "فیزیک و کیهان‌شناسی",
+    "description": "این کتاب به بررسی ابعاد پنهان جهان، ماده تاریک و نظریه‌های نوین فیزیک می‌پردازد. نویسنده تلاش می‌کند مفاهیم پیچیده را به شکلی قابل فهم برای خوانندگان توضیح دهد."
+  },
+
+  "book8": {
+    "title": "سیاره‌ها",
+    "author": "برایان کاکس",
+    "Language": "انگلیسی",
+    "category": "علوم فضایی",
+    "description": "این کتاب به معرفی سیاره‌های منظومه شمسی و ویژگی‌های منحصربه‌فرد آن‌ها می‌پردازد. تصاویر زیبا و توضیحات علمی، درک بهتری از همسایگان فضایی زمین ارائه می‌دهد."
+  },
+
+  "book9": {
+    "title": "کاوش در فضا",
+    "author": "جایلز اسپارو",
+    "Language": "انگلیسی",
+    "category": "فضانوردی",
+    "description": "این کتاب تاریخچه اکتشافات فضایی، مأموریت‌های مشهور و فناوری‌های مورد استفاده در سفرهای فضایی را بررسی می‌کند و تصویری جامع از پیشرفت بشر در فضا ارائه می‌دهد."
+  },
+},
+  
+    gallery:{
+      gtitle: "گالری نجوم",
+      gdesc: "با رویدادهای نجومی، رصدها و کشفیات ما همراه شوید.",
+      gimgtitle: "گالری تصاویر",
+      loadMbtn: "نمایش موارد بیشتر"
+    },
+    bookPage:{
+      title: "کتابخانه نجوم",
+      bdesc: "جدیدترین و بهترین کتاب ها را مطالعه و خرید کنید",
+      bookcollectiont: "کتابخانه نجوم"
+    },
+    bookModal:{
+      buythis: "اکنون خرید کنید",
+      method: "روش پرداخت",
+      atomapay: "اتوما پی",
+      mtnmomo: "ام تی ان مومو",
+      trNumber: "نمبر تراکنش",
+      uploadReceipt: "بارگذاری رسید پرداخت",
+      submit: "ثبت"
+    },
+    bookdetails:{
+      underReview: "در انتظار تأیید",
+      paymentSuccessMessage:
+       "رسید پرداخت شما با موفقیت ارسال شد. در حال حاضر توسط مدیر سیستم در حال بررسی است. پس از تأیید، به این کتاب دسترسی خواهید داشت.",
+      closebtn: "بستن"
+    },
+    purchasebtn:{
+      buy: "خریدن",
+      underReview: "در انتظار تأیید",
+      readNow: "اکنون بخوانید"
+    },
+    pdfreader:{
+      loading: " در حال بار گذاری",
+      pdfLoadFailed: "خطا در بارگذاری فایل PDF. لطفاً دوباره تلاش کنید."
+    },
+
+  }
+  },
   en: {
     translation: {
         navBar: {
@@ -867,12 +1007,159 @@ const resources = {
         category: "Category",
         views: "Views",
         notFound: "Post not found"
-    }
-        
-        
-      
-    
- 
+    },
+      mediahero: {
+  title: "Media Center",
+  desc1: "Explore astronomy galleries, educational videos, and",
+  desc2: "exclusive digital books",
+  desc3: "to expand your knowledge about astronomy, space, and galaxies."
+},
+
+gallerySection: {
+  title: "Gallery",
+  desc: "Beautiful astronomy moments from the Afghanistan Astronomy Association",
+  gbtn: "Go to Gallery"
+},
+
+videoSection: {
+  title: "Videos",
+  desc: "Videos from our astronomy YouTube channel",
+  vbtn: "View Channel"
+},
+
+videos: {
+  video1: {
+    title: "Observing the Moon with a Telescope"
+  },
+  video2: {
+    title: "The Milky Way Galaxy"
+  },
+  video3: {
+    title: "Afghanistan Astronomy Association"
+  }
+},
+
+librarySection: {
+  title: "Library",
+  desc: "Books on Astronomy and Space Science",
+  lbtn: "Go to Library",
+  vbtn: "View Details"
+},
+
+books: {
+  book1: {
+    title: "Observing the Moon with a Telescope",
+    author: "Stephen Hawking",
+    Language: "English",
+    category: "Cosmology",
+    description: "This book is a practical guide for astronomy enthusiasts interested in observing the Moon and the night sky. Readers will learn methods for studying the lunar surface, identifying craters, and using telescopes effectively."
+  },
+
+  book2: {
+    title: "Beginner's Guide to Astronomy",
+    author: "Michael Summer",
+    Language: "English",
+    category: "Astronomy",
+    description: "This book provides a comprehensive introduction to the fascinating world of astronomy. Readers will learn fundamental concepts, sky observation techniques, and how to use telescopes as they take their first steps into studying celestial objects."
+  },
+
+  book3: {
+    title: "Astronomy (Second Edition)",
+    author: "Andrew Fraknoi",
+    Language: "English",
+    category: "Astronomy",
+    description: "Astronomy 2e is written in a clear and accessible style for general readers. It occasionally incorporates humor and includes a wide variety of educational images and illustrations to help explain astronomical concepts."
+  },
+
+  book4: {
+    title: "Cosmos",
+    author: "Carl Sagan",
+    Language: "English",
+    category: "Astronomy and Cosmology",
+    description: "This book takes readers on a fascinating journey through the history of science, the structure of the universe, and humanity's place within it. The author explains complex astronomical and cosmological concepts in an inspiring and accessible way."
+  },
+
+  book5: {
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    Language: "English",
+    category: "Cosmology",
+    description: "This book explores the origins of the universe, black holes, space, and time. Readers are introduced to some of the most important scientific theories about the structure and evolution of the cosmos."
+  },
+
+  book6: {
+    title: "Guide to the Night Sky",
+    author: "Ian Ridpath",
+    Language: "English",
+    category: "Observational Astronomy",
+    description: "This practical guide helps readers identify constellations, planets, and celestial objects. It is an excellent resource for improving night-sky observation skills."
+  },
+
+  book7: {
+    title: "Hidden Universe",
+    author: "Lisa Randall",
+    Language: "English",
+    category: "Physics and Cosmology",
+    description: "This book explores hidden dimensions of the universe, dark matter, and modern theories of physics. The author presents challenging scientific concepts in a way that is understandable to a broad audience."
+  },
+
+  book8: {
+    title: "The Planets",
+    author: "Brian Cox",
+    Language: "English",
+    category: "Space Science",
+    description: "This book introduces the planets of our solar system and their unique characteristics. Rich imagery and scientific explanations provide a deeper understanding of Earth's neighboring worlds."
+  },
+
+  book9: {
+    title: "Exploring Space",
+    author: "Giles Sparrow",
+    Language: "English",
+    category: "Astronautics",
+    description: "This book examines the history of space exploration, famous missions, and the technologies used in space travel, offering a comprehensive overview of humanity's progress in exploring the cosmos."
+  }
+},
+
+gallery: {
+  gtitle: "Astronomy Gallery",
+  gdesc: "Join us in exploring astronomical events, observations, and discoveries.",
+  gimgtitle: "Image Gallery",
+  loadMbtn: "Load More"
+},
+
+bookPage: {
+  title: "Astronomy Library",
+  bdesc: "Read and purchase the latest and best astronomy books",
+  bookcollectiont: "Astronomy Library"
+},
+
+bookModal: {
+  buythis: "Buy This Book",
+  method: "Payment Method",
+  atomapay: "Atoma Pay",
+  mtnmomo: "MTN MoMo",
+  trNumber: "Transaction Number",
+  uploadReceipt: "Upload Payment Receipt",
+  submit: "Submit"
+},
+
+bookdetails: {
+  underReview: "Under Review",
+  paymentSuccessMessage: "Your payment receipt has been submitted successfully. It is currently being reviewed by the administrator. You will be able to access this book after approval.",
+  closebtn: "Close"
+},
+
+purchasebtn: {
+  buy: "Buy",
+  underReview: "Under Review",
+  readNow: "Read Now"
+},
+
+pdfreader: {
+  loading: "Loading...",
+  pdfLoadFailed: "Failed to load PDF file. Please try again."
+},
+
 
     }
   },
