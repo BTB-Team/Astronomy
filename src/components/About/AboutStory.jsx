@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import bgStoryimg from "../../../public/assets/images/image7.webp"
+import bgStoryimg from "/assets/images/image7.webp"
 export default function Story() {
 
    const { t , i18n } = useTranslation();

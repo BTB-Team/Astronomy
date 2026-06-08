@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {useTranslation } from "react-i18next";
 
-import bghero from "../../../public/assets/images/image1.webp"
+import bghero from "/assets/images/image1.webp"
 export default function AboutHero() {
 
   const { t , i18n } = useTranslation();

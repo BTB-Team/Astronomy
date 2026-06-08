@@ -8,7 +8,9 @@ import img3 from "/assets/images/suhaila mohammadi.webp"
 import img4 from "/assets/images/shekib1.jpg";
 import img5 from "/assets/images/sayed hussain.webp"
 import img6 from "/assets/images/ali farzad.webp"
-import img7 from "/assets/images/undifined.png"
+import img7 from "/assets/images/useri.png"
+import img8 from "/assets/images/raya.jpg"
+
 
 
 export const teamImages = [
@@ -46,6 +48,6 @@ export const teamImages = [
   },
   {
     id: 9,
-    image: img7
+    image: img8
   }
 ];
