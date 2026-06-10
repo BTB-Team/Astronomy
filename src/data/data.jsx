@@ -1,68 +1,52 @@
-import firstImage from "../assets/images/firstimage.webp";
-import secondImage from "../assets/images/secendimage.webp";
-import thirdImage from "../assets/images/thredimage.webp";
 
-import { Link } from "react-router-dom";
+import React from "react";
+import FirstImage from "../assets/images/firstimage.webp";
+import Secendimage from "../assets/images/secendimage.webp";
+import Thredimage from "../assets/images/thredimage.webp";
+
 const courses = [
-  {
+    {
     id: 1,
-    title: "مبانی نجوم و کیهان‌شناسی",
-    image: firstImage,
+    title: "class.data.course1.title",
+    image:FirstImage,
     slug: "astronomy",
-    
     content: {
-      duration: "۳ ماه",
-      sessions: "۴ جلسه در ماه",
-      certificate: "سرتیفیکت پایان دوره",
-      topics: [
-        "آشنایی با جهان هستی",
-        "مفاهیم بنیادی نجوم",
-        "مبانی کیهان‌شناسی",
-        "منظومه شمسی و اجرام آسمانی",
-        "ستارگان و کهکشان‌ها"
-      ]
-    }
+    duration: "class.data.course1.content.duration",
+    sessions: "class.data.course1.content.sessions",
+    certificate: "class.data.course1.content.certificate",
+    topics: "class.data.course1.content.topics"
+  }
+    
   },
   
-  {
+ {
     id: 2,
-    title: "نجوم و کیهان‌شناسی تخصصی",
-    image: secondImage,
+    title: "class.data.course2.title",
+    image: Secendimage,
     slug: "astronomy-advanced",
 
-    content: {
-      duration: "۲ ماه",
-      sessions: "۸ جلسه در ماه",
-      level: "پیشرفته",
-      topics: [
-        "معادلات نجومی پیشرفته",
-        "اخترفیزیک",
-        "نجوم تخصصی",
-        "تحلیل پدیده‌های کیهانی"
-      ]
-    }
+      content: {
+    duration: "class.data.course2.content.duration",
+    sessions: "class.data.course2.content.sessions",
+    certificate: "class.data.course2.content.certificate",
+    topics: "class.data.course2.content.topics"
+  }
+   
   },
-
+ 
   {
     id: 3,
-    title: "تکنولوژی فضایی و مهندسی فضا",
-    image: thirdImage,
+    title: "class.data.course3.title",
+    image: Thredimage,
     slug: "space-technology",
 
-    content: {
-      duration: "۱ ماه",
-      partner: "تیم رباتیک افغانستان",
-      certificate: "دیپلم + عضویت انجمن",
-      topics: [
-        "آشنایی با تکنولوژی فضایی",
-        "اصول ساخت موشک",
-        "اصول طراحی ماهواره",
-        "عملکرد سیستم‌های فضایی"
-      ]
-    }
+      content: {
+    duration: "class.data.course3.content.duration",
+    sessions: "class.data.course3.content.sessions",
+    certificate: "class.data.course3.content.certificate",
+    topics: "class.data.course3.content.topics"
   }
-];
-
-
+  },
+]; // 🌟 کروشه بسته شدن آرایه که فراموش شده بود اضافه شد
 
 export default courses;

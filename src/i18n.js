@@ -420,6 +420,7 @@ const resources = {
             views: "تعداد بازدید",
             notFound: "پست پیدا نشد"
         },
+        
                mediahero:{
           title: "مرکز رسانه یی",
           desc1: " گالری های نجومی,ویدهوهای آموزشی و ",
@@ -560,6 +561,236 @@ const resources = {
       loading: " در حال بار گذاری",
       pdfLoadFailed: "خطا در بارگذاری فایل PDF. لطفاً دوباره تلاش کنید."
     },
+      class: {
+      hero: {
+        title: "دوره‌های آموزشی نجوم و کیهان‌شناسی",
+        description: "سفر به دنیای ستارگان، سیارات و اسرار کیهان با دوره‌های آموزشی ما در انجمن نجوم افغانستان. از مبانی تا تکنولوژی فضایی، همه چیز را در اینجا بیاموزید.",
+        button: "به صنوف ما بپیوندید",
+        text1: "مبانی نجوم و کیهان‌شناسی",
+        text2:"نجوم و کیهان‌شناسی تخصصی",
+        text3:"تکنولوژی فضایی و مهندسی فضا",
+      },
+      courseDetails: {
+  duration: "مدت زمان",
+  sessions: "تعداد جلسات",
+  level: "سطح دوره",
+  partner: "با همکاری",
+  certificate: "مدرک دوره",
+  topics: "سرفصل‌های آموزشی",
+  joinClass: "به صنف ما بپیوندید",
+  dashboard: "رفتن به داشبورد",
+  notFound: "کورس پیدا نشد"
+},
+      data: {
+        course1: {
+          title: "مبانی نجوم و کیهان‌شناسی",
+          content: {
+            duration: "۳ ماه",
+            sessions: "۴ جلسه در ماه",
+            certificate: "سرتیفیکت پایان دوره",
+            topics: [
+              "آشنایی با جهان هستی",
+              "مفاهیم بنیادی نجوم",
+              "مبانی کیهان‌شناسی",
+              "منظومه شمسی و اجرام آسمانی",
+              "ستارگان و کهکشان‌ها"
+            ]
+          }
+        },
+
+        course2: {
+          title: "نجوم و کیهان‌شناسی تخصصی",
+          content: {
+            duration: "۲ ماه",
+            sessions: "۸ جلسه در ماه",
+            certificate: "سرتیفیکت پایان دوره",
+            level: "پیشرفته",
+            topics: [
+              "معادلات نجومی پیشرفته",
+              "اخترفیزیک",
+              "نجوم تخصصی",
+              "تحلیل پدیده‌های کیهانی"
+            ]
+          }
+        },
+
+        course3: {
+          title: "تکنولوژی فضایی و مهندسی فضا",
+          content: {
+            duration: "۱ ماه",
+            partner: "تیم رباتیک افغانستان",
+            certificate: "دیپلم + عضویت انجمن",
+            topics: [
+              "آشنایی با تکنولوژی فضایی",
+              "اصول ساخت موشک",
+              "اصول طراحی ماهواره",
+              "عملکرد سیستم‌های فضایی"
+            ]
+          }
+        }
+      },  
+      Goals: {
+        h1: "اهداف ما",
+        p: "انجمن نجوم افغانستان با مأموریت ترویج دانش پژوهان و پرورش نسل نوین دانش‌پژوهان، نخستین گام‌های خود را از قلب کابل آغاز کرد. امروز، با نگاهی فرامرزی و آینده‌نگر، مصمم‌تر از همیشه در مسیر توسعه علوم و فناوری‌های فضایی گام برمی‌داریم. ما با طراحی دوره‌های آموزشی تخصصی (حضوری و آنلاین)، برپایی رصدهای علمی و هم‌افزایی با تیم‌های نخبگان، بر آنیم تا اشتیاق جوانان وطن به کیهان را به یک جریان علمی پویا، منسجم و اثرگذار بدل سازیم.\n\nهم‌اکنون با تکیه بر دو شعبه فعال آموزشی و پژوهشی در کابل، پروژه‌های پیشگامانه‌ای همچون آموزش مهندسی فضا، اصول ساخت موشک و طراحی ماهواره را در دست اجرا داریم. چشم‌انداز بلندمدت ما، تأسیس آزمایشگاه‌های پیشرفته فضایی و پیوند با شبکه‌های بین‌المللی است؛ کلید واژه‌ای برای صنعتی‌سازی علوم فضایی و خلق فرداهای روشن‌تر برای نسل پویای افغانستان."
+      },
+      coursecard: {
+        button: "جزییات کورس"
+      },
+      
+      register: {
+        title: "فرم ثبت نام محصلین",
+        fullName: "نام و نام خانوادگی",
+        username: "نام کاربری",
+        email: "آدرس ایمیل",
+        phone: "شماره تماس",
+        password: "رمز عبور",
+        confirmPassword: "تایید رمز عبور",
+        selectCourse: "انتخاب دوره",
+        chooseCourse: "-- یک دوره انتخاب کنید --",
+        submitBtn: "راجستر و ورود به صنف",
+        errors: {
+          passMismatch: "رمز عبور و تاییدیه آن یکسان نیستند!",
+          noCourse: "لطفاً یک دوره آموزشی را انتخاب کنید.",
+          success: "ثبت نام با موفقیت انجام شد!"
+        },
+        courses: {
+          astronomy_basic: "مبانی نجوم و کیهان‌شناسی",
+          astronomy_advanced: "نجوم و کیهان‌شناسی تخصصی",
+          space_tech: "تکنالوژی فضایی و مهندسی فضا"
+        }
+      }
+},
+    Dashbord:{
+     ChangePasswordModal :{   
+      change_password_title: "تغییر رمز عبور",
+      current_password: "رمز عبور فعلی:",
+      new_password: "رمز عبور جدید:",
+      confirm_new_password: "تکرار رمز عبور جدید:",
+      cancel: "انصراف",
+      update_password_btn: "به‌روزرسانی رمز عبور",
+      password_match_error: "رمز عبور جدید با تکرار آن مطابقت ندارد!",
+      password_success_message: "رمز عبور با موفقیت تغییر یافت!"
+      },
+  DashboardHome: { 
+  app_name: "نجوم",
+  dashboard_title: "داشبورد",
+  current_date: "دوشنبه، ۱۲ حوت ۱۴۰۴",
+  welcome_user: "سلام، {{name}}",
+  welcome_back_message: "به داشبورد نجوم خود خوش آمدید!",
+  overview: "مرور اجمالی",
+  my_classes: "کلاس‌های من",
+  payment: "پرداخت",
+  my_profile: "پروفایل من",
+  paid_status: "پرداخت شده",
+  active_status: "فعال",
+  public_status: "عمومی",
+  private_status: "خصوصی",
+  account_settings_title: "تنظیمات حساب کاربری",
+  course_1_title: "مبانی نجوم و کیهان‌شناسی",
+  course_1_desc: "آشنایی با ساختار منظومه شمسی، مکانیزم ستارگان، جهت‌یابی در آسمان شب و اصطلاحات پایه‌ای اخترشناسی به زبان ساده و کاربردی.",
+  course_2_title: "نجوم و کیهان‌شناسی تخصصی",
+  course_2_desc: "بررسی عمیق اخترفیزیک مدرن، فیزیک سیاه‌چاله‌ها، کیهان‌شناسی مهبانگ (Big Bang)، تحلیل نسبیت عام و اسرار ماده و انرژی تاریک."
+},
+
+    EditProfileModal:{ 
+    edit_profile_title: "ویرایش مشخصات پروفایل",
+    full_name: "نام و نام خانوادگی:",
+    course_or_major: "دوره آموزشی:",
+    email_label: "ایمیل:",
+    phone_label: "شماره تماس:",
+    save_changes_btn: "ذخیره تغییرات",
+    cancel: "لغو",
+    },
+    MyClasses:{  
+    my_classes_header: "کلاس‌های من",
+    my_classes_subtitle: "مدیریت، پیگیری وضعیت و ورود به دوره‌های آموزشی",
+    status_all: "همه کلاس‌ها",
+    status_active: "فعال",
+    status_pending: "در انتظار پرداخت",
+    status_completed: "تکمیل شده",
+    level_advanced: "پیشرفته",
+    level_beginner: "مبتدی",
+    progress_label: "میزان پیشرفت",
+    locked_course_hint: "پس از پرداخت، دسترسی به کلاس باز خواهد شد.",
+    view_details: "مشاهده جزئیات",
+    pay_online_btn: "پرداخت آنلاین",
+    course_ended: "پایان دوره",
+    enter_class: "ورود به کلاس",
+    payment_modal_title: "عملیات پرداخت آنلاین",
+    payment_modal_desc: "شما در حال ثبت‌نام و پرداخت شهریه دوره زیر هستید:",
+    duration_label: "مدت دوره",
+    confirm_payment_btn: "تایید و پرداخت شهریه",
+    course_1_title: "مبانی نجوم و کیهان‌شناسی",
+    course_1_duration: "۲۴ ساعت (۱۲ هفته)",
+    course_2_title: "نجوم و کیهان‌شناسی تخصصی",
+    course_2_duration: "۱۸ ساعت (۸ هفته)",
+    course_3_title: "نجوم و کیهان‌شناسی تخصصی",
+    course_3_duration: "۱۰ ساعت (۴ هفته)"
+
+
+    },
+    Notification:{  
+    notifications_list_title: "لیست اعلان‌های جدید",
+    unread_count_label: "{{count}} اعلان خوانده نشده",
+    notif_payment_warning_title: "تمدید اشتراک ماهانه",
+    notif_payment_warning_desc: "پرداخت ماهانه شما نزدیک است. لطفاً جهت جلوگیری از قطع دسترسی اقدام کنید.",
+    notif_new_lesson_title: "محتوای آموزشی جدید",
+    notif_new_lesson_desc: "درس جدیدی در دوره «طراحی پیشرفته رابط و تجربه کاربری» منتشر شد.",
+    notif_payment_success_title: "عملیات موفقیت‌آمیز",
+    notif_payment_success_desc: "رسید دیجیتال: پرداخت شما با موفقیت تایید و دسترسی کلاس فعال شد.",
+    time_one_hour_ago: "۱ ساعت پیش",
+    time_today: "امروز",
+    time_yesterday: "دیروز"
+    },
+    PaymentModal:{
+    payment_modal_header: "ثبت مشخصات پرداخت آنلاین",
+    select_gateway_label: "انتخاب درگاه پرداخت:",
+    transaction_id_label: "کد پیگیری / شماره تراکنش:",
+    transaction_id_placeholder: "مثال: ۱۲۳۴۵۶۷۸۹",
+    upload_receipt_label: "بارگذاری تصویر رسید (عکس یا PDF):",
+    submit_for_review_btn: "ارسال برای بررسی",
+    cancel_and_close_btn: "انصراف و بستن",
+    payment_submit_success_alert: "رسید پرداخت شما ثبت شد و پس از بررسی تایید خواهد شد."
+    },
+    Payment:{
+    payment_status_title: "وضعیت شهریه و پرداخت",
+    course_amount_label: "مبلغ دوره",
+    status_label: "وضعیت",
+    status_pending: "در انتظار پرداخت",
+    pay_now_btn: "پرداخت اکنون"
+    },
+    Profile:{
+    phone_label_profile: "شماره تماس",
+    account_status_label: "وضعیت حساب",
+    active_status: "فعال",
+    inactive_status: "غیرفعال",
+    edit_profile_btn: "ویرایش مشخصات پروفایل",
+    change_password_btn_profile: "تغییر رمز عبور"
+    },
+    ChangePasswordModal:{
+      password_match_error:"بسورد تکرار است",
+      password_success_message:"قبول شد ",
+      Dashbord_current_password:"بسورد فعلی",
+      Dashbord_new_password:"بسورد جدید",
+      Dashbord_confirm_new_password:"تکراربسوردجدید",
+      password_btn:"قبول",
+      password_buton:"لغو",
+      Dashbord_change_password_title:"بسوردجدید خودرا انتخاب کنید"
+    },
+    Sidebar:{
+      sidebar_dashboard: "داشبورد",
+      sidebar_my_classes: "کلاس‌های من",
+      sidebar_payments: "پرداختی‌ها",
+      sidebar_notifications: "اعلان‌ها",
+      sidebar_profile: "پروفایل",
+      sidebar_logout: "خروج"
+    },
+    dashboardLayout: {
+      logout_modal_title: "آیا قصد خروج دارید؟",
+      logout_confirm: "خروج",
+      logout_cancel: "انصراف",
+    }
+  },
 
   }
   },
@@ -1159,6 +1390,235 @@ pdfreader: {
   loading: "Loading...",
   pdfLoadFailed: "Failed to load PDF file. Please try again."
 },
+     class: {
+          hero: {
+            title: "Astronomy and Cosmology Educational Courses",
+            description: "A journey to the world of stars, planets, and the secrets of the universe with our educational courses at the Afghanistan Astronomy Association. Learn everything here, from basics to space technology.",
+            button: "Join Our Classes",
+
+          },
+          courseDetails: {
+  duration: "Duration",
+  sessions: "Sessions",
+  level: "Course Level",
+  partner: "In Cooperation With",
+  certificate: "Course Certificate",
+  topics: "Course Topics",
+  joinClass: "Join Our Classes",
+  dashboard: "Go To Dashboard",
+  notFound: "Course Not Found"
+},
+          data: {
+            course1: {
+              title: "Basics of Astronomy and Cosmology",
+              content: {
+                duration: "3 Months",
+                sessions: "4 Sessions per Month",
+                certificate: "Course Completion Certificate",
+                topics: [
+                  "Introduction to the Universe",
+                  "Fundamental Concepts of Astronomy",
+                  "Basics of Cosmology",
+                  "The Solar System and Celestial Bodies",
+                  "Stars and Galaxies"
+                ]
+              }
+            },
+
+            course2: {
+              title: "Advanced Astronomy and Cosmology",
+              content: {
+                duration: "2 Months",
+                sessions: "8 Sessions per Month",
+                certificate: "Course Completion Certificate",
+                level: "Advanced",
+                topics: [
+                  "Advanced Astronomical Equations",
+                  "Astrophysics",
+                  "Specialized Astronomy",
+                  "Analysis of Cosmic Phenomena"
+                ]
+              }
+            },
+
+            course3: {
+              title: "Space Technology and Space Engineering",
+              content: {
+                duration: "1 Month",
+                partner: "Afghanistan Robotics Team",
+                certificate: "Diploma + Association Membership",
+                topics: [
+                  "Introduction to Space Technology",
+                  "Principles of Rocketry",
+                  "Principles of Satellite Design",
+                  "Performance of Space Systems"
+                ]
+              }
+            }
+          },
+          Goals: {
+            h1: "Our Goals",
+            p: "The Afghanistan Astronomy Association began its first steps from the heart of Kabul with the mission of promoting education and nurturing a new generation of science enthusiasts. Today, with a global and forward-looking vision, we are moving forward more determined than ever in the path of developing space sciences and technologies. By designing specialized educational courses (both in-person and online), organizing scientific observations, and collaborating with elite teams, we aim to transform the youth's passion for the universe into a dynamic, cohesive, and impactful scientific movement.\n\nCurrently, relying on two active educational and research branches in Kabul, we are executing pioneering projects such as space engineering education, rocket construction principles, and satellite design. Our long-term vision is establishing advanced space laboratories and connecting with international networks—a key phrase for the industrialization of space sciences and creating a brighter tomorrow for the dynamic generation of Afghanistan."
+          },
+          coursecard: {
+            button: "Course Details"
+          },
+        register: {
+          "title": "Student Registration Form",
+          "fullName": "Full Name",
+          "username": "Username",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "password": "Password",
+          "confirmPassword": "Confirm Password",
+          "selectCourse": "Select Course",
+          "chooseCourse": "-- Choose a Course --",
+          "submitBtn": "Register & Enter Class",
+          "errors": {
+            "passMismatch": "Password and confirmation do not match!",
+            "noCourse": "Please select an educational course.",
+            "success": "Registration successful!"
+          },
+          "courses": {
+            "astronomy_basic": "Introduction to Astronomy and Cosmology",
+            "astronomy_advanced": "Advanced Astronomy and Cosmology",
+            "space_tech": "Space Technology and Space Engineering"
+          }
+        },
+     },
+           Dashbord:{
+       ChangePasswordModal:{
+      change_password_title: "Change Password",
+      current_password: "Current Password:",
+      new_password: "New Password:",
+      confirm_new_password: "Confirm New Password:",
+      cancel: "Cancel",
+      update_password_btn: "Update Password",
+      password_match_error: "New password and confirmation do not match!",
+      password_success_message: "Password changed successfully!"
+        },
+  DashboardHome: {  
+  app_name: "Astronomy",
+  dashboard_title: "Dashboard",
+  current_date: "Monday, 02 March 2026",
+  welcome_user: "Hi, {{name}}",
+  welcome_back_message: "Welcome back to your astronomy dashboard!",
+  overview: "Overview",
+  my_classes: "My classes",
+  payment: "Payment",
+  my_profile: "My Profile",
+  paid_status: "Paid",
+  active_status: "Active",
+  public_status: "Public",
+  private_status: "Private",
+  account_settings_title: "Account Settings",
+  course_1_title: "Introduction to Astronomy & Cosmology",
+  course_1_desc: "Introduction to the structure of the solar system, mechanism of stars, orientation in the night sky and basic astronomical terms in a simple and practical language.",
+  course_2_title: "Advanced Astronomy & Cosmology",
+  course_2_desc: "In-depth study of modern astrophysics, black hole physics, Big Bang cosmology, general relativity analysis and the mysteries of dark matter and energy."
+},
+  ChangePasswordModal: {
+  password_match_error: "Passwords do not match",
+  password_success_message: "Password changed successfully",
+  Dashbord_current_password: "Current Password",
+  Dashbord_new_password: "New Password",
+  Dashbord_confirm_new_password: "Confirm New Password",
+  password_btn: "Confirm",
+  password_buton: "Cancel",
+  Dashbord_change_password_title: "Choose your new password"
+},
+
+
+    EditProfileModal:{
+    edit_profile_title: "Edit Profile Details",
+    full_name: "Full Name:",
+    course_or_major: "Course / Major:",
+    email_label: "Email Address:",
+    phone_label: "Phone Number:",
+    save_changes_btn: "Save Changes",
+      cancel: "Cancel",
+    },
+    MyClasses:{
+    my_classes_header: "My Classes",
+    my_classes_subtitle: "Manage, track status, and enter your training courses",
+    status_all: "All Classes",
+    status_active: "Active",
+    status_pending: "Pending Payment",
+    status_completed: "Completed",
+    level_advanced: "Advanced",
+    level_beginner: "Beginner",
+    progress_label: "Progress Rate",
+    locked_course_hint: "Access to the class will open after payment.",
+    view_details: "View Details",
+    pay_online_btn: "Pay Online",
+    course_ended: "Course Ended",
+    enter_class: "Enter Class",
+    payment_modal_title: "Online Payment Operation",
+    payment_modal_desc: "You are registering and paying tuition for the following course:",
+    duration_label: "Duration",
+    confirm_payment_btn: "Confirm and Pay Tuition",
+    course_1_title: "Advanced User Interface & Experience Design (UX/UI)",
+    course_1_duration: "24 hours (12 weeks)",
+    course_2_title: "Comprehensive React & Vite Framework Course",
+    course_2_duration: "18 hours (8 weeks)",
+    course_3_title: "Frontend Development with Tailwind CSS",
+    course_3_duration: "10 hours (4 weeks)"
+    },
+    Notification:{
+    notifications_list_title: "New Notifications List",
+    unread_count_label: "{{count}} unread notifications",
+    notif_payment_warning_title: "Monthly Subscription Renewal",
+    notif_payment_warning_desc: "Your monthly payment is due. Please take action to avoid losing access.",
+    notif_new_lesson_title: "New Educational Content",
+    notif_new_lesson_desc: "A new lesson has been published in the 'Advanced UI/UX Design' course.",
+    notif_payment_success_title: "Successful Operation",
+    notif_payment_success_desc: "Digital receipt: Your payment has been successfully confirmed and class access is activated.",
+    time_one_hour_ago: "1 hour ago",
+    time_today: "Today",
+    time_yesterday: "Yesterday"
+    },
+    PaymentModal:{
+    payment_modal_header: "Submit Online Payment Details",
+    select_gateway_label: "Select Payment Gateway:",
+    transaction_id_label: "Tracking Code / Transaction ID:",
+    transaction_id_placeholder: "e.g., 123456789",
+    upload_receipt_label: "Upload Receipt Image (Photo or PDF):",
+    submit_for_review_btn: "Submit for Review",
+    cancel_and_close_btn: "Cancel and Close",
+    payment_submit_success_alert: "Your payment receipt has been registered and will be approved after verification."   
+    },
+    Payment:{
+      
+  payment_status_title: "Tuition and Payment Status",
+  course_amount_label: "Course Fee",
+  status_label: "Status",
+  status_pending: "Pending Payment",
+  pay_now_btn: "Pay Now"
+    },
+    Profile:{
+    phone_label_profile: "Phone Number",
+    account_status_label: "Account Status",
+    active_status: "Active",
+    inactive_status: "Inactive",
+    edit_profile_btn: "Edit Profile Details",
+    change_password_btn_profile: "Change Password"
+    },
+    Sidebar:{
+  sidebar_dashboard: "Dashboard",
+  sidebar_my_classes: "My Classes",
+  sidebar_payments: "Payments",
+  sidebar_notifications: "Notifications",
+  sidebar_profile: "Profile",
+  sidebar_logout: "Logout"
+
+    },
+    dashboardLayout: {
+      logout_modal_title: "Do you want to logout?",
+      logout_confirm: "Logout",
+      logout_cancel: "Cancel",
+    }
+
+      }
 
 
     }

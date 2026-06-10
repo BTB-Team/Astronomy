@@ -1,21 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useTransition } from "react";
 import Register from "./register";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 export default function ClassesHero() {
   const [openForm, setOpenForm] = useState(false);
-
+  const { t } = useTranslation();
   return (
     <>
       <section className="min-h-[80vh] w-full flex items-center justify-center text-white px-6">
         <div className="max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Explore The Universe With Us
+          {t("class.hero.title")}
           </h1>
 
           <p className="text-lg md:text-xl text-gray-300 leading-8 mb-10">
-            صنوف انجمن نجوم افغانستان فرصتی برای یادگیری نجوم،
-            کیهان‌شناسی و تکنولوژی فضایی از سطح مقدماتی تا پیشرفته
-            می‌باشد.
+           {t("class.hero.description")}
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -32,7 +31,7 @@ export default function ClassesHero() {
               shadow-2xl
              justify-right"
             >
-              Join Our Classes
+               {t("class.hero.button")}
             </button>
           </div>
         </div>
