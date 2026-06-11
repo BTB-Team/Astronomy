@@ -1,10 +1,11 @@
 import React from 'react'
 import DashboardLayout from '../../components/Dashbord/DashboardLayout'
-
+import PageTitle from '../../components/pagetitle'
 function dasbord() {
   return (
     <div>
-    <DashboardLayout />
+      <PageTitle title="titles.dashboard"/>
+      <DashboardLayout />
     </div>
   )
 }

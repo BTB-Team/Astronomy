@@ -4,7 +4,6 @@ export default function Goals() {
    const { t } = useTranslation();
   return (
     <div className="w-full flex justify-center mt-16 px-4" dir="rtl">
-      
       {/* کامپوننت خالص بدون عکس و بدون نقاط راهنما با گرادینت تیره مدرن */}
       <div className="w-full md:w-[85%] min-h-[500px] py-16 px-6 md:px-16 rounded-2xl relative overflow-hidden shadow-2xl transition-all duration-1000 ease-in-out bg-cover bg-center flex flex-col justify-center items-center text-center">
         

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { galleryData } from "../../data/gallery";
 import { useTranslation } from "react-i18next";  
 import galleryHero from "/assets/images/galleryHp.webp"
+import PageTitle from "../../components/pagetitle";
+
 export default function Gallery() {
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -17,7 +19,7 @@ export default function Gallery() {
 
   return (
     <div className="min-h-screen  text-white" >
-
+      <PageTitle title="titles.gallery"/>
       {/* HERO */}
       <section className="relative h-[100vh] bg-cover" style={{ backgroundImage:  `url(${galleryHero})`}}>
 

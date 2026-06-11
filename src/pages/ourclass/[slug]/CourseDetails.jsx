@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import courses from "../../../data/data.jsx";
 import Register from "../../../components/class/register.jsx"; 
 import { useTranslation } from "react-i18next";
-
+import PageTitle from "../../../components/pagetitle.jsx";
 
 export default function CourseDetails() {
   const { slug } = useParams();
@@ -42,6 +42,7 @@ export default function CourseDetails() {
 
   return (
     <div className="max-w-5xl mx-auto py-20 px-5" dir={isRTL ? "rtl" : "ltr"}>
+      <PageTitle title="titles.courseDetails"/>
       {/* Image */}
       <img
         src={course.image}

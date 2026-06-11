@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import BuyBookModal from "../../components/media/BuyBookModal";
 import PurchaseButton from "../../components/media/PurchaseButton";
+import PageTitle from "../../components/pagetitle";
 
 export default function BookDetails() {
 
@@ -39,7 +40,7 @@ const handleBookAction = () => {
         const isRTL = i18n.language === "fa"
   return (
     <div className="  text-white px-4 md:px-10 lg:px-20 py-10">
-
+      <PageTitle title="titles.bookDetails"/>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start bg-purple-700/10 border border-2 border-purple-300/10 p-10 rounded-2xl">
 
         <div className="h-full">

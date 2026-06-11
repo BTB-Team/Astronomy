@@ -9,7 +9,7 @@ import AboutHero from "../components/About/AboutHero";
 import Story from "../components/About/AboutStory";
 import MissionVisionValues from "../components/About/MissionVision";
 import TeamCard from "../components/About/TeamCard";
-
+import PageTitle from "../components/pagetitle";
 function About() {
   const { t } = useTranslation();
 
@@ -17,6 +17,7 @@ function About() {
 
   return (
     <>
+      <PageTitle title="titles.about"  />
       <AboutHero/>
       <Story/>
       <MissionVisionValues/>

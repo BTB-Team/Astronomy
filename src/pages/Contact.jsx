@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MdOutlineEmail } from "react-icons/md";
 import { useTranslation } from "react-i18next";
+import PageTitle from '../components/pagetitle';
 
 const ContactUs = () => {
     const { t ,i18n} = useTranslation();
@@ -69,6 +70,7 @@ const ContactUs = () => {
 
     return (
     <div className="min-h-screen w-full flex items-center  justify-center p-4 sm:p-6 md:p-10 ">
+        <PageTitle title="titles.contact"/>
         <div className="w-full max-w-6xl overflow-hidden  p-6 sm:p-10 md:p-14  flex flex-col gap-8  backdrop-blur-sm">
             <h1 className={`text-white text-4xl sm:text-5xl md:text-6xl font-normal tracking-tight ${isRTL ? "text-right" : "text-left"}`}>{t("contact.title")} </h1>
             <div className="w-full border-t border-l border-white/20 pt-8 pl-8 flex flex-col lg:flex-row gap-12 lg:gap-8">

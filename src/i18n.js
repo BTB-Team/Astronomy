@@ -791,6 +791,24 @@ const resources = {
       logout_cancel: "انصراف",
     }
   },
+         titles: {
+    home: "خانه",
+    about: "درباره ما",
+    classes: "کلاس‌ها",
+    courseDetails: "جزئیات کلاس",
+    media: "رسانه",
+    books: "کتابخانه",
+    bookDetails: "جزئیات کتاب",
+    reader: "مطالعه کتاب",
+    gallery: "گالری تصاویر",
+    blog: "وبلاگ",
+    postDetails: "جزئیات مقاله",
+    contact: "تماس با ما",
+    login: "ورود",
+    signup: "ثبت‌نام",
+    dashboard: "پنل کاربری",
+    name: "نجوم"
+}
 
   }
   },
@@ -1619,6 +1637,25 @@ pdfreader: {
     }
 
       }
+      ,
+   titles: {
+    home: "Home",
+    about: "About Us",
+    classes: "Classes",
+    courseDetails: "Course Details",
+    media: "Media",
+    books: "Books",
+    bookDetails: "Book Details",
+    reader: "Book Reader",
+    gallery: "Gallery",
+    blog: "Blog",
+    postDetails: "Post Details",
+    contact: "Contact Us",
+    login: "Login",
+    signup: "Sign Up",
+    dashboard: "Dashboard",
+    name: "Astronomy"
+}
 
 
     }

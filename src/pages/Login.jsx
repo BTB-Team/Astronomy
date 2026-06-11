@@ -3,6 +3,8 @@ import AuthSidePanel from "../components/Auth/AuthSidePanel";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import GoogleLoginButton from "../components/Auth/GoogleLoginButton";
+import PageTitle from "../components/pagetitle";
+
 export default function AuthLogin({ defaultMode = "login" }) {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "fa";
@@ -130,6 +132,7 @@ export default function AuthLogin({ defaultMode = "login" }) {
 
     return (
         <div className="min-h-[calc(100vh-120px)] flex items-center justify-center px-3 sm:px-4 py-8 sm:py-12 md:py-16" dir={isRTL ? "rtl" : "ltr"}>
+            <PageTitle    title={mode === "login" ? "titles.login" : "titles.signup"}/>
             <div className={`w-full max-w-[1100px] border border-white/20 rounded-[28px] sm:rounded-[32px] overflow-hidden shadow-2xl flex flex-col ${
               mode === "login"? (isRTL ? "lg:flex-row" : "lg:flex-row-reverse")   : (isRTL ? "lg:flex-row-reverse" : "lg:flex-row") }`}
             >    

@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { Link, useParams } from "react-router-dom";
 import { FaEye } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import PageTitle from "../../components/pagetitle";
 const PostDetails = () => {
     const { id } = useParams();
     const { t } = useTranslation();
@@ -18,6 +19,7 @@ const PostDetails = () => {
 
     return (
         <div className="min-h-screen text-white px-4 py-10 max-w-6xl mx-auto">
+            <PageTitle title="titles.bookDetails"/>
             {/* Back Button */}
             <Link to="/blog" className="inline-flex items-center gap-2 mb-6 px-4 py-1 rounded-lg bg-purple-600 hover:bg-purple-700   transition"> {t("postDetails.back")} </Link>
                 {/* Layout */}                 

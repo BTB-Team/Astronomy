@@ -3,6 +3,8 @@ import BookCard from "../../components/media/BookCard";
 import { useTranslation } from "react-i18next";  
 import heroBg from "/assets/images/Lhero.png"; 
 import { useState } from "react";
+import PageTitle from "../../components/pagetitle";
+
 export default function BooksPage() {
 
    const { t , i18n } = useTranslation();
@@ -15,7 +17,7 @@ export default function BooksPage() {
           };
   return (
     <div className="min-h-screen text-white">
-
+    <PageTitle title="titles.books"/>
       {/* Hero */}
       <section
         className="relative h-[80vh] bg-cover bg-center flex  justify-center"
