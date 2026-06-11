@@ -27,12 +27,12 @@ export default function AuthLogin({ defaultMode = "login" }) {
         const errors = {};
  
         if (!form.email || !isValidEmail(form.email)) {
-            errors.email = t("validation.email");
+            errors.email = "email";
             valid = false;
         }
 
         if (!form.password || form.password.length < 6) {
-            errors.password = t("validation.password");
+            errors.password = "password";
             valid = false;
         }
 
@@ -69,27 +69,27 @@ export default function AuthLogin({ defaultMode = "login" }) {
         const errors = {};
 
         if (!form.firstName ) {
-            errors.firstName = t("validation.name");
+            errors.firstName = "name";
             valid = false;
         }
      
         if (!form.lastName) {
-            errors.lastName = t("validation.lastName");
+            errors.lastName = "lastName";
             valid = false;
         }
      
         if (!form.email || !isValidEmail(form.email)) {
-            errors.email = t("validation.email");
+            errors.email = "email";
             valid = false;
         }
 
         if (!form.password) {
-            errors.password = t("validation.password");
+            errors.password = "password";
             valid = false;
         }
         
         if (!form.confirmPassword) {
-            errors.confirmPassword = t("validation.confirm");
+            errors.confirmPassword = "confirm";
             valid = false;
         }
 
@@ -154,7 +154,7 @@ export default function AuthLogin({ defaultMode = "login" }) {
                                      className={fieldClass}
                                     />
                                     {errors.firstName && (
-                                        <p className={errorClass}>{errors.firstName}</p>
+                                        <p className={errorClass}>{t("validation.name")}</p>
                                     )}
                                 </div>
                                 <div className="w-full">
@@ -167,7 +167,7 @@ export default function AuthLogin({ defaultMode = "login" }) {
                                      className={fieldClass}
                                     />
                                     {errors.lastName && (
-                                        <p className={errorClass}>{errors.lastName}</p>
+                                        <p className={errorClass}>{t("validation.lastName")}</p>
                                     )}
                                 </div>
                             </div >
@@ -183,7 +183,7 @@ export default function AuthLogin({ defaultMode = "login" }) {
                               className={fieldClass}
                             />
                             {errors.email && (
-                                <p className={errorClass}>{errors.email}</p>
+                                <p className={errorClass}>{t("validation.email")}</p>
                             )}
                         </div>
                         {/* PASSWORD */}
@@ -197,7 +197,7 @@ export default function AuthLogin({ defaultMode = "login" }) {
                               className={fieldClass}
                             />
                             {errors.password && (
-                               <p className={errorClass}>{errors.password}</p>
+                               <p className={errorClass}>{t("validation.password")}</p>
                             )}
                         </div>
                         {/* CONFIRM PASSWORD (ONLY SIGNUP) */}
@@ -212,7 +212,7 @@ export default function AuthLogin({ defaultMode = "login" }) {
                                   className={fieldClass}
                                 />
                                 {errors.confirmPassword && (
-                                    <p className={errorClass}>{errors.confirmPassword}</p>
+                                    <p className={errorClass}>{t("validation.confirm")}</p>
                                 )}
                             </div>
                         )}

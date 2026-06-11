@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { IoMdArrowDropdown, IoMdCheckmark } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 
@@ -10,6 +10,18 @@ export default function LanguageDropdown() {
         { code: "fa", label: "فارسی" },
         { code: "en", label: "English" }
     ];
+    useEffect(() => {
+    const savedLanguage = localStorage.getItem("i18nextLng");
+
+    if (savedLanguage && savedLanguage !== i18n.language) {
+        i18n.changeLanguage(savedLanguage);
+        }
+    }, []);
+
+    const handleLanguageChange = (langCode) => {
+        i18n.changeLanguage(langCode);
+        setOpen(false);
+    };
 
     return (
         <div className="relative flex items-center justify-center">
@@ -25,10 +37,7 @@ export default function LanguageDropdown() {
                     {languages.map((item) => (
                         <div
                             key={item.code}
-                            onClick={() => {
-                                i18n.changeLanguage(item.code);
-                                setOpen(false);
-                            }}
+                            onClick={() => handleLanguageChange(item.code)}
                             className="px-3 py-2 flex justify-between transition-all duration-300 hover:bg-black/25  rounded-md"
                         >
                             <span>{item.label}</span>

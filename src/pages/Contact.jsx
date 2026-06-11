@@ -26,17 +26,17 @@ const ContactUs = () => {
         const errors = {};
 
         if (!form.fullName) {
-            errors.fullName = t("contact.nameError");
+            errors.fullName ="required";
             valid = false;
         }
 
         if (!form.email || !isValidEmail(form.email)) {
-            errors.email =  t("contact.emailError");
+            errors.email =  "error";
             valid = false;
         }
 
         if (!form.message) {
-            errors.message = t("contact.messageError");
+            errors.message = "required";
             valid = false;
         }
         setErrors(errors);
@@ -93,7 +93,7 @@ const ContactUs = () => {
                             >
                                 {t("contact.fullName")}
                             </label>
-                            {errors.fullName && (<p className="text-red-500 text-xs mt-1 mx-3"> {errors.fullName} </p>)}
+                            {errors.fullName && (<p className="text-red-500 text-xs mt-1 mx-3"> {t("contact.nameError")} </p>)}
                         </div>
                        {/*E-mail */}
                         <div className="relative">
@@ -115,7 +115,7 @@ const ContactUs = () => {
                             >
                                 {t("contact.email")}
                             </label>
-                            {errors.email && (<p className="text-red-500 text-xs mt-1 mx-3">{errors.email} </p>)}
+                            {errors.email && (<p className="text-red-500 text-xs mt-1 mx-3">{t("contact.emailError")} </p>)}
                         </div>
                         {/* فیلد Message */}
                         <div className="relative">
@@ -137,7 +137,7 @@ const ContactUs = () => {
                             >
                                 {t("contact.message")}
                             </label>
-                            {errors.message && (<p className="text-red-500 text-xs mt-1 mx-3"> {errors.message} </p>)}
+                            {errors.message && (<p className="text-red-500 text-xs mt-1 mx-3"> {t("contact.messageError")} </p>)}
                         </div>
                        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-4 border-t border-white/10">
                             <button type="submit"

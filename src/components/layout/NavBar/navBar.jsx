@@ -12,8 +12,9 @@ import "nprogress/nprogress.css";
 
 NProgress.configure({ 
     showSpinner: false, 
-    speed: 1000,        
-    trickleSpeed: 300  
+    speed: 900,        
+    trickleSpeed: 300,
+    parent: '#nprogress-container'  
 });
 
 export default function Navbar() {
@@ -26,7 +27,7 @@ export default function Navbar() {
         NProgress.start();
         const timer = setTimeout(() => {
         NProgress.done();
-        }, 1500);
+        }, 1000);
     };
   
     const navLinks = [
@@ -41,18 +42,32 @@ export default function Navbar() {
     return (
         <div className="w-full h-auto   sticky top-0 left-0 z-50">
      
-       <style>{`
-            #nprogress .bar {
-                background: linear-gradient(to right, #531785, #7c3aed) !important;
-                height: 4px !important;
-                position: fixed !important;
-                top: 70px !important;         
-                z-index: 99999 !important;    
-            }
-            #nprogress .peg {
-                display: none !important;
-            }
-        `}</style>
+            <style>{`
+                .nprogress-custom-parent {
+                    position: sticky !important; 
+                }
+                #nprogress-container {
+                    position: absolute !important;
+                    left: 0;
+                    width: 100%;
+                    top: 72px; 
+                    z-index: 99999;
+                    height: 4px;
+                    pointer-events: none; 
+                }
+                #nprogress-container #nprogress .bar {
+                    background: linear-gradient(to right, #531785, #7c3aed) !important;
+                    height: 4px !important;
+                    position: absolute !important;
+                    width: 100% !important;
+                    top: 0 !important;
+                    left: 0 !important;
+                }
+                #nprogress-container #nprogress .peg {
+                    display: none !important;
+                }
+            `}</style>
+            <div id="nprogress-container"></div>
 
             {/* 🔹 NAVBAR MAIN */}
             <div className="flex items-center  justify-between px-4  lg:px-10 py-4 bg-[#2C1747] text-white">
