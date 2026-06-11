@@ -1,20 +1,19 @@
 
 import { Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 export default function CourseCard({ course }) {
+   const { t } = useTranslation();
   return (
     <div className="  text-white/70
-          rounded-2xl
-          border border-white/10
-          backdrop-blur-md
-          bg-black/11
+        rounded-2xl
+        border border-white/10
+        backdrop-blur-md
+        bg-black/11
         border-white/20
         transition-all duration-300
-       
         hover:border-transparent
         hover:shadow-lg
         hover:shadow-purple-500/50 ">
-
       <div className="overflow-hidden">
         <img
           src={course.image}
@@ -23,10 +22,9 @@ export default function CourseCard({ course }) {
         />
       </div>
 
-      <div className="p-5 text-center">
-
+        <div className="p-5 text-center">
         <h2 className="text-2xl font-bold mb-5 text-white">
-          {course.title}
+          {t(course.title)}
         </h2>
 
         <Link to={`/classes/${course.slug}`}>
@@ -41,7 +39,7 @@ export default function CourseCard({ course }) {
               font-semibold
               shadow-2xl
              justify-right">
-          course details
+         {t("class.coursecard.button")}
          
           </button>
         </Link>
