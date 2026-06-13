@@ -143,7 +143,7 @@ const HeroAndFeatured = ({
                     </div>
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 ">
                         {visibleFeaturedPosts.map((post) => (
-                            <div
+                            <Link    to={`/blog/${post.id}`}
                                 key={post.id}
                                 className="group overflow-hidden rounded-2xl pb-3  border border-white/10 bg-white/5 backdrop-blur-md hover:-translate-y-1 transition"
                             >
@@ -157,8 +157,8 @@ const HeroAndFeatured = ({
                                 <div className="p-5 space-y-3">
                                     <h3 className="text-md font-bold  h-18">{t(`blog.posts.${post.title}`)}</h3>
                                    <div className=" h-26">
-                                      <Link    to={`/blog/${post.id}`} className="text-sm text-gray-400  ">
-                                      {t(`blog.posts.${post.desc}`).slice(0, 120)}...</Link>
+                                      <p className="text-sm text-gray-400  ">
+                                      {t(`blog.posts.${post.desc}`).slice(0, 120)}...</p>
                                    </div>
                                     <div className="flex items-center justify-between text-xs text-gray-500 pt-1">
                                         <span className="flex items-center gap-2">
@@ -172,7 +172,7 @@ const HeroAndFeatured = ({
                                 <div className="px-3 mt-auto relative">
                                     <PostActions     postId={post.id} initialLikes={post.likes || 0} initialComments={post.comments || []} />
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                 </section>

@@ -24,7 +24,7 @@ export default function Footer() {
 
         if (errorType) return;
         try {
-            const response = await fetch("/api/newsletter/subscribe", {
+            const response = await fetch("/api/newsletter/subscrib", {
                 method: "POST",
                 headers: { "Content-Type": "application/json",},
                 body: JSON.stringify({ email }),
@@ -32,8 +32,9 @@ export default function Footer() {
 
             if (!response.ok) {
                 console.log("Email sent successfully");
+                setEmail("")
             }else{
-                console.log("Email sent field");
+                console.log("Email sending failed");
             }
            
             } catch (error) {

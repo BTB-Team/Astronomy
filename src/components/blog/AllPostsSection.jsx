@@ -12,7 +12,7 @@ const AllPostsSection = ({ t, filteredPosts }) => {
             {filteredPosts.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
                     {filteredPosts.map((post) => (
-                        <div
+                        <Link to={`/blog/${post.id}`}
                             key={post.id}
                             className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md hover:-translate-y-1 transition duration-300"
                         >
@@ -20,9 +20,9 @@ const AllPostsSection = ({ t, filteredPosts }) => {
                             <div className="p-4 space-y-3">
                                 <h3 className="text-md font-bold leading-relaxed h-18"> {t(`blog.posts.${post.title}`)}</h3>
                                 <div className="h-24">
-                                <Link to={`/blog/${post.id}`} className="text-sm text-gray-400 leading-relaxed">
+                                <p className="text-sm text-gray-400 leading-relaxed">
                                       {t(`blog.posts.${post.desc}`).slice(0, 120)}...
-                                </Link>
+                                </p>
                                 </div>
                                 <div className="text-xs text-gray-500 pt-2 flex justify-between items-center gap-2">
                                     <span className="flex items-center">
@@ -40,7 +40,7 @@ const AllPostsSection = ({ t, filteredPosts }) => {
                                     />
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             ) : (
