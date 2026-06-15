@@ -187,60 +187,62 @@ const resources = {
             vision4: " ساخت و پرتاب ماهواره‌های داخلی"
         },
         teamCard: [
-            {
-                id: 1,
-                name:"فیروز دانش",
-                role: "مدیر انجمن",
-                quote : "گاهی به آسمان نگاه می‌کنم و یادم می‌آید انسان فقط برای زندگی کردن به این جهان نیامده است؛ ما آمده‌ایم تا بفهمیم، کشف کنیم و معنای هستی را لمس کنیم. برای من، ستاره‌ها فقط نقطه‌های نورانی نیستند؛ هر کدام پرسشی‌اند درباره جهان، زمان و جایگاه انسان در این کیهان بی‌پایان. من باور دارم بزرگ‌ترین زیبایی انسان، توانایی او در اندیشیدن و فهمیدن ناشناخته‌هاست.",
-            },
-            {
-                id: 2,
-                name: " صالحه نبی زاده",
-                role: " پژوهشگر",
-                quote: "علاقه‌منی من به علم نجوم، انگیزه‌ای شد تا شناخت عمیق‌تری از کیهان و شگفتی‌های بی‌پایان آن به‌دست آورم و دریابم که جهان پیرامون ما تا چه اندازه گسترده و الهام‌بخش است.هدف من این است که این زیبایی‌ها و دانسته‌ها را با دیگران نیز به اشتراک بگذارم و الهام‌بخش افرادی باشم که همچون من، شیفته کشف ناشناخته‌ها و اسرار جهان هستند.بیایید با هم سفری به دنیای ستارگان و کهکشان‌ها آغاز کنیم و تجربه‌هایی فراموش‌نشدنی از عظمت کیهان رقم بزنیم."
-            },
-            {
-                id: 3,
-                name: " سهیلا محمدی",
-                role: " مربی آموزش",
-                quote:"اگر بخواهم صادقانه بگویم، نجوم برای من فقط یک علاقه ساده نیست؛ بیشتر شبیه یک نیاز فکری است. وقتی شب‌ها به آسمان نگاه می‌کنم، ذهنم آرام نمی‌گیرد تا برای این همه سکوت و این همه نظم یک معنی پیدا کند. ستاره‌ها برایم مثل سوال‌هایی‌اند که هیچ وقت تمام نمی‌شوند؛ هر جواب، خودش چند سوال تازه می‌سازد. شاید به همین خاطر است که از نجوم فاصله نمی‌گیرم، چون هر بار که برمی‌گردم به آسمان، احساس می‌کنم هنوز چیزهای زیادی هست که باید بفهمم، و هنوز راه زیادی مانده تا آدم واقعاً بتواند این جهان را درک کند."
-            },
-            {  
-                id: 4,
-                name: " شکیب سروری",
-                role: " نویسنده مقاله های نجومی",
-                quote: "آسمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
-            },
-            {  
-                id: 5,
-                name: "  سید حسین حسینی",
-                role: " عضو",
-                quote: "ما فرزندان ستاره‌ها هستیم؛ اتم‌های بدن ما روزی در قلب ستارگان متولد شده‌اند. وقتی انسان به آسمان نگاه می‌کند، در حقیقت به گذشته‌ی خودش خیره شده است؛ به جایی که نور، زمان و هستی برای نخستین‌بار داستان وجود ما را نوشتند."
-            },
-            {  
-                id: 6,
-                name: "  علی فرزاد",
-                role: " عضو انجمن   ",
-                quote: "نجوم فقط مطالعه‌ی ستاره‌ها نیست؛ سفری‌ست برای فهمیدن جایگاه انسان در این جهان بی‌انتها. هر نوری که از اعماق کیهان به چشمان ما می‌رسد، یادآوری می‌کند که حتی در تاریک‌ترین شب‌ها نیز، جهان هنوز در حال سخن گفتن با ماست"
-            },
-            {  
-                id: 7,
-                name: "  شبنم هاشمی",
-                role: " مقاله نویس",
-                quote: "ما فرزندان ستاره‌ها هستیم؛ اتم‌های بدن ما روزی در قلب ستارگان متولد شده‌اند. وقتی انسان به آسمان نگاه می‌کند، در حقیقت به گذشته‌ی خودش خیره شده است؛ به جایی که نور، زمان و هستی برای نخستین‌بار داستان وجود ما را نوشتند"
-            },
-                {  
-                id: 8,
-             name: " نجمین افق",
-                role: " مربی آموزش",
-                quote: "آسمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
-            },
-            {  
-                id: 9,
-                name: " تقی رایا",
-                role: "  مدیر سایت",
-                quote: "در عصر فناوری، هر خط کد، هر داده و هر مشاهده می‌تواند دریچه‌ای به سوی کشفی تازه باشد. ما باور داریم که کنجکاوی، دانش و نوآوری ابزارهایی هستند که انسان را از زمین فراتر برده‌اند و او را به درک عمیق‌تر از جهان هستی نزدیک‌تر می‌کنند .",
-            },
+        
+        {
+           id: 1,
+          name:"فیروز دانش",
+          role: "مدیر انجمن",
+          quote : "گاهی به آسمان نگاه می‌کنم و یادم می‌آید انسان فقط برای زندگی کردن به این جهان نیامده است؛ ما آمده‌ایم تا بفهمیم، کشف کنیم و معنای هستی را لمس کنیم. برای من، ستاره‌ها فقط نقطه‌های نورانی نیستند؛ هر کدام پرسشی‌اند درباره جهان، زمان و جایگاه انسان در این کیهان بی‌پایان. من باور دارم بزرگ‌ترین زیبایی انسان، توانایی او در اندیشیدن و فهمیدن ناشناخته‌هاست.",
+        },
+        {
+           id: 2,
+          name: " صالحه نبی زاده",
+          role: " پژوهشگر",
+          quote: "علاقه‌منی من به علم نجوم، انگیزه‌ای شد تا شناخت عمیق‌تری از کیهان و شگفتی‌های بی‌پایان آن به‌دست آورم و دریابم که جهان پیرامون ما تا چه اندازه گسترده و الهام‌بخش است.هدف من این است که این زیبایی‌ها و دانسته‌ها را با دیگران نیز به اشتراک بگذارم و الهام‌بخش افرادی باشم که همچون من، شیفته کشف ناشناخته‌ها و اسرار جهان هستند.بیایید با هم سفری به دنیای ستارگان و کهکشان‌ها آغاز کنیم و تجربه‌هایی فراموش‌نشدنی از عظمت کیهان رقم بزنیم."
+        },
+        {
+           id: 3,
+          name: " سهیلا محمدی",
+          role: " مربی آموزش",
+          quote:"اگر بخواهم صادقانه بگویم، نجوم برای من فقط یک علاقه ساده نیست؛ بیشتر شبیه یک نیاز فکری است. وقتی شب‌ها به آسمان نگاه می‌کنم، ذهنم آرام نمی‌گیرد تا برای این همه سکوت و این همه نظم یک معنی پیدا کند. ستاره‌ها برایم مثل سوال‌هایی‌اند که هیچ وقت تمام نمی‌شوند؛ هر جواب، خودش چند سوال تازه می‌سازد. شاید به همین خاطر است که از نجوم فاصله نمی‌گیرم، چون هر بار که برمی‌گردم به آسمان، احساس می‌کنم هنوز چیزهای زیادی هست که باید بفهمم، و هنوز راه زیادی مانده تا آدم واقعاً بتواند این جهان را درک کند."
+        },
+        {  
+           id: 4,
+          name: " شکیب سروری",
+          role: " نویسنده مقاله های نجومی",
+          quote: "آسمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
+        },
+         {  
+           id: 5,
+          name: "  سید حسین حسینی",
+          role: " عضو",
+          quote: "ما فرزندان ستاره‌ها هستیم؛ اتم‌های بدن ما روزی در قلب ستارگان متولد شده‌اند. وقتی انسان به آسمان نگاه می‌کند، در حقیقت به گذشته‌ی خودش خیره شده است؛ به جایی که نور، زمان و هستی برای نخستین‌بار داستان وجود ما را نوشتند."
+        },
+         {  
+           id: 6,
+          name: "  علی فرزاد",
+          role: " عضو انجمن   ",
+          quote: "نجوم فقط مطالعه‌ی ستاره‌ها نیست؛ سفری‌ست برای فهمیدن جایگاه انسان در این جهان بی‌انتها. هر نوری که از اعماق کیهان به چشمان ما می‌رسد، یادآوری می‌کند که حتی در تاریک‌ترین شب‌ها نیز، جهان هنوز در حال سخن گفتن با ماست"
+        },
+         {  
+           id: 7,
+          name: "  شبنم هاشمی",
+          role: " مقاله نویس",
+          quote: "ما فرزندان ستاره‌ها هستیم؛ اتم‌های بدن ما روزی در قلب ستارگان متولد شده‌اند. وقتی انسان به آسمان نگاه می‌کند، در حقیقت به گذشته‌ی خودش خیره شده است؛ به جایی که نور، زمان و هستی برای نخستین‌بار داستان وجود ما را نوشتند"
+        },
+          {  
+           id: 8,
+          name: "  زهره محمدی",
+          role: " مربی آموزش",
+          quote: "آسمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
+        },
+          {  
+           id: 9,
+          name: " تقی رایا",
+          role: "  مدیر سایت",
+          quote: "در عصر فناوری، هر خط کد، هر داده و هر مشاهده می‌تواند دریچه‌ای به سوی کشفی تازه باشد. ما باور داریم که کنجکاوی، دانش و نوآوری ابزارهایی هستند که انسان را از زمین فراتر برده‌اند و او را به درک عمیق‌تر از جهان هستی نزدیک‌تر می‌کنند .",
+
+              },
         ],
         blog: {
             featuredPost: "پست ویژه",
@@ -409,12 +411,14 @@ const resources = {
             views: "تعداد بازدید",
             notFound: "پست پیدا نشد"
         },
+
         mediahero:{
             title: "مرکز رسانه یی",
             desc1: " گالری های نجومی,ویدهوهای آموزشی و ",
             desc2: "کتاب های دیجیتالی ویژه را مشاهده کنید ",
             desc3: "و آگاهی تان را در مورد نجوم,فضا و کهکشان ها افزایش دهید"
-        },
+    },
+        
         gallerySection:{
             title: "گالری",
             desc: "لحظات زیبای نجوم از انجمن نجوم افغانستان",
@@ -785,6 +789,7 @@ const resources = {
                 name: "نجوم"
             }
         }
+        
     },
    en: {
     translation: {
@@ -971,89 +976,89 @@ const resources = {
           vision4: " Voving Toward The Construction And Launch Of Domestic Satellites "
         },
         teamCard: [
-            {
-                id: 1,
-                name: "Firooz Danesh",
-                role: "Association Director",
-                quote:
-                "Sometimes I look at the sky and remember that humanity was not brought into this world merely to live; we are here to understand, to discover, and to touch the meaning of existence. To me, the stars are not just bright points of light; each one is a question about the universe, time, and the place of humanity in this endless cosmos. I believe the greatest beauty of human beings lies in their ability to think and to understand the unknown."
-            },
-            {
-                id: 2,
-                name: "Saleha Nabi Zada",
-                role: "Researcher",
-                quote:
-                "My interest in astronomy became a motivation for me to gain a deeper understanding of the universe and its endless wonders, and to realize how vast and inspiring the world around us truly is. My goal is to share these beauties and discoveries with others and inspire people who, like me, are passionate about uncovering the mysteries and secrets of the cosmos. Let us begin a journey together into the world of stars and galaxies and create unforgettable experiences of the greatness of the universe."
-            },
-            {
-                id: 3,
-                name: "Sohaila Mohammadi",
-                role: "Education Instructor",
-                quote:
-                "If I want to be honest, astronomy is not just a simple interest for me; it feels more like an intellectual need. When I look at the night sky, my mind cannot rest until it finds meaning in all this silence and order. The stars are like endless questions to me; every answer creates several new questions. Perhaps that is why I never distance myself from astronomy, because every time I return to the sky, I feel there is still so much left to understand, and a long way to go before humanity can truly comprehend this universe."
-            },
-            {
-                id: 4,
-                name: "Shakib Sarwari",
-                role: "Astronomy Article Writer",
-                quote:
-                "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
-            },
-            {
-                id: 5,
-                name: "Sayed Hussain Hussaini",
-                role: "Member",
-                quote:
-                "We are the children of the stars; the atoms within our bodies were once born in the hearts of stars. When humans look at the sky, they are in fact staring into their own past — to the place where light, time, and existence first wrote the story of our being."
-            },
-            {
-                id: 6,
-                name: "Ali Farzad",
-                role: "Association Member",
-                quote:
-                "Astronomy is not merely the study of stars; it is a journey to understand humanity’s place in this infinite universe. Every light that reaches our eyes from the depths of the cosmos reminds us that even in the darkest nights, the universe is still speaking to us."
-            },
-            {
-                id: 7,
-                name: "Shabnam Hashimi",
-                role: "Article Writer",
-                quote:
-                "We are the children of the stars; the atoms within our bodies were once born in the hearts of stars. When humans look at the sky, they are in fact staring into their own past — to the place where light, time, and existence first wrote the story of our being."
-            },
-            {
-                id: 8,
-                name: "Najmin Ofoq",
-                role: "Education Instructor",
-                quote:
-                "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
-            },
-            {
-                id: 9,
-                name: "Taqi Raya",
-                role: "Site Administrator",
-                quote:
-                "In the age of technology, every line of code, every piece of data, and every observation can open a gateway to a new discovery. We believe that curiosity, knowledge, and innovation are the tools that have carried humanity beyond the boundaries of Earth and brought us closer to a deeper understanding of the universe.."
-            }
-        ],
-        blog: {
-            featuredPost: "Featured Post",
-            readArticle: "Read Article",
-            searchPlaceholder: "Search the wonders of space...",
-            categories: "Categories",
-            featuredPosts: "Featured Posts",
-            showAll: "View All →",
-            close: "Close ←",
-            allPosts: "All Posts",
-            noPosts: "No posts found in this category.",
-            solarSystem: "Solar System",
-            stars: "Stars",
-            galaxies: "Galaxies",
-            spaceEvents: "Space Events",
-            all: "All",
-            minutesRead: "min read",
-            writeComment: "نظر خود را بنویسید...",
-            noComments: "هنوز نظری ثبت نشده است.",
-            posts: {
+  {
+    id: 1,
+    name: "Firooz Danesh",
+    role: "Association Director",
+    quote:
+      "Sometimes I look at the sky and remember that humanity was not brought into this world merely to live; we are here to understand, to discover, and to touch the meaning of existence. To me, the stars are not just bright points of light; each one is a question about the universe, time, and the place of humanity in this endless cosmos. I believe the greatest beauty of human beings lies in their ability to think and to understand the unknown."
+  },
+  {
+    id: 2,
+    name: "Saleha Nabi Zada",
+    role: "Researcher",
+    quote:
+      "My interest in astronomy became a motivation for me to gain a deeper understanding of the universe and its endless wonders, and to realize how vast and inspiring the world around us truly is. My goal is to share these beauties and discoveries with others and inspire people who, like me, are passionate about uncovering the mysteries and secrets of the cosmos. Let us begin a journey together into the world of stars and galaxies and create unforgettable experiences of the greatness of the universe."
+  },
+  {
+    id: 3,
+    name: "Sohaila Mohammadi",
+    role: "Education Instructor",
+    quote:
+      "If I want to be honest, astronomy is not just a simple interest for me; it feels more like an intellectual need. When I look at the night sky, my mind cannot rest until it finds meaning in all this silence and order. The stars are like endless questions to me; every answer creates several new questions. Perhaps that is why I never distance myself from astronomy, because every time I return to the sky, I feel there is still so much left to understand, and a long way to go before humanity can truly comprehend this universe."
+  },
+  {
+    id: 4,
+    name: "Shakib Sarwari",
+    role: "Astronomy Article Writer",
+    quote:
+      "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
+  },
+  {
+    id: 5,
+    name: "Sayed Hussain Hussaini",
+    role: "Member",
+    quote:
+      "We are the children of the stars; the atoms within our bodies were once born in the hearts of stars. When humans look at the sky, they are in fact staring into their own past — to the place where light, time, and existence first wrote the story of our being."
+  },
+  {
+    id: 6,
+    name: "Ali Farzad",
+    role: "Association Member",
+    quote:
+      "Astronomy is not merely the study of stars; it is a journey to understand humanity’s place in this infinite universe. Every light that reaches our eyes from the depths of the cosmos reminds us that even in the darkest nights, the universe is still speaking to us."
+  },
+  {
+    id: 7,
+    name: "Shabnam Hashimi",
+    role: "Article Writer",
+    quote:
+      "We are the children of the stars; the atoms within our bodies were once born in the hearts of stars. When humans look at the sky, they are in fact staring into their own past — to the place where light, time, and existence first wrote the story of our being."
+  },
+  {
+    id: 8,
+    name: " Zuhra Mohammadi",
+    role: "Education Instructor",
+    quote:
+      "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
+  },
+  {
+    id: 9,
+    name: "Taqi Raya",
+    role: "Site Administrator",
+    quote:
+      "In the age of technology, every line of code, every piece of data, and every observation can open a gateway to a new discovery. We believe that curiosity, knowledge, and innovation are the tools that have carried humanity beyond the boundaries of Earth and brought us closer to a deeper understanding of the universe.."
+  }
+],
+    blog: {
+        featuredPost: "Featured Post",
+        readArticle: "Read Article",
+        searchPlaceholder: "Search the wonders of space...",
+        categories: "Categories",
+        featuredPosts: "Featured Posts",
+        showAll: "View All →",
+        close: "Close ←",
+        allPosts: "All Posts",
+        noPosts: "No posts found in this category.",
+        solarSystem: "Solar System",
+        stars: "Stars",
+        galaxies: "Galaxies",
+        spaceEvents: "Space Events",
+        all: "All",
+        minutesRead: "min read",
+        writeComment: "نظر خود را بنویسید...",
+        noComments: "هنوز نظری ثبت نشده است.",
+        posts: {
             title1: "Do Moonquakes Exist?",
             description1: `We all know that earthquakes sometimes occur on Earth. But do other planets or moons experience similar events? The answer is yes. For example, when the Moon's long and cold nights come to an end and sunlight begins warming its frozen surface again, the sudden expansion of the lunar crust can create vibrations known as moonquakes. Some of these tremors can even last for up to thirty minutes!
 
@@ -1598,6 +1603,7 @@ const resources = {
             name: "Astronomy"
         }
     }
+    
   },
 };
 
