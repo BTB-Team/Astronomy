@@ -241,7 +241,7 @@ const resources = {
         },
           {  
            id: 8,
-          name: " نجمین افق",
+          name: "  زهره محمدی",
           role: " مربی آموزش",
           quote: "آسمان صفحه بزرگی است كه داستان هاى گذشته را براى ما روايت میكند و در دل هر ستاره سرگذشت هزاران ساله نورى پنهان شده كه هنوز در راه رسيدن است . همه چیز در هستى به هم متصل است ، حتى فاصله ها ، فقط شكل پيوند ها پنهان اند و این جملات اغلب بر كوچکی انسان در برابر عظمت كائنات ، زيبايى ستارگان وحس آرامش يا كنجكاوى در برابر راز هاى دنيا تمركز دارند .ما از گرد و غبار ستاره ها ساخته شده ايم و روزى به آسمان باز خواهيم گشت ."
         },
@@ -422,9 +422,9 @@ const resources = {
         },
                mediahero:{
           title: "مرکز رسانه یی",
-          desc1: " گالری های نجومی,ویدهوهای آموزشی و ",
-          desc2: "کتاب های دیجیتالی ویژه را مشاهده کنید ",
-          desc3: "و آگاهی تان را در مورد نجوم,فضا و کهکشان ها افزایش دهید"
+          desc1: " گالری های نجومی, ویدیوهای آموزشی و ",
+          desc2: "کتاب های دیجیتالی ویژه را مشاهده کنید " ,
+          desc3: "و آگاهی تان را در مورد نجوم, فضا و کهکشان ها افزایش دهید"
         },
         gallerySection:{
           title: "گالری",
@@ -803,7 +803,7 @@ const resources = {
   },
   {
     id: 8,
-    name: "Najmin Ofoq",
+    name: " Zuhra Mohammadi",
     role: "Education Instructor",
     quote:
       "The sky is a vast page that tells us stories of the past, and within every star lies the hidden tale of ancient light still traveling toward us. Everything in existence is connected, even distances; only the forms of these connections remain unseen. These thoughts often focus on the smallness of humanity before the greatness of the cosmos, the beauty of the stars, and the sense of peace and curiosity in the face of the mysteries of the world. We are made of stardust, and one day we shall return to the sky."
