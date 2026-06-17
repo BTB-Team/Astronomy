@@ -145,7 +145,7 @@ export default function MyClasses() {
             </div>
 
             {/* دکمه‌های عملیاتی کارت */}
-          <div className="flex items-center gap-3 mt-auto">
+            <div className="flex items-center gap-3 mt-auto">
             
               {course.status === 'Pending Payment' ? (
                 <button
@@ -168,6 +168,14 @@ export default function MyClasses() {
       </div>
 
       {/* پاپ‌آب پرداخت آنلاین */}
+      {selectedCourse && (
+        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4 z-50 animate-fade-in">
+          <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl border border-slate-100 transform scale-100 transition-transform text-start">
+            <h3 className="text-lg font-bold text-slate-900 mb-2">{t('Dashbord.MyClasses.payment_modal_title')}</h3>
+            <p className="text-xs text-slate-500 mb-4">{t('Dashbord.MyClasses.payment_modal_desc')}</p>
+
+       
+                {/* بخش داینامیک باکس اطلاعات کلاس انتخاب شده */}
             <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 mb-6">
               {/* نام کلاس داینامیک */}
               <div className="text-sm font-bold text-slate-800">
@@ -193,7 +201,8 @@ export default function MyClasses() {
               </button>
             </div>
           </div>
-        
+        </div>
       )}
-  
- 
+    </div>
+  );
+}
