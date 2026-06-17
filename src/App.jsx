@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import DashboardLayout from "./components/Dashbord/dashboardLayout";
 
 import Navbar from "./components/layout/NavBar/navBar";
 import GalaxyBackground from "./components/GalaxyBackground";
@@ -60,6 +61,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/gouls" element={<Gouls />} />
         </Routes>
+        <DashboardLayout />
 
         <Footer />
       </div>
