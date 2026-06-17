@@ -706,7 +706,8 @@ const resources = {
                     course_2_title: "نجوم و کیهان‌شناسی تخصصی",
                     course_2_duration: "۱۸ ساعت (۸ هفته)",
                     course_3_title: "نجوم و کیهان‌شناسی تخصصی",
-                    course_3_duration: "۱۰ ساعت (۴ هفته)"
+                    course_3_duration: "۱۰ ساعت (۴ هفته)",
+                    cancel_and_close_btn: "لغو",
                 },
                 Notification:{  
                     notifications_list_title: "لیست اعلان‌های جدید",
@@ -728,7 +729,7 @@ const resources = {
                     transaction_id_placeholder: "مثال: ۱۲۳۴۵۶۷۸۹",
                     upload_receipt_label: "بارگذاری تصویر رسید (عکس یا PDF):",
                     submit_for_review_btn: "ارسال برای بررسی",
-                    cancel_and_close_btn: "انصراف و بستن",
+                    cancel_and_close_btn: " بستن",
                     payment_submit_success_alert: "رسید پرداخت شما ثبت شد و پس از بررسی تایید خواهد شد."
                 },
                 Payment:{
@@ -1530,7 +1531,8 @@ const resources = {
                 course_2_title: "Comprehensive React & Vite Framework Course",
                 course_2_duration: "18 hours (8 weeks)",
                 course_3_title: "Frontend Development with Tailwind CSS",
-                course_3_duration: "10 hours (4 weeks)"
+                course_3_duration: "10 hours (4 weeks)",
+                cancel_and_close_btn: "Cancel ",
             },
             Notification:{
                 notifications_list_title: "New Notifications List",
@@ -1552,7 +1554,7 @@ const resources = {
                 transaction_id_placeholder: "e.g., 123456789",
                 upload_receipt_label: "Upload Receipt Image (Photo or PDF):",
                 submit_for_review_btn: "Submit for Review",
-                cancel_and_close_btn: "Cancel and Close",
+                cancel_and_close_btn: "Cancel ",
                 payment_submit_success_alert: "Your payment receipt has been registered and will be approved after verification."   
             },
             Payment:{

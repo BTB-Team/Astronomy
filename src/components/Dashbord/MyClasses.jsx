@@ -191,7 +191,7 @@ export default function MyClasses() {
                 onClick={() => setSelectedCourse(null)}
                 className="px-4 py-2 text-slate-500 hover:bg-slate-50 rounded-xl text-xs font-semibold transition-colors"
               >
-                {t('cancel')}
+                {t('Dashbord.MyClasses.cancel_and_close_btn')}
               </button>
               <button
                 onClick={() => handlePaymentConfirm("Dashbord.MyClasses.selectedCourse.id")}
