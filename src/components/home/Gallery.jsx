@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
+ import { Link } from "react-router-dom";
  
 import image1 from "../../assets/images/image1.webp";
 import image2 from "../../assets/images/image2.webp";
@@ -151,7 +152,7 @@ export default function GallerySection() {
             </motion.p>
           </AnimatePresence>
 
-          <button
+          <Link to="/about"
             className="
               px-8
               py-4
@@ -165,7 +166,7 @@ export default function GallerySection() {
             "
           >
            {t("Gallery.button")}
-          </button>
+          </Link>
         </motion.div>
 
         {/* RIGHT SIDE 3D CAROUSEL */}

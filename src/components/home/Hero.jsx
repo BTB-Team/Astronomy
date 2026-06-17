@@ -30,16 +30,6 @@ export default function Hero() {
              {t('hero.description')}
         </p>
 
-        <div className="flex w-full max-w-xl flex-col gap-3 rounded-3xl border border-white/10 bg-white/10 p-3 backdrop-blur md:flex-row">
-          <input
-            type="search"
-            placeholder={t('hero.searchPlaceholder')}
-            className="min-h-12 flex-1 rounded-2xl border border-white/10 bg-slate-950/70 px-5 text-white outline-none placeholder:text-slate-400 focus:border-purple-400"
-          />
-          <button className="rounded-2xl bg-purple-500 px-7 py-3 font-semibold text-white transition hover:bg-purple-600">
-             {t('hero.searchBtn')}
-          </button>
-        </div>
       </div>
     </section>
   );

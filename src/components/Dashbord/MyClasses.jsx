@@ -145,11 +145,8 @@ export default function MyClasses() {
             </div>
 
             {/* دکمه‌های عملیاتی کارت */}
-            <div className="flex items-center gap-3 mt-auto">
-              <button className="flex-1 px-4 py-2 border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-xs font-semibold transition-colors">
-                {t('Dashbord.MyClasses.view_details')}
-              </button>
-
+          <div className="flex items-center gap-3 mt-auto">
+            
               {course.status === 'Pending Payment' ? (
                 <button
                   onClick={() => setSelectedCourse(course)}
@@ -159,10 +156,10 @@ export default function MyClasses() {
                 </button>
               ) : (
                 <button
-                  className="flex-1 px-4 py-2 bg-[#6366f1] hover:bg-[#5356e2] text-white rounded-xl text-xs font-semibold shadow-sm shadow-indigo-100 transition-colors"
-                  disabled={course.status === 'Completed'}
+                  onClick={() => setSelectedCourse(course)}
+                  className="flex-1 px-4 py-2 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-xs font-semibold shadow-sm shadow-amber-100 transition-colors"
                 >
-                  {course.status === 'Completed' ? t('Dashbord.MyClasses.course_ended') : t('Dashbord.MyClasses.enter_class')}
+                  {t('Dashbord.MyClasses.pay_online_btn')} 💳 
                 </button>
               )}
             </div>
@@ -171,17 +168,16 @@ export default function MyClasses() {
       </div>
 
       {/* پاپ‌آب پرداخت آنلاین */}
-      {selectedCourse && (
-        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4 z-50 animate-fade-in">
-          <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl border border-slate-100 transform scale-100 transition-transform text-start">
-            <h3 className="text-lg font-bold text-slate-900 mb-2">{t('payment_modal_title')}</h3>
-            <p className="text-xs text-slate-500 mb-4">{t('payment_modal_desc')}</p>
-
             <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 mb-6">
-              <div className="text-sm font-bold text-slate-800">{t(Dashbord.MyClasses.selectedCourse.nameKey)}</div>
-              <div className="text-xs text-slate-400 mt-1">{t('Dashbord.MyClasses.duration_label')}: {t(Dashbord.MyClasses.selectedCourse.durationKey)}</div>
+              {/* نام کلاس داینامیک */}
+              <div className="text-sm font-bold text-slate-800">
+                {selectedCourse.nameKey ? t(selectedCourse.nameKey) : ''}
+              </div>
+              {/* مدت زمان کلاس داینامیک */}
+              <div className="text-xs text-slate-400 mt-1">
+                {t('Dashbord.MyClasses.duration_label')}: {selectedCourse.durationKey ? t(selectedCourse.durationKey) : ''}
+              </div>
             </div>
-
             <div className="flex gap-3 justify-end">
               <button
                 onClick={() => setSelectedCourse(null)}
@@ -190,15 +186,14 @@ export default function MyClasses() {
                 {t('cancel')}
               </button>
               <button
-                onClick={() => handlePaymentConfirm(Dashbord.MyClasses.selectedCourse.id)}
+                onClick={() => handlePaymentConfirm("Dashbord.MyClasses.selectedCourse.id")}
                 className="px-5 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl text-xs font-semibold transition-colors"
               >
                 {t('Dashbord.MyClasses.confirm_payment_btn')}
               </button>
             </div>
           </div>
-        </div>
+        
       )}
-    </div>
-  );
-}
+  
+ 
