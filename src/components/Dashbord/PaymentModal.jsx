@@ -105,7 +105,7 @@ function PaymentModal({ isOpen, onClose }) {
               onClick={onClose}
               className="px-5 py-2.5 border border-slate-200 hover:bg-slate-50 text-slate-600 rounded-xl text-xs font-semibold transition-colors"
             >
-              {t('Dashbord.PaymentModal.cancel_and_close_btn')}pkioeoifom;
+              {t('Dashbord.PaymentModal.cancel_and_close_btn')};
             </button>
 
           </div>
