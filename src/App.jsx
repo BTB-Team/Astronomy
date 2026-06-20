@@ -38,9 +38,9 @@ function App() {
 
   return (
     <HashRouter>
+       <div className="relative  w-[100%]  top-[0%] left-[0%] 2x:w-[100%] 2xl:bg-white  border-box">
       <GalaxyBackground />
-
-      <div className="relative w-full max-w-[1366px] mx-auto">
+      <div className="relative w-full ">
         <Navbar />
 
         <Routes>
@@ -64,6 +64,7 @@ function App() {
         </Routes>
 
         <Footer />
+      </div>
       </div>
     </HashRouter>
      

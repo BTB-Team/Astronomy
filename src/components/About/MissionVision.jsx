@@ -89,7 +89,7 @@ export default function MissionVisionValues() {
       <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-purple-600/20 blur-3xl rounded-full" />
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-violet-500/20 blur-3xl rounded-full" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
+      <div className="relative z-10 mx-auto px-6 py-20">
         {/* Top Section */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           {/* Mission Box */}

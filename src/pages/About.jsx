@@ -26,7 +26,7 @@ function About() {
 
    
 
-<section className="max-w-7xl mx-auto px-2 sm:px-8 lg:px-8 py-16">
+<section className="mx-auto px-2 sm:px-8 lg:px-8 py-16">
 
   <h2 className="text-center text-4xl sm:text-5xl font-bold text-white mb-12">
              {i18n.language === "fa" ? "اعضای تیم" : "Team Members"}

@@ -12,7 +12,7 @@ export default function Story() {
       {/* BG */}
       <div className="absolute top-0 left-0 w-[400px] h-[400px]  blur-[130px] rounded-full"></div>
 
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+      <div className=" mx-auto px-5 sm:px-8 lg:px-10 grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
         {/* IMAGE */}
         <motion.div
           initial={{ opacity: 0, x: -80 }}

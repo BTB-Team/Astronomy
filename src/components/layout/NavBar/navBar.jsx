@@ -40,7 +40,7 @@ export default function Navbar() {
     ];
 
     return (
-        <div className="w-full h-auto   sticky top-0 left-0 z-50">
+        <div className="w-full h-auto   sticky top-0 left-0 z-50 bg-[#2C1747]">
      
             <style>{`
                 .nprogress-custom-parent {
@@ -96,7 +96,6 @@ export default function Navbar() {
                     </button>
                 </div>
             </div>
-
             {/* 🔹 DESKTOP MENU */}
             <div className={`fixed  overflow-x-hidden w-full md overflow-y-hidden top-0 left-0 bg-black/40 backdrop-blur-sm flex-col justify-center  text-white h-screen md:relative flex  md:flex-row md:h-[59px] items-center md:justify-between px-14 md:px-5 lg:px-10 xl:px-14  md:bg-white md:text-black   ${openMenu ? "left-0 transition-all duration-300"  : "left-[-100%] md:left-0"}`} >
                 <div className="flex gap-5">

@@ -43,10 +43,10 @@ const handleBookAction = () => {
       <PageTitle title="titles.bookDetails"/>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start bg-purple-700/10 border border-2 border-purple-300/10 p-10 rounded-2xl">
 
-        <div className="h-full">
+        <div className="h-full px-5">
           <img
             src={book.cover}
-            className="w-full h-full max-w-md rounded-3xl"
+            className="w-full rounded-3xl h-full md:h-[550px]"
           />
         </div>
 

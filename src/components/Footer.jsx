@@ -44,7 +44,7 @@ export default function Footer() {
 
     return (
     <div className="relative overflow-hidden py-24 px-6 border-t-2 mt-10 border-[#4D2E73]">
-        <div className="relative z-10 max-w-6xl mx-auto  backdrop-blur-md rounded-sm px-10 py-14">
+        <div className="relative z-10  mx-auto  backdrop-blur-md rounded-sm px-10 py-14">
             {/* Top Section */}
             <div className="flex flex-col md:flex-row justify-around gap-10 ">
                 <div className="grid grid-cols-2 gap-6 md:w-1/2 ">

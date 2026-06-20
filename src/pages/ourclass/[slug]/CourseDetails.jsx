@@ -41,7 +41,7 @@ export default function CourseDetails() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto py-20 px-5" dir={isRTL ? "rtl" : "ltr"}>
+    <div className=" mx-auto py-20 px-5" dir={isRTL ? "rtl" : "ltr"}>
       <PageTitle title="titles.courseDetails"/>
       {/* Image */}
       <img

@@ -41,7 +41,7 @@ export default function Gallery() {
       </section>
 
       {/* HEADER */}
-      <section className="max-w-7xl mx-auto px-5 py-20">
+      <section className=" mx-auto px-5 py-20">
       <div className="border border-2 border-purple-400/10 p-14 rounded-2xl">
         <div className="flex flex-col md:flex-row justify-between gap-5 mb-12">
           

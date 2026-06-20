@@ -8,7 +8,7 @@ const resources = {
         navBar: {
             home: "خانه",
             about: "درباره ما",
-            ourClass: "کلاس‌های ما",
+            ourClass: "کلاس‌ها",
             blog: "وبلاگ",
             media: "رسانه",
             contact: "تماس با ما",
@@ -125,7 +125,7 @@ const resources = {
          footer: {
             explore: "دسترسی سریع",
             home: "خانه", 
-            class: "کلاس‌های ما",
+            class: "کلاس‌ها",
             media: "رسانه",
 
             company: "شرکت",
@@ -801,7 +801,7 @@ const resources = {
         navBar: {
             home: "Home",
             about: "About",
-            ourClass:"Our Class",
+            ourClass:"Classes",
             blog: "Blog",
             media: "Media",
             contact: "Contact ",
@@ -920,7 +920,7 @@ const resources = {
              explore: "Explore",
             home: "Home",  
             media: "Media",
-            class:"Our Class",
+            class:"Classes",
             
             company: "Company",
             aboutUs: "About Us",

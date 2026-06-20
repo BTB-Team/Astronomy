@@ -27,7 +27,7 @@ export default function AstronomyAboutSection() {
 
   return (
     <section  className="w-full  py-10 px-4 md:p-10">
-        <div className="max-w-7xl mx-auto h-auto mt-[90px] px-10 md:px-0 gap-10 md:gap-0 flex flex-col lg:flex-row  justify-around items-center">
+        <div className=" mx-auto h-auto mt-[90px] px-10 md:px-0 gap-10 md:gap-0 flex flex-col lg:flex-row  justify-around items-center">
 
     
         {/* Text*/}
