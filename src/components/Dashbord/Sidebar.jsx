@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'; // ۱. وارد کردن هوک ترجمه
-
+import { Link } from 'react-router-dom';
 // تمام متغیرها و توابع مورد نیاز به عنوان پراپ (Props) دریافت شدند
 function Sidebar({ activeTab, setActiveTab, setShowLogoutModal }) {
   const { t } = useTranslation(); // ۲. مقداردهی تابع t برای ترجمه متون
@@ -8,7 +8,11 @@ function Sidebar({ activeTab, setActiveTab, setShowLogoutModal }) {
   return (
     <div>
       <nav className="space-y-2 text-start">
-
+      <div className="w-full pb-2 border-b border-gray-100 flex flex-col pt-3 w-fit">
+      <Link to="/" className="inline-block text-center bg-[linear-gradient(90deg,#D66BFF_0%,#B85CFF_50%,#8B5CF6_100%)] text-white font-semibold rounded-xl px-3 py-2 text-xs transition-all duration-300 hover:opacity-90 shadow-md">
+        {t("Dashbord.Sidebar.home_button")}
+      </Link>
+  </div>
         <button
           onClick={() => setActiveTab("dashboard")}
           className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-black ${

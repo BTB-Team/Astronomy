@@ -661,6 +661,7 @@ const resources = {
                     welcome_back_message: "به داشبورد نجوم خود خوش آمدید!",
                     overview: "مرور اجمالی",
                     my_classes: "کلاس‌های من",
+                    account_settings:"تنظیمات پروفایل",
                     payment: "پرداخت",
                     my_profile: "پروفایل من",
                     paid_status: "پرداخت شده",
@@ -763,12 +764,15 @@ const resources = {
                     sidebar_payments: "پرداختی‌ها",
                     sidebar_notifications: "اعلان‌ها",
                     sidebar_profile: "پروفایل",
-                    sidebar_logout: "خروج"
+                    sidebar_logout: "خروج",
+                    home_button:"رفتن به خانه"
                 },
                 dashboardLayout: {
                     logout_modal_title: "آیا قصد خروج دارید؟",
                     logout_confirm: "خروج",
                     logout_cancel: "انصراف",
+                    meno_sidbar:"مینو",
+                    
                 }
             },
             titles: {
@@ -1478,6 +1482,7 @@ const resources = {
                 my_classes: "My classes",
                 payment: "Payment",
                 my_profile: "My Profile",
+                account_settings:"sitting profile",
                 paid_status: "Paid",
                 active_status: "Active",
                 public_status: "Public",
@@ -1578,12 +1583,15 @@ const resources = {
                 sidebar_payments: "Payments",
                 sidebar_notifications: "Notifications",
                 sidebar_profile: "Profile",
-                sidebar_logout: "Logout"
+                sidebar_logout: "Logout",
+                home_button:"go to home"
             },
             dashboardLayout: {
                 logout_modal_title: "Do you want to logout?",
                 logout_confirm: "Logout",
                 logout_cancel: "Cancel",
+                meno_sidbar:"menu",
+              
             }
         },
         titles: {

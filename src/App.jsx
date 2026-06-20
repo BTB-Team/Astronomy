@@ -60,8 +60,8 @@ function App() {
           <Route path="/signup" element={<AuthLogin defaultMode="signup" />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/gouls" element={<Gouls />} />
+          <Route path="/Dashbord" element={<DashboardLayout/>} />
         </Routes>
-        <DashboardLayout />
 
         <Footer />
       </div>

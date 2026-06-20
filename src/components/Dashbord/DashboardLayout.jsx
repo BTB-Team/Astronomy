@@ -40,14 +40,7 @@ function DashboardLayout() {
           
           {/* بدنه سایدبار در موبایل */}
           <div className="relative bg-white h-full shadow-2xl z-10 animate-fade-in">
-            {/* دکمه بستن منوی کشویی موبایل */}
-            <button 
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="absolute top-4 left-4 bg-gray-100 hover:bg-gray-200 text-gray-700 w-8 h-8 rounded-full flex items-center justify-center font-bold text-base z-50"
-            >
-              ×
-            </button>
-            
+          
             <Sidebar 
               activeTab={activeTab} 
               setActiveTab={(tab) => {
@@ -71,7 +64,7 @@ function DashboardLayout() {
             className="px-4 py-2 bg-[#51368B] hover:bg-[#3d286b] text-white rounded-xl font-bold flex items-center justify-center gap-2 text-xs transition"
           >
             <span>☰</span>
-            <span>{t("منو")}</span>
+            <span>{t("Dashbord.dashboardLayout.meno_sidbar")}</span>
           </button>
           
           {/* نمایش نام صفحه فعلی در بالای موبایل */}
@@ -79,7 +72,7 @@ function DashboardLayout() {
             {activeTab === "dashboard" && t("Dashbord.DashboardHome.dashboard_title")}
             {activeTab === "classes" && t("Dashbord.DashboardHome.my_classes")}
             {activeTab === "payments" && t("Dashbord.DashboardHome.payment")}
-            {activeTab === "notifications" && t("اعلان‌ها")}
+            {/* {activeTab === "notifications" && t("اعلان‌ها")} */}
             {activeTab === "profile" && t("Dashbord.DashboardHome.my_profile")}
           </div>
         </div>

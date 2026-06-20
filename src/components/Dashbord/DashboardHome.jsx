@@ -151,7 +151,7 @@ const DashboardHome = () => {
               <button onClick={() => setIsProfileOpen(false)} className="text-white hover:opacity-80 font-bold">✕</button>
             </div>
             <div className="p-6 text-center text-xs text-gray-500">
-              محتوای تنظیمات پروفایل
+            {t("Dashbord.DashboardHome.account_settings")}
             </div>
           </div>
         </div>
