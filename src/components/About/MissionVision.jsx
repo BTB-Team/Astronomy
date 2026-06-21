@@ -43,12 +43,12 @@ export default function MissionVisionValues() {
 
   const stats = [
     {
-      number: "500+",
+      number: "15+",
       label: t("AboutMission.members"),
       icon: <FaUsers size={26} />,
     },
     {
-      number: "30+",
+      number: "10+",
       label: t("AboutMission.events"),
       icon: <FaCalendarAlt size={26} />,
     },
@@ -58,7 +58,7 @@ export default function MissionVisionValues() {
       icon: <TbTelescope size={26} />,
     },
     {
-      number: "8+",
+      number: "1+",
       label: t("AboutMission.researchProject"),
       icon: <FaGlobe size={26} />,
     },
