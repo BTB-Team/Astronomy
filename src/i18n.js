@@ -765,7 +765,7 @@ const resources = {
                     sidebar_notifications: "اعلان‌ها",
                     sidebar_profile: "پروفایل",
                     sidebar_logout: "خروج",
-                    home_button:"رفتن به خانه"
+                    home_button:"برگشت"
                 },
                 dashboardLayout: {
                     logout_modal_title: "آیا قصد خروج دارید؟",
@@ -1584,7 +1584,7 @@ const resources = {
                 sidebar_notifications: "Notifications",
                 sidebar_profile: "Profile",
                 sidebar_logout: "Logout",
-                home_button:"go to home"
+                home_button:"return"
             },
             dashboardLayout: {
                 logout_modal_title: "Do you want to logout?",

@@ -119,8 +119,8 @@ const DashboardHome = () => {
               </div>
               
               {/* بخش سوییچ عمومی/خصوصی */}
-              <div className="flex items-center justify-between sm:justify-end gap-6 w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-gray-50">
-                <div className="flex items-center gap-2 mr-auto sm:mr-0">
+              <div className="flex items-center justify-between sm:justify-start gap-6 w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-gray-50"dir="rtl">
+                <div className="flex flex-row-reverse items-center gap-2 mr-auto sm:mr-0">
                   <span className="text-[11px] md:text-xs font-bold text-gray-500">
                     {courseStatus[course.id] ? t("Dashbord.DashboardHome.public_status") : t("Dashbord.DashboardHome.private_status")}
                   </span>
