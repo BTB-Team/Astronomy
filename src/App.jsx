@@ -3,9 +3,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import DashboardLayout from "./components/Dashbord/dashboardLayout";
 
-import Navbar from "./components/layout/NavBar/navBar";
+import PublicLayout from "./layouts/PublicLayout";
 import GalaxyBackground from "./components/GalaxyBackground";
-import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -38,32 +37,30 @@ function App() {
 
   return (
     <HashRouter>
-       <div className="relative  w-[100%]  top-[0%] left-[0%] 2x:w-[100%] 2xl:bg-white  border-box">
+      <div className="relative  w-[100%]  top-[0%] left-[0%] 2x:w-[100%] 2xl:bg-white  border-box">
       <GalaxyBackground />
       <div className="relative w-full ">
-        <Navbar />
-
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/classes" element={<ClassesPage />} />
-           <Route path="/media" element={<Media/>} />
-          <Route path="/books" element={<BooksPage/>} />
-          <Route path="/books/:id" element={<BookDetails/>} />
-          <Route path="/read/:id" element={<ReaderPage/>} />
-          <Route path="/gallery/" element={<Gallery/>} />
-          <Route path="/classes/:slug" element={<CourseDetails />} />
-          <Route path="/blog" element={<AstronomyBlog />} />
-          <Route path="/blog/:id" element={<PostDetails />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="/login" element={<AuthLogin defaultMode="login" />} />
-          <Route path="/signup" element={<AuthLogin defaultMode="signup" />} />
+          <Route element={<PublicLayout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/classes" element={<ClassesPage />} />
+            <Route path="/media" element={<Media />} />
+            <Route path="/books" element={<BooksPage />} />
+            <Route path="/books/:id" element={<BookDetails />} />
+            <Route path="/read/:id" element={<ReaderPage />} />
+            <Route path="/gallery/" element={<Gallery />} />
+            <Route path="/classes/:slug" element={<CourseDetails />} />
+            <Route path="/blog" element={<AstronomyBlog />} />
+            <Route path="/blog/:id" element={<PostDetails />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/login" element={<AuthLogin defaultMode="login" />} />
+            <Route path="/signup" element={<AuthLogin defaultMode="signup" />} />
+            <Route path="/gouls" element={<Gouls />} />
+          </Route>
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/gouls" element={<Gouls />} />
-          <Route path="/Dashbord" element={<DashboardLayout/>} />
+          <Route path="/Dashbord" element={<DashboardLayout />} />
         </Routes>
-
-        <Footer />
       </div>
       </div>
     </HashRouter>

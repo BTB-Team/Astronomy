@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next"; 
 
 const DashboardHome = () => {
-  const { t } = useTranslation(); 
-
+  const { t, i18n } = useTranslation(); 
+  const isRTL = i18n.dir() === "rtl";
   // مدیریت وضعیت پاپ‌آپ‌ها و مدال‌ها
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("edit");
@@ -120,16 +120,25 @@ const DashboardHome = () => {
               
               {/* بخش سوییچ عمومی/خصوصی */}
               <div className="flex items-center justify-between sm:justify-end gap-6 w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-gray-50">
-                <div className="flex items-center gap-2 mr-auto sm:mr-0">
+                <div className="flex justify-between w-full items-center gap-2 mr-auto sm:mr-0">
                   <span className="text-[11px] md:text-xs font-bold text-gray-500">
                     {courseStatus[course.id] ? t("Dashbord.DashboardHome.public_status") : t("Dashbord.DashboardHome.private_status")}
                   </span>
-                  <button 
+                  <button
                     onClick={() => toggleStatus(course.id)}
-                    className={`w-10 h-5 flex items-center rounded-full p-0.5 transition-colors duration-300 ${courseStatus[course.id] ? "bg-[#51368B]" : "bg-gray-300"}`}
+                    className={`w-10 h-5 rounded-full p-0.5 flex transition-colors duration-300 ${
+                      courseStatus[course.id] ? "bg-[#51368B]" : "bg-gray-300"
+                    } ${
+                      isRTL
+                        ? courseStatus[course.id]
+                          ? "justify-start"
+                          : "justify-end"
+                        : courseStatus[course.id]
+                          ? "justify-end"
+                          : "justify-start"
+                    }`}
                   >
-                    {/* هماهنگ‌سازی جهت انیمیشن سوییچ بر اساس مستندات پروژه شما */}
-                    <div className={`bg-white w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${courseStatus[course.id] ? "translate-x-5" : "translate-x-0"}`} />
+                    <div className="w-4 h-4 bg-white rounded-full shadow-md transition-all duration-300" />
                   </button>
                 </div>
               </div>
