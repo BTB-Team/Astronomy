@@ -98,12 +98,12 @@ export default function Navbar() {
             </div>
             {/* 🔹 DESKTOP MENU */}
             <div className={`fixed  overflow-x-hidden w-full md overflow-y-hidden top-0 left-0 bg-black/40 backdrop-blur-sm flex-col justify-center  text-white h-screen md:relative flex  md:flex-row md:h-[59px] items-center md:justify-between px-14 md:px-5 lg:px-10 xl:px-14  md:bg-white md:text-black   ${openMenu ? "left-0 transition-all duration-300"  : "left-[-100%] md:left-0"}`} >
-                <div className="flex gap-5">
+                {/* <div className="flex gap-5">
                     <div className={`flex items-center text-center  gap-3 w-full absolute bottom-24 md:relative md:bottom-0 ${ isRTL ? "right-[30%]" : "left-[30%]"}`}>
                         <div className="md:hidden"><SocialLinks /></div>
                         <span className="md:hidden"><UserMenu /></span>
                     </div>
-                </div>
+                </div> */}
                 <ul className="flex flex-col gap-8 md:flex-row md:gap-4 lg:gap-11   ">
                     {navLinks.map((link, index) => (
                         <li key={index} className=" text-xl md:text-base text-white md:text-gray-500 font-normal transition-all duration-300 ease-out hover:text-black  hover:[text-shadow:0_2px_6px_rgba(0,0,0,0.4)]">
@@ -124,6 +124,12 @@ export default function Navbar() {
                     className="hidden md:inline transition-all duration-300 hover:bg-[#2C1747]   hover:shadow-lg  text-white px-5 py-2  md:text-[15px] lg:text-base rounded-lg  border-2 border-white hover:border-white "> 
                     <Link to="/contact">   {t("navBar.contact1")}</Link>
                 </button>
+                     <div className="flex gap-5">
+                    <div className={`flex items-center text-center  gap-3 mt-7 `}>
+                        <div className="md:hidden"><SocialLinks /></div>
+                        <span className="md:hidden"><UserMenu /></span>
+                    </div>
+                </div>
             </div>
         </div>
     );
